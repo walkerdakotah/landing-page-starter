@@ -1,0 +1,113 @@
+/*
+    Hero section
+*/
+.hero-container {
+    background: url('../img/hero.png') no-repeat center ;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 515px;
+
+    @media(min-width: 480px) {
+        background: url('../img/hero-desktop.png') no-repeat center;
+        background-size: cover;
+        justify-content: flex-end;
+    }
+
+    @media(min-width: 1024px) {
+        background: url('../img/hero-desktop.png') no-repeat center;
+        background-size: cover;
+        justify-content: flex-end;
+        height: 50vw;
+    }
+}
+/*
+    Faux Header
+*/
+.hero__content {
+    color: #FFF;
+
+    & .before-title {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    @media(min-width: 480px) {
+        margin-bottom: 2rem;
+    }
+}
+
+.hero-mobile {
+
+    @media(min-width: 480px) {
+        display: none;
+    }
+
+    & .after-title {
+        font-size: 16px;
+    }
+
+    & ul {
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 25px;
+    }
+}
+
+.hero-desktop {
+    display: none;
+
+    @media(min-width: 480px) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    & .after-title {
+        width: 75%;
+    }
+
+    & .cta__phone {
+        width: 227px;
+        margin-top:1rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.sub-hero {
+    display: none;
+
+    @media (min-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(138,144,144, 0.9);
+
+        & .after-title {
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+        & ul {
+            padding: 0;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 720px;
+            margin-left: auto;
+            margin-right: auto;
+
+            & li {
+                margin: 1rem;
+                padding-right: 2rem;
+                line-height: 12px;
+                border-right: 1px solid #FFF;
+            }
+
+            & li:nth-child(5) {
+                border-right: none;
+            }
+        }
+    }
+}

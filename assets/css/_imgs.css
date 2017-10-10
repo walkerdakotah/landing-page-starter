@@ -1,0 +1,105 @@
+.aac {
+    background: url('../img/logos/logo-aac.png') no-repeat center;
+}
+
+.ameri-health {
+    background: url('../img/logos/logo-ameri-health.png') no-repeat center;
+}
+
+.blue-cross {
+    background: url('../img/logos/logo-blue-cross.png') no-repeat center;
+}
+
+.cigna {
+    background: url('../img/logos/logo-cigna.png') no-repeat center;
+}
+
+.footer-logo {
+    background: url('../img/logos/logo-footer.png') no-repeat center;
+    background-size: contain;
+    height: 64px;
+    width: 290px;
+}
+
+.harvard-health {
+    background: url('../img/logos/logo-harvard-health.png') no-repeat center;
+}
+
+.header-logo {
+    background: url('../img/logos/logo-header.png') no-repeat center;
+    width: 310px;
+    height: 64px;
+}
+
+.humana {
+    background: url('../img/logos/logo-humana.png') no-repeat center;
+}
+
+.guarantee {
+    background: url('../img/logos/logo-guarantee.png') no-repeat center;
+    height: 172px;
+    width: 172px;
+}
+
+.united-health {
+    background: url('../img/logos/logo-united-health.png') no-repeat center;
+}
+
+.upmc {
+    background: url('../img/logos/logo-upmc.png') no-repeat center;
+}
+
+.detox {
+    background: url('../img/interiors/detox.png') no-repeat center;
+}
+
+.iop {
+    background: url('../img/interiors/iop.png') no-repeat center;
+}
+
+.outpatient {
+    background: url('../img/interiors/outpatient.png') no-repeat center;
+}
+
+.php {
+    background: url('../img/interiors/php.png') no-repeat center;
+}
+
+.residential {
+    background: url('../img/interiors/residential.png') no-repeat center;
+}
+
+.four-star {
+    background: url('../img/ratings/four-star.png') no-repeat center;
+    background-size: contain;
+    height: 50px;
+    width: 150px;
+}
+
+.five-star {
+    background: url('../img/ratings/five-star.png') no-repeat center;
+    background-size: contain;
+    height: 50px;
+    width: 150px;
+}
+
+.sr {
+    background: url('../img/logos/sr.png') no-repeat center;
+    background-size: contain;
+    height: 50px;
+    width: 240px;
+}
+
+.lth {
+    background: url('../img/logos/lth.png') no-repeat center;
+    background-size: contain;
+    height: 50px;
+    width: 240px;
+}
+
+.rf {
+    background: url('../img/logos/rf.png') no-repeat center;
+    background-size: contain;
+    height: 50px;
+    width: 240px;
+}

@@ -1,0 +1,141 @@
+/*
+    Font Colors
+*/
+.font-blue {
+    color: #267FB7;
+}
+
+.font-teal {
+    color: #40BBC1;
+}
+
+.font-lt-orange {
+    color: #FFB836;
+}
+
+.font-grey-blue {
+    color: #A3ABC3;
+}
+
+.font-white {
+    color: #FFF;
+}
+
+/*
+    Border Colors
+*/
+
+.blue-bottom {
+    border-bottom: 3px solid #267FB7;
+}
+
+.teal-bottom {
+    border-bottom: 3px solid #40BBC1;
+}
+
+.grey-bottom {
+    border-bottom: 1px solid #BEBEBE;
+    padding-bottom: 3rem;
+}
+/*
+    Background Colors
+*/
+.bg-white {
+    background-color: #FFF;
+}
+
+.bg-beige {
+    background-color: #F9F6EB;
+}
+
+.bg-orange {
+    background-color: #FF7F3F;
+}
+
+.bg-aqua {
+     background-color: rgb(240, 251, 249);
+}
+
+.bg-gray {
+    background-color: #F7F7F7;
+}
+
+.bg-blue {
+    background-color: #192755;
+}
+
+/*
+    Font Weights
+*/
+
+.font-lightest {
+    font-weight: 100;
+}
+
+.font-light {
+    font-weight: 200;
+}
+
+.font-medium {
+    font-weight: 400;
+}
+
+.font-heavy {
+    font-weight: 500;
+}
+
+.font-heaviest {
+    font-weight: 600;
+}
+
+/*
+    Fa Icons
+*/
+
+.plane::before {
+    font-family: "FontAwesome";
+    content: "\f072";
+    color: #267FB7;
+    position: absolute;
+    left: -25px;
+}
+
+.check::before {
+    font-family: "FontAwesome";
+    content: "\f00c";
+    color: #267FB7;
+    position: absolute;
+    left: -25px;
+}
+
+.phone::before {
+    font-family: "FontAwesome";
+    content: "\f095";
+    color: #267FB7;
+    position: absolute;
+    left: -25px;
+}
+
+.heart::before {
+    font-family: "FontAwesome";
+    content: "\f004";
+    color: #267FB7;
+    position: absolute;
+    left: -25px;
+}
+
+.search::before {
+    font-family: "FontAwesome";
+    content: "\f002";
+    color: #267FB7;
+    position: absolute;
+    left: -25px;
+}
+
+.clock::before {
+    font-family: "FontAwesome";
+    content: "\f017";
+    color: #267FB7;
+    position: absolute;
+    left: -25px;
+}

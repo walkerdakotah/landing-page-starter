@@ -1,0 +1,28 @@
+.cta__phone {
+    font-size: 27px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.cta__guarantee {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.cta__tease {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.cta__button {
+    font-size: 14px;
+    border: 2px solid #FFF;
+    border-radius: 25px;
+    width: 150px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,66 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4rem;
+
+    @media(min-width: 768px) {
+        align-items: flex-start;
+    }
+
+    & .h2-section {
+        padding-bottom: 0;
+    }
+
+    & .cta__phone {
+        font-size: 36px;
+        line-height: 28px;
+    }
+}
+
+
+.form-title {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.input-group {
+    width: 100%;
+    border: 1px solid #E5E5E5;
+
+    & input {
+        width: 100%;
+        padding: 0.5rem;
+    }
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #E5E5E5;
+    padding: 0.5rem;
+}
+
+.form-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    margin-bottom: 4rem;
+    border-radius: 25px;
+    color: #FFF;
+    font-size: 18px;
+}
+
+form > ul {
+    list-style: none;
+    margin: 2rem 0;
+
+    & li {
+        margin: 1rem;
+    }
+}

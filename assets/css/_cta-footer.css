@@ -1,0 +1,21 @@
+.cta-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    & .cta__phone {
+        position: relative;
+    }
+
+    & .cta__phone:before {
+        font-family: "FontAwesome";
+        content: "\f095";
+        color: #FFB836;
+        position: absolute;
+        left: -25px;
+    }
+}

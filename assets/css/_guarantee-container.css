@@ -1,0 +1,22 @@
+.guarantee-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4rem;
+
+    & .logo {
+        height: 172px;
+        margin: 4rem auto;
+    }
+
+    & .type-description {
+        text-align: center;
+        font-size: 18px;
+
+        @media(min-width: 768px) {
+            max-width: 720px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}

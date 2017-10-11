@@ -97,6 +97,13 @@
     width: 240px;
 }
 
+.ro {
+    background: url('../img/logos/ro.png') no-repeat center;
+    background-size: contain;
+    height: 50px;
+    width: 240px;
+}
+
 .rf {
     background: url('../img/logos/rf.png') no-repeat center;
     background-size: contain;

@@ -1,7 +1,11 @@
 .care-container {
     display: flex;
     flex-direction: column;
-    padding-bottom: 4rem;
+
+    & .h2-section {
+        margin-left: 2rem;
+        text-align: left;
+    }
 
     & .li-img {
         display: none;
@@ -15,6 +19,8 @@
     }
 
     & .li-text {
+        font-size: 4.3vw;
+        
         @media(min-width: 768px) {
             flex: 2;
             margin-left: 2rem;

@@ -5,6 +5,9 @@
     background-size: cover;
     padding-bottom: 4rem;
 
+    & .h2-section {
+
+    }
     @media(min-width: 480px) {
         background: url('../img/bg2-desktop.png') no-repeat center;
         background-size: cover;
@@ -24,6 +27,7 @@
     }
 
     & .type > .h4 {
+        font-size: 5.4vw;
         margin-bottom: 0.5rem;
     }
 

@@ -17,8 +17,8 @@
 .footer-logo {
     background: url('../img/logos/logo-footer.png') no-repeat center;
     background-size: contain;
-    height: 64px;
-    width: 290px;
+    height: 30px;
+    width: 289px;
 }
 
 .harvard-health {
@@ -27,8 +27,20 @@
 
 .header-logo {
     background: url('../img/logos/logo-header.png') no-repeat center;
-    width: 310px;
-    height: 64px;
+    background-size: contain;
+    height: 30px;
+    width: 289px;
+
+    @media(min-width: 480px) {
+        background-size: contain;
+        height: 2.7vw;
+        width: 25.8vw;
+    }
+
+    @media(min-width: 1440px) {
+        height: 39px;
+        width: 372px;
+    }
 }
 
 .humana {

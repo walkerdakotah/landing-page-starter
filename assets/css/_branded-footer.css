@@ -9,7 +9,7 @@
         margin-top: 1rem;
         margin-bottom: 1rem;
         text-align: right;
-        font-size: 18px;
+        font-size: 4.8vw;
         list-style: none;
 
         @media(min-width: 768px) {
@@ -36,6 +36,6 @@
         margin-top: 1rem;
         margin-bottom: 1rem;
         text-align: right;
-        font-size: 34px;
+        font-size: 9.2vw;
     }
 }

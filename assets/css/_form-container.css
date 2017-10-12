@@ -20,6 +20,10 @@
     }
 
     & .h2-section {
+        padding-top: 1rem;
+        font-size: 5.4vw;
+        line-height: 123%;
+        color: #6C6C6C;
         margin-bottom: 0;
 
         @media (min-width: 768px) {
@@ -31,6 +35,8 @@
 
 .form-cta > .cta__phone {
     margin-bottom: 4rem;
+    font-size: 9.5vw;
+    line-height: 118%;
 
     @media (min-width: 768px) {
         margin-bottom: 2rem;
@@ -84,12 +90,13 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 86.7vw;
     height: 48px;
     border-radius: 25px;
     color: #FFF;
-    font-size: 18px;
-    margin-left: 7rem;
-    margin-right: 7rem;
+    font-size: 4.8vw;
 
     @media (min-width: 768px) {
         margin-left: 0;
@@ -107,7 +114,7 @@ textarea {
     & .cta__guarantee {
         margin-top: 3rem;
         margin-bottom: 3rem;
-        font-size: 16px;
+        font-size: 4.3vw;
 
         @media (min-width: 768px) {
             text-align: left;
@@ -119,6 +126,7 @@ textarea {
         margin-right: auto;
         padding: 0;
         list-style: none;
+        font-size: 4.3vw;
 
         @media (min-width: 768px) {
             display: flex;
@@ -139,7 +147,7 @@ textarea {
 
     & .form-disclaimer {
         margin-top: 5rem;
-        font-size: 12px;
+        font-size: 3.2vw;
 
         @media (min-width: 768px) {
             margin-top: 2rem;

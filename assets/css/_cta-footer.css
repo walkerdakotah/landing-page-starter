@@ -9,6 +9,8 @@
 
     & .cta__phone {
         position: relative;
+        font-size: 6.2vw;
+        line-height: 118%;
     }
 
     & .cta__phone:before {

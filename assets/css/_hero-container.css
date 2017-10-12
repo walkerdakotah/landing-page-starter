@@ -2,25 +2,20 @@
     Hero section
 */
 .hero-container {
-    background: url('../img/hero.png') no-repeat center ;
+    background: url('../img/bg1-mobile.png') no-repeat center ;
     background-size:cover;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 515px;
+    height: 137.4vw;
 
     @media(min-width: 480px) {
-        background: url('../img/hero-desktop.png') no-repeat center;
+        background: url('../img/bg1-desktop.png') no-repeat center;
         background-size: cover;
         justify-content: flex-end;
+        height: 47.8vw;
     }
 
-    @media(min-width: 1024px) {
-        background: url('../img/hero-desktop.png') no-repeat center;
-        background-size: cover;
-        justify-content: flex-end;
-        height: 50vw;
-    }
 }
 /*
     Faux Header
@@ -29,7 +24,8 @@
     color: #FFF;
 
     & .before-title {
-        font-size: 30px;
+        font-size: 8vw;
+        line-height: 133%;
         margin-bottom: 0;
     }
 
@@ -39,6 +35,8 @@
 }
 
 .hero-mobile {
+    font-size: 4.3vw;
+    line-height: 118%;
 
     @media(min-width: 480px) {
         display: none;
@@ -49,9 +47,9 @@
     }
 
     & ul {
-        font-size: 15px;
-        line-height: 22px;
-        padding-left: 25px;
+        font-size: 4vw;
+        line-height: 133%;
+        padding-left: 20px;
     }
 }
 
@@ -76,6 +74,10 @@
 
 .sub-hero {
     display: none;
+
+    @media (min-width: 480px) {
+        height: 11vw;
+    }
 
     @media (min-width: 768px) {
         display: flex;

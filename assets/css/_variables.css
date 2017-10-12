@@ -98,6 +98,7 @@
     color: #267FB7;
     position: absolute;
     left: -25px;
+    font-size: 5vw;
 }
 
 .check::before {
@@ -106,6 +107,7 @@
     color: #267FB7;
     position: absolute;
     left: -25px;
+    font-size: 5vw;
 }
 
 .phone::before {
@@ -114,6 +116,7 @@
     color: #267FB7;
     position: absolute;
     left: -25px;
+    font-size: 5vw;
 }
 
 .heart::before {
@@ -122,6 +125,7 @@
     color: #267FB7;
     position: absolute;
     left: -25px;
+    font-size: 5vw;
 }
 
 .search::before {
@@ -130,6 +134,7 @@
     color: #267FB7;
     position: absolute;
     left: -25px;
+    font-size: 5vw;
 }
 
 .clock::before {
@@ -138,4 +143,5 @@
     color: #267FB7;
     position: absolute;
     left: -25px;
+    font-size: 5vw;
 }

@@ -4,40 +4,58 @@
     padding-top: 2rem;
     padding-bottom: 4rem;
 
-    & .title {
-        font-size: 9.1vw;
-        line-height: 118%;
-    }
-
-    @media(min-width: 768px) {
-        align-items: center;
+    @media(min-width: 480px) {
+        padding-bottom: 2rem;
     }
 }
 
-.congrats__group {
+.congrats-container > .title {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 9.1vw;
+    line-height: 118%;
+
+    @media(min-width: 480px) {
+        font-size: 26px;
+        line-height: 142%;
+    }
+
     @media(min-width: 768px) {
+        margin-left: auto;
+        margin-right: auto;
+        width: 750px;
+        font-size: 34px;
+        line-height: 142%;
+    }
+}
+
+.congrats-container > .congrats__group {
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @media(min-width: 768px) {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 750px;
         display: flex;
     }
 }
-.congrats__bit {
 
-    & .bit-h {
-        font-weight: 500;
-        padding-bottom: 10px;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
+.congrats__group > .congrats__group--half {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
-    & p {
-        display: inline-block;
-        font-size: 4.8vw;
-        line-height: 145%;
-        font-weight: 200;
-        margin-top: 1.5rem;
-        margin-bottom: 3rem;
-    }
+.congrats__group > .half--one {
+    margin-right: 6rem;
+}
 
-    @media (min-width: 768px) {
-        margin: 4rem;
-    }
+.congrats__group--half > .half {
+    display: inline-block;
+    padding-bottom: 1rem;
+}
+
+.congrats__group--half > .half--body {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }

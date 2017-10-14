@@ -22,18 +22,17 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
-.title {
-    margin-top: 0;
-    margin-bottom: 0.67em;
-    font-size: 10.7vw;
-    line-height: 100%;
-}
+
 
 .h2-section {
     padding-top: 2rem;
     padding-bottom: 2rem;
     text-align: center;
     font-size: 5.9vw;
+
+    @media (min-width: 480px) {
+        font-size: 28px;
+    }
 }
 
 
@@ -43,7 +42,7 @@ body {
     margin-right: auto;
 }
 
-.list-title {
+.list--title {
     text-align: center;
 
     @media(min-width: 480px) {
@@ -54,7 +53,7 @@ body {
     }
 }
 
-.ul-list {
+.ul--list {
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
@@ -73,12 +72,12 @@ body {
     margin-bottom: 0.5rem;
 }
 
-.type-description {
+.type--description {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-size: 4.8vw;
-    
-    @media(min-width: 768px){
+
+    @media(min-width: 480px){
         font-size: 16px;
     }
 }

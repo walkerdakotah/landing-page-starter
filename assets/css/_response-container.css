@@ -3,17 +3,30 @@
     flex-direction: column;
     background: url('../img/bg2-mobile.png') no-repeat center;
     background-size: cover;
+    padding-top: 2rem;
     padding-bottom: 4rem;
 
-    & .h2-section {
-
-    }
     @media(min-width: 480px) {
         background: url('../img/bg2-desktop.png') no-repeat center;
         background-size: cover;
     }
 
-    & .types-list {
+    & .title {
+        font-size: 5.4vw;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+        @media (min-width: 480px) {
+            font-size: 28px;
+        }
+
+        @media (min-width: 768px) {
+            text-align: left;
+        }
+    }
+
+
+    & .types--list {
         margin-top: 0;
         margin-bottom: 0;
         padding: 0;
@@ -29,10 +42,40 @@
     & .type > .h4 {
         font-size: 5.4vw;
         margin-bottom: 0.5rem;
+
+        @media (min-width: 480px) {
+            font-size: 16px;
+        }
     }
 
-    & .type-description {
+    & .type--description {
         margin-top: 0.5rem;
         margin-bottom: 1rem;
+
+        @media (min-width: 480px) {
+            font-size: 16px;
+        }
+    }
+}
+
+.response-container > .list--title {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @media (min-width: 768px) {
+        width: 750px;
+    }
+}
+
+.response-container > .list--contents {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @media (min-width: 768px) {
+        max-width: 750px;
     }
 }

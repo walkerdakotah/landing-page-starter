@@ -7,6 +7,10 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
 
+    @media (min-width: 480px) {
+        display: none;
+    }
+
     & .cta__phone {
         position: relative;
         font-size: 6.2vw;

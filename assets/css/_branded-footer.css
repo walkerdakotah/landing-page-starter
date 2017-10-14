@@ -1,9 +1,27 @@
 .footer-wrap {
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @media (min-width: 768px) {
+        max-width: 750px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    @media (min-width: 992px) {
+        max-width: 970px;
+    }
+
+    @media (min-width: 1200px) {
+        max-width: 1170px;
+    }
 
     & .contact-address {
         margin-top: 1rem;
@@ -11,6 +29,10 @@
         text-align: right;
         font-size: 4.8vw;
         list-style: none;
+
+        @media(min-width: 480px) {
+            font-size: 18px;
+        }
 
         @media(min-width: 768px) {
             display: flex;
@@ -37,5 +59,9 @@
         margin-bottom: 1rem;
         text-align: right;
         font-size: 9.2vw;
+
+        @media (min-width: 480px) {
+            font-size: 28px;
+        }
     }
 }

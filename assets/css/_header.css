@@ -2,17 +2,27 @@
     Logo size and color variations for header/footer sections
 */
 .header-wrap {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     display: flex;
-    justify-content: space-between;
     justify-content: center;
     align-items: center;
-    height: 64px;
 
-    & :before {
-        display:none;
+    @media (min-width: 768px) {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        justify-content: space-between;
+        max-width: 750px;
     }
-    & :after {
-        display:none;
+
+    @media (min-width: 992px) {
+        max-width: 970px;
+    }
+
+    @media (min-width: 1200px) {
+        max-width: 1170px;
     }
 }
 
@@ -23,9 +33,4 @@
     @media (min-width: 768px) {
         display: flex;
     }
-}
-
-.cta__guarantee {
-    font-size: 12px;
-    line-height: 14px;
 }

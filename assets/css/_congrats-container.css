@@ -47,7 +47,9 @@
 }
 
 .congrats__group > .half--one {
-    margin-right: 6rem;
+    @media(min-width: 768px) {
+        margin-right: 6rem;
+    }
 }
 
 .congrats__group--half > .half {

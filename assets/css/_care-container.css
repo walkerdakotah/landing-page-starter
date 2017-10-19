@@ -1,16 +1,89 @@
 .care-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     display: flex;
     flex-direction: column;
+}
 
-    & .h2-section {
-        margin-left: 2rem;
-        text-align: left;
+.care__content {
+    padding-left: 25px;
+    padding-right: 25px;
 
-        @media (min-width: 480px) {
-            margin-left: 0;
-        }
+    @media (min-width: 768px) {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 750px;
     }
 
+    @media (min-width: 992px) {
+        max-width: 970px;
+    }
+}
+
+.care__title {
+    font-size: 22px;
+    line-height: 123%;
+    text-align: center;
+
+    @media (min-width: 768px) {
+        text-align: left;
+        font-size: 28px;
+    }
+}
+
+.care__list {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.care__img {
+    display: none;
+
+    @media (min-width: 768px) {
+        display: block;
+        height: 230px;
+    }
+}
+
+.care__list-item {
+    @media (min-width: 768px) {
+        margin-top: 2rem;
+        display: flex;
+    }
+
+    &:last-child {
+        padding-bottom: 2rem;
+    }
+}
+
+.care__list-item--wrapper {
+    @media (min-width: 768px) {
+        margin-left: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.care__list-item--title {
+    font-size: 20px;
+    line-height: 140%;
+
+    @media (min-width: 768px) {
+        margin-top: 0;
+    }
+}
+
+.care__list-item--content {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 18px;
+    line-height: 135%;
+}
+/*
     & .li--img {
         display: none;
         height: 230px;
@@ -33,14 +106,18 @@
             flex: 2;
             margin-left: 2rem;
         }
-    }
-}
 
-.care-container > .list--title {
+        & .h4 {
+            font-size: 4.8vw;
+            font-weight: 500;
+        }
+    }*/
+
+/*.care-container > .list--title {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
 
     @media (min-width: 768px) {
         width: 750px;
@@ -50,10 +127,17 @@
 .care-container > .list--contents {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
 
     @media (min-width: 768px) {
         max-width: 750px;
     }
 }
+
+.list--contents > .ul--list {
+    & li {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}*/

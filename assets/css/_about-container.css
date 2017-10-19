@@ -1,65 +1,67 @@
 .about-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     display: flex;
     flex-direction: column;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+}
 
-    & .logo {
-        height: 115px;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-    }
+.about__content {
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
 
-    & .list--title {
+    @media (min-width: 768px) {
         margin-left: auto;
         margin-right: auto;
         padding-left: 15px;
         padding-right: 15px;
-
-        @media(min-width: 768px) {
-            width: 750px;
-        }
-
-        & .title {
-            font-size: 4.8vw;
-            text-align: center;
-
-            @media (min-width: 480px) {
-                font-size: 28px;
-            }
-
-            @media(min-width: 768px) {
-                text-align: left;
-            }
-        }
+        max-width: 750px;
     }
 
-    & .type--description {
-        font-size: 4.3vw;
-        text-align: left;
-
-        @media (min-width: 480px) {
-            font-size: 18px;
-            margin-bottom: 3rem;
-        }
-    }
-
-    & .about-list {
-        font-size: 4.3vw;
-
-        @media (min-width: 480px) {
-            font-size: 18px;
-        }
+    @media (min-width: 992px) {
+        max-width: 970px;
     }
 }
 
-.about-container > .list--contents {
+.about__logo {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-bottom: 2rem;
+}
+
+.about__title {
+    font-size: 22px;
+    line-height: 123%;
+    text-align: center;
 
     @media (min-width: 768px) {
-        width: 750px;
+        /*text-align: left;*/
+        font-size: 28px;
+    }
+}
+
+.about__sub-text--text {
+    margin-bottom: 1rem;
+    display: block;
+    font-size: 16px;
+    line-height: 135%;
+}
+
+.about__list {
+    font-size: 16px;
+    line-height: 147%;
+    padding-left: 20px;
+
+    @media (min-width: 768px) {
+        max-width: 750px;
+    }
+
+    @media(min-width: 992px) {
+        max-width: 970px;
+    }
+
+    @media (min-width: 1200px) {
+        margin-top: 1rem;
     }
 }

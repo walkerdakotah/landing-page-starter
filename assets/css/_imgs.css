@@ -86,28 +86,28 @@
 
 .sr {
     background: url('../img/logos/sr.png') no-repeat center;
-    background-size: contain;
+    background-size: cover;
     height: 50px;
     width: 240px;
 }
 
 .lth {
     background: url('../img/logos/lth.png') no-repeat center;
-    background-size: contain;
-    height: 50px;
-    width: 240px;
+    background-size: cover;
+    height: 40px;
+    width: 320px;
 }
 
 .ro {
     background: url('../img/logos/ro.png') no-repeat center;
-    background-size: contain;
+    background-size: cover;
     height: 50px;
-    width: 240px;
+    width: 195px;
 }
 
 .rf {
     background: url('../img/logos/rf.png') no-repeat center;
-    background-size: contain;
+    background-size: cover;
     height: 50px;
-    width: 240px;
+    width: 235px;
 }

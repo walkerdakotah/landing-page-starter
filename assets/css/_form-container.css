@@ -1,7 +1,7 @@
 .form-container {
     display: flex;
     flex-direction: column;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
 
     @media(min-width: 768px) {
         align-items: flex-start;
@@ -16,8 +16,8 @@
     margin-bottom: 2rem;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
 
     @media (min-width: 768px) {
         align-items: flex-start;
@@ -45,6 +45,7 @@
 }
 
 .form--cta > .cta__phone {
+    margin-top: 1rem;
     margin-bottom: 4rem;
     font-size: 9.5vw;
     line-height: 118%;
@@ -66,8 +67,8 @@
 #ppcPage {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
 
     @media (min-width: 768px) {
         max-width: 750px;
@@ -147,16 +148,16 @@ textarea {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
 
     @media (min-width: 768px) {
         max-width: 750px;
     }
 
     & .cta__guarantee {
-        margin-top: 3rem;
-        margin-bottom: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
         font-size: 4.3vw;
 
         @media (min-width: 480px) {
@@ -169,6 +170,8 @@ textarea {
     }
 
     & .types--list {
+        margin-top: 0;
+        margin-bottom: 0;
         margin-left: auto;
         margin-right: auto;
         padding: 0;
@@ -197,7 +200,7 @@ textarea {
     }
 
     & .form--disclaimer {
-        margin-top: 5rem;
+        margin-top: 3rem;
         font-size: 3.2vw;
 
         @media (min-width: 480px) {

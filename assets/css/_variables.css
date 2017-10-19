@@ -28,16 +28,16 @@
     Border Colors
 */
 .blue-bottom {
-    border-bottom: 2px solid #267FB7;
+    border-bottom: 3px solid #267FB7;
 }
 
 .teal-bottom {
-    border-bottom: 2px solid #40BBC1;
+    border-bottom: 3px solid #40BBC1;
 }
 
 .grey-bottom {
     border-bottom: 1px solid #BEBEBE;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 /*
     Background Colors
@@ -47,7 +47,7 @@
 }
 
 .bg-beige {
-    background-color: #F9F6EB;
+    background-color: #FCFAF5;
 }
 
 .bg-orange {
@@ -55,7 +55,7 @@
 }
 
 .bg-aqua {
-     background-color: rgb(240, 251, 249);
+     background-color: #F0FBF9;
 }
 
 .bg-gray {
@@ -95,8 +95,9 @@
     content: "\f072";
     color: #267FB7;
     position: absolute;
-    left: -25px;
-    font-size: 5vw;
+    left: -35px;
+    top: 5px;
+    font-size: 20px;
 
     @media(min-width: 480px){
         font-size: 16px;
@@ -108,8 +109,9 @@
     content: "\f00c";
     color: #267FB7;
     position: absolute;
-    left: -25px;
-    font-size: 5vw;
+    left: -35px;
+    top: 5px;
+    font-size: 20px;
 
     @media(min-width: 480px){
         font-size: 16px;
@@ -121,8 +123,9 @@
     content: "\f095";
     color: #267FB7;
     position: absolute;
-    left: -25px;
-    font-size: 5vw;
+    left: -35px;
+    top: 5px;
+    font-size: 20px;
 
     @media(min-width: 480px){
         font-size: 16px;
@@ -134,8 +137,9 @@
     content: "\f004";
     color: #267FB7;
     position: absolute;
-    left: -25px;
-    font-size: 5vw;
+    left: -35px;
+    top: 5px;
+    font-size: 20px;
 
     @media(min-width: 480px){
         font-size: 16px;
@@ -147,8 +151,9 @@
     content: "\f002";
     color: #267FB7;
     position: absolute;
-    left: -25px;
-    font-size: 5vw;
+    left: -35px;
+    top: 5px;
+    font-size: 20px;
 
     @media(min-width: 480px){
         font-size: 16px;
@@ -160,8 +165,9 @@
     content: "\f017";
     color: #267FB7;
     position: absolute;
-    left: -25px;
-    font-size: 5vw;
+    left: -35px;
+    top: 5px;
+    font-size: 20px;
 
     @media(min-width: 480px){
         font-size: 16px;

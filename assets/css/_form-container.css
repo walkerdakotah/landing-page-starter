@@ -175,7 +175,7 @@ textarea {
     }
 }
 
-.form--footer {
+.form-footer {
     display: flex;
     flex-direction: column;
     margin-left: auto;
@@ -201,7 +201,7 @@ textarea {
         }
     }
 
-    & .types--list {
+    & .form-footer__list {
         margin-top: 0;
         margin-bottom: 0;
         margin-left: auto;
@@ -220,7 +220,7 @@ textarea {
             margin-right: 0;
         }
 
-        & li {
+        & .form-footer__list-item {
             margin-bottom: 1rem;
             margin-left: 2rem;
             position: relative;
@@ -240,4 +240,22 @@ textarea {
             font-size: 11px;
         }
     }
+}
+
+.form-footer__list > .search::before {
+    left: -35px;
+    top: 0px;
+    font-size: 20px;
+}
+
+.form-footer__list > .plane::before {
+    left: -35px;
+    top: 0px;
+    font-size: 20px;
+}
+
+.form-footer__list > .clock::before {
+    left: -35px;
+    top: 0px;
+    font-size: 20px;
 }

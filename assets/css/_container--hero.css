@@ -1,4 +1,4 @@
-.hero-container {
+.container--hero {
     background: url('../img/bg1-mobile.png') no-repeat top center ;
     background-size:cover;
     display: flex;
@@ -7,7 +7,7 @@
     height: 515px;
 
     @media(min-width: 480px) {
-        background: url('../img/bg1-desktop.png') no-repeat 0% center;
+        background: url('../img/bg1-desktop.png') no-repeat 70% center;
         background-size: cover;
         justify-content: space-between;
         height: 368px;
@@ -25,26 +25,22 @@
 }
 
 .hero__content {
-    padding-left: 25px;
-    padding-right: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
 
     @media(min-width: 480px) {
         margin-top: 2rem;
-        padding-left: 15px;
-        padding-right: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 
     @media(min-width: 768px) {
         margin-top: 0;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0;
+        margin-right: 0;
         display: flex;
         flex-direction: column;
         max-width: 750px;
-    }
-
-    @media(min-width: 992px) {
-        max-width: 970px;
     }
 }
 

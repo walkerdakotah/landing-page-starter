@@ -3,18 +3,6 @@
     content: "\f072";
     color: #267FB7;
     position: absolute;
-    /*left: -35px;
-    top: 5px;
-    font-size: 20px;*/
-
-    /*@media(min-width: 480px){
-        font-size: 16px;
-    }
-
-    @media (min-width: 992px){
-        font-size: 32px;
-        left: -40px;
-    }*/
 }
 
 .check::before {
@@ -22,18 +10,6 @@
     content: "\f00c";
     color: #267FB7;
     position: absolute;
-    /*left: -35px;
-    top: 5px;
-    font-size: 20px;
-
-    @media(min-width: 480px){
-        font-size: 16px;
-    }
-
-    @media (min-width: 992px){
-        font-size: 32px;
-        left: -40px;
-    }*/
 }
 
 .phone::before {
@@ -41,18 +17,6 @@
     content: "\f095";
     color: #267FB7;
     position: absolute;
-    /*left: -35px;
-    top: 5px;
-    font-size: 20px;
-
-    @media(min-width: 480px){
-        font-size: 16px;
-    }
-
-    @media (min-width: 992px){
-        font-size: 32px;
-        left: -40px;
-    }*/
 }
 
 .heart::before {
@@ -60,18 +24,6 @@
     content: "\f004";
     color: #267FB7;
     position: absolute;
-    /*left: -35px;
-    top: 5px;
-    font-size: 20px;
-
-    @media(min-width: 480px){
-        font-size: 16px;
-    }
-
-    @media (min-width: 992px){
-        font-size: 32px;
-        left: -40px;
-    }*/
 }
 
 .search::before {
@@ -79,18 +31,6 @@
     content: "\f002";
     color: #267FB7;
     position: absolute;
-    /*left: -35px;
-    top: 5px;
-    font-size: 20px;
-
-    @media(min-width: 480px){
-        font-size: 16px;
-    }
-
-    @media (min-width: 992px){
-        font-size: 32px;
-        left: -40px;
-    }*/
 }
 
 .clock::before {
@@ -98,16 +38,4 @@
     content: "\f017";
     color: #267FB7;
     position: absolute;
-    /*left: -35px;
-    top: 5px;
-    font-size: 20px;
-
-    @media(min-width: 480px){
-        font-size: 16px;
-    }
-
-    @media (min-width: 992px){
-        font-size: 32px;
-        left: -40px;
-    }*/
 }

@@ -53,40 +53,10 @@
     line-height: 156%;
 }
 
-.response__list > .plane::before {
-    left: -35px;
-    top: 5px;
-    font-size: 20px;
-
-    @media (min-width: 992px){
-        font-size: 28px;
-        left: -40px;
-    }
-}
-
-.response__list > .check::before {
-    left: -35px;
-    top: 5px;
-    font-size: 20px;
-
-    @media (min-width: 992px){
-        font-size: 28px;
-        left: -40px;
-    }
-}
-
-.response__list > .phone::before {
-    left: -35px;
-    top: 5px;
-    font-size: 20px;
-
-    @media (min-width: 992px){
-        font-size: 28px;
-        left: -40px;
-    }
-}
-
-.response__list > .heart::before {
+.response__list > .plane::before,
+.check::before,
+.phone::before,
+.heart::before {
     left: -35px;
     top: 5px;
     font-size: 20px;

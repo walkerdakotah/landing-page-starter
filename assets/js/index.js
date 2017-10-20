@@ -1,16 +1,16 @@
 $(document).ready(function(){
     $('.mktgform').each(function(){
         var $mform = $(this);
-        if($mform.find('input#phone').attr('required') === false){
-          var $phonevalid = false;
+        if($mform.find('input#email').attr('required') === false){
+          var $emailvalid = false;
         }else{
-            var $phonevalid = true;
+            var $emailvalid = true;
         };
-        if($phonevalid === true){
-            $mform.addClass('phone_req');
+        if($emailvalid === true){
+            $mform.addClass('email_req');
         }else{
-            if($phonevalid === false){
-                $mform.addClass('email_req');
+            if($emailvalid === false){
+                $mform.addClass('phone_req');
             }
         }
         var $emailreqform = $('.mktgform.email_req');

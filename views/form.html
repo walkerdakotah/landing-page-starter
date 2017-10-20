@@ -13,13 +13,23 @@
             </div>
 
             <div class="form__body">
-                <form class="form" id="ppcPage" method="POST" class="mktgform" novalidate="novalidate">
+                <form class="mktgform" id="ppcPage" method="POST" novalidate="novalidate">
                     <input name="oid" type="hidden" value="00DG0000000CLl1" />
-                    <input class="form__input" id="first_name" placeholder="First Name *" maxlength="40" name="first_name" type="text" />
-                    <input class="form__input" id="last_name" placeholder="Last Name *" maxlength="80" name="last_name" required size="20" type="text" />
-                    <input class="form__input" id="email" placeholder="Email *" name="email" size="20" type="text">
-                    <input class="form__input" id="phone" placeholder="Phone (Optional)" name="phone" size="20" type="number">
-                    <textarea class="form__input form__input--text" name="description" rows="8" cols="80" placeholder="What can we help you with? *" required></textarea>
+                    <div class="form__input">
+                        <input required id="first_name" placeholder="First Name *" maxlength="40" name="first_name" type="text" />
+                    </div>
+                    <div class="form__input">
+                        <input required id="last_name" placeholder="Last Name *" maxlength="80" name="last_name" size="20" type="text" />
+                    </div>
+                    <div class="form__input">
+                        <input required id="email" placeholder="Email *" name="email" size="20" type="text">
+                    </div>
+                    <div class="form__input">
+                        <input id="phone" placeholder="Phone (Optional)" name="phone" size="20" type="number">
+                    </div>
+                    <div class="form__input form__input--text">
+                        <textarea required name="description" rows="8" cols="80" placeholder="What can we help you with? *" required></textarea>
+                    </div>
                     <input name="retURL" type="hidden" value="https://americanaddictioncenters.org/thank-you-2/" />
                     <input id="lead_source" name="lead_source" class="lead_source" type="hidden" />
                     <input id="OwnerId" name="OwnerId" type="hidden" value="00GG0000001MB0uMAG" />

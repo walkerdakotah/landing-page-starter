@@ -51,7 +51,7 @@
     }
 }
 
-.form {
+.mktgform {
     display: flex;
     flex-direction: column;
 
@@ -65,9 +65,8 @@
 .form__input {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    padding: 0.5rem;
-    border: 1px solid #E5E5E5;
-    font-size: 16px;
+    display: flex;
+    flex-direction: column;
 
     @media (min-width: 768px) {
         flex-basis: 46.5%;
@@ -78,11 +77,30 @@
     }
 }
 
+.form__input > input, textarea {
+    padding: 0.5rem;
+    width: inherit;
+    border: 1px solid #E5E5E5;
+    font-size: 16px;
+}
+
 .form__input--text {
     @media (min-width: 768px) {
         flex-basis: 100%;
     }
 }
+
+.form__input > label.error{
+    margin-top: 0.5rem;
+    font-size: 12px;
+    color: red;
+}
+
+.form__input > input.error, textarea.error {
+    border: 1px solid #d34231;
+    background: #F5DCDC;
+}
+
 .form__btn {
     margin-top: 1rem;
     margin-bottom: 1rem;

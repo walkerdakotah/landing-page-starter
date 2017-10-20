@@ -1,21 +1,21 @@
 $(document).ready(function(){
     $('.mktgform').each(function(){
-        var mform = $(this);
-        if(mform.find('input#phone').attr('required') === false){
-          var phonevalid = false;
+        var $mform = $(this);
+        if($mform.find('input#phone').attr('required') === false){
+          var $phonevalid = false;
         }else{
-            var phonevalid = true;
+            var $phonevalid = true;
         };
-        if(phonevalid === true){
-            mform.addClass('phone_req');
+        if($phonevalid === true){
+            $mform.addClass('phone_req');
         }else{
-            if(phonevalid === false){
-                mform.addClass('email_req');
+            if($phonevalid === false){
+                $mform.addClass('email_req');
             }
         }
-        var emailreqform = $('.mktgform.email_req');
-        var phonereqform = $('.mktgform.phone_req');
-        emailreqform.each(function(){
+        var $emailreqform = $('.mktgform.email_req');
+        var $phonereqform = $('.mktgform.phone_req');
+        $emailreqform.each(function(){
             $(this).validate({
                 rules: {
                     first_name: {required: true, maxlength: 20},
@@ -25,13 +25,13 @@ $(document).ready(function(){
                 },
                 submitHandler: function(form){
                     if($('input#website').val() === 'http://' && $('input#website2').val().length === 0){
-                        mform.attr('action','https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8');
+                        $mform.attr('action','https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8');
                         form.submit();
                     }
                 }
             });
         });
-        phonereqform.each(function(){
+        $phonereqform.each(function(){
             $(this).validate({
                 rules: {
                     first_name: {required: true, maxlength: 20},
@@ -41,7 +41,7 @@ $(document).ready(function(){
                 },
                 submitHandler: function(form){
                     if($('input#website').val() === 'http://' && $('input#website2').val().length === 0){
-                        mform.attr('action','https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8');
+                        $mform.attr('action','https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8');
                         form.submit();
                     }
                 }

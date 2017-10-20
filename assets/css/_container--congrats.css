@@ -3,20 +3,6 @@
     flex-direction: column;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    padding-left: 25px;
-    padding-right: 25px;
-
-    @media (min-width: 768px) {
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 15px;
-        padding-right: 15px;
-        max-width: 750px;
-    }
-
-    @media (min-width: 992px) {
-        max-width: 970px;
-    }
 }
 
 .congrats__title {
@@ -34,8 +20,7 @@
     }
 }
 
-.congrats__content {
-
+.congrats__content--whole {
     @media(min-width: 768px) {
         display: flex;
     }

@@ -1,25 +1,8 @@
-.care-container {
+.container--care {
     padding-top: 2rem;
     padding-bottom: 2rem;
     display: flex;
     flex-direction: column;
-}
-
-.care__content {
-    padding-left: 25px;
-    padding-right: 25px;
-
-    @media (min-width: 768px) {
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 15px;
-        padding-right: 15px;
-        max-width: 750px;
-    }
-
-    @media (min-width: 992px) {
-        max-width: 970px;
-    }
 }
 
 .care__title {

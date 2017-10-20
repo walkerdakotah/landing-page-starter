@@ -1,4 +1,4 @@
-.testimonial-container {
+.container--testimonial {
     display: flex;
     flex-direction: column;
     padding-bottom: 2rem;
@@ -18,27 +18,11 @@
         background: url('../img/bg3-desktop.png') no-repeat center;
         background-size: cover;
         height: 300px;
+        display: flex;
     }
 
     @media(min-width: 1200px) {
         height: 360px;
-    }
-}
-
-.testimonial__content {
-    padding-left: 25px;
-    padding-right: 25px;
-
-    @media (min-width: 768px) {
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 15px;
-        padding-right: 15px;
-        max-width: 750px;
-    }
-
-    @media (min-width: 992px) {
-        max-width: 970px;
     }
 }
 
@@ -115,12 +99,15 @@
 
     @media (min-width: 992px) {
         margin: 2rem 0;
-        padding: 0 2rem;
+        padding: 0 1rem;
         width: 300px;
-        border-right: 1px solid #BEBEBE;
 
+        &:first-child {
+            padding-left: 0;
+        }
         &:last-child {
             border-right: none;
+            padding-right: 0;
         }
     }
 }

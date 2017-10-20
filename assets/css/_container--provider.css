@@ -1,23 +1,8 @@
-.providers-container {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 25px;
-    padding-right: 25px;
+.container--providers {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
-    @media (min-width: 768px) {
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 0;
-        padding-right: 0;
-        max-width: 750px;
-    }
-
-    @media (min-width: 992px) {
-        max-width: 970px;
-    }
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .providers__title {

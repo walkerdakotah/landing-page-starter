@@ -1,0 +1,35 @@
+import React from 'react'
+
+const Hero = () => (
+    <div className="container--hero">
+        <div className="container--ruler">
+            <div className="hero__content">
+                <div className="hero__title">
+                    <h1 className="hero__title--pre-title font-lightest">Strugging with addiction?</h1>
+                    <div className="hero__title--title font-light">Real help can start in just 24 hours.</div>
+                </div>
+                <div className="hero__sub-text">
+                    <p className="hero__sub-text--text font-light">Long-term recovery from drug and alcohol addiction is not only possible, it’s within your reach. We’ve helped thousands of people stop using for good through proven clinical treatment and positive changes in attitude, behavior, lifestyle and values. <strong>We’re here to help you get your life back. Are you ready?</strong></p>
+                    <div className="hero__sub-text--cta">
+                        <a href="tel:+18884559750">
+                            <div className="cta__phone font-heavy">Call 888-455-9750</div>
+                        </a>
+                        <a id="liveagent_button_online_573G0000000TXry" onClick="liveagent.startChat('573G0000000TXry')" className="cta__button font-white bg-orange">Get Started Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="hero__sub">
+            <p className="hero__sub--title font-medium font-white">A complete spectrum of options. Treatment tailored to YOU.</p>
+            <ul className="hero__sub--list font-light font-white">
+                <li className="hero__sub--list-item">Adult Addiction Treatment Programs </li>
+                <li className="hero__sub--list-item">Dual Diagnosis Treatment Curriculum </li>
+                <li className="hero__sub--list-item">Systemic Family Intervention Program </li>
+                <li className="hero__sub--list-item">Drug Recovery — Aftercare </li>
+                <li className="hero__sub--list-item">Fire Services & Law Enforcement </li>
+            </ul>
+        </div>
+    </div>
+)
+
+export default Hero

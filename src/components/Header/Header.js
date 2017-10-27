@@ -1,5 +1,4 @@
 import React from 'react'
-// import Logo from '../../img/logos/logo-header.png'
 import Logo from './logo-multi.png'
 
 const Header = () => (

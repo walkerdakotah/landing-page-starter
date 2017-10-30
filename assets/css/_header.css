@@ -1,0 +1,45 @@
+.header {
+    background-color: #FFF;
+    top: 0 !important;
+}
+
+.header__content {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (min-width: 768px) {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        justify-content: space-between;
+        width: 750px;
+    }
+
+    @media (min-width: 992px) {
+        width: 970px;
+    }
+}
+
+.header__cta {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+
+    @media (min-width: 768px) {
+        display: flex;
+    }
+}
+
+.header__cta--phone {
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.header__cta--guarantee {
+    font-size: 10px;
+    line-height: 12px;
+}

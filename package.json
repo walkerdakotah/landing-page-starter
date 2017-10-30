@@ -7,6 +7,7 @@
     "eslint": "^4.9.0",
     "gatsby": "^1.9.73",
     "gatsby-link": "^1.6.22",
+    "gatsby-plugin-facebook-pixel": "^1.0.3",
     "gatsby-plugin-google-tagmanager": "^1.0.7",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-sass": "^1.0.12"

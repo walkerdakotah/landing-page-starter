@@ -1,38 +1,29 @@
 {
-  "name": "help-for-addiction",
-  "description": "a facebook landing page",
-  "version": "0.0.1",
-  "author": "American Addiction Center",
-  "ava": {
-    "verbose": "true"
-  },
-  "bugs": "https://github.com/American Addiction Center/help-for-addiction/issues",
+  "name": "gatsby-starter-default",
+  "description": "Gatsby default starter",
+  "version": "1.0.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "normalize.css": "^7.0.0",
-    "reshape-standard": "^3.0.0",
-    "spike": "^2.0.0",
-    "spike-css-standards": "^3.0.0",
-    "spike-js-standards": "^2.0.2",
-    "spike-optimize": "^0.1.2",
-    "spike-page-id": "^1.0.0"
+    "eslint": "^4.9.0",
+    "gatsby": "^1.9.73",
+    "gatsby-link": "^1.6.22",
+    "gatsby-plugin-google-tagmanager": "^1.0.7",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-sass": "^1.0.12"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "ava": "^0.19.1",
-    "rimraf": "^2.6.1",
-    "snazzy": "^7.0.0",
-    "standard": "^10.0.2"
-  },
-  "homepage": "https://github.com/American Addiction Center/help-for-addiction",
-  "main": "app.js",
-  "private": true,
-  "repository": "https://github.com/American Addiction Center/help-for-addiction",
-  "scripts": {
-    "lint": "standard | snazzy",
-    "precommit": "npm run lint -s",
-    "pretest": "npm run lint -s",
-    "test": "NODE_ENV=test ava",
-    "start": "spike watch",
-    "build": "spike compile",
-    "prod": "NODE_ENV=production spike compile -e production"
+    "gatsby-cli": "^1.1.11",
+    "prettier": "^1.7.4"
   }
 }

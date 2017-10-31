@@ -1,5 +1,4 @@
 import React from "react"
-import favicon from './favicon.ico';
 
 let stylesStr
 if (process.env.NODE_ENV === `production`) {

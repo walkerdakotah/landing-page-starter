@@ -1,6 +1,6 @@
 {
-  "name": "Help For Addiction",
-  "description": "a Facebook landing page",
+  "name": "help-for-addiction",
+  "description": "A Facebook landing page",
   "version": "1.0.0",
   "author": "American Addiction Centers",
   "dependencies": {

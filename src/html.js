@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 
 let stylesStr
 if (process.env.NODE_ENV === `production`) {
@@ -10,7 +10,10 @@ if (process.env.NODE_ENV === `production`) {
 }
 
 module.exports = class HTML extends React.Component {
+
+
   render() {
+    
     let css
     if (process.env.NODE_ENV === `production`) {
       css = (
@@ -20,6 +23,7 @@ module.exports = class HTML extends React.Component {
         />
       )
     }
+
     return (
       <html {...this.props.htmlAttributes}>
         <head>
@@ -44,26 +48,22 @@ module.exports = class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: `lsv = 'WEB-AAC-MAIN';`}}
           />
           <script 
-            type="text/javascript" 
             src="https://americanaddictioncenters.org/wp-content/plugins/aacattribution/dist/attrlib.min.js" 
           />
           <script 
-            type="text/javascript" 
             src="https://americanaddictioncenters.org/wp-content/plugins/aacattribution/dist/sfvar.min.js" 
           />
           <script 
-            type="text/javascript" 
             src="//cdn.callrail.com/companies/154422313/c8d5c08142940b7cb1ac/12/swap.js"
           />
           <script
-            type='text/javascript' 
             src='https://c.la1c1.salesforceliveagent.com/content/g/js/36.0/deployment.js'/>
           <script
-            type='text/javascript'
             dangerouslySetInnerHTML={{ __html: `liveagent.init('https://d.la1c1.salesforceliveagent.com/chat', '572G0000000TXdG', '00DG0000000CLl1');`}} 
           />
         </body>
       </html>
     )
+
   }
 }

@@ -1,6 +1,17 @@
 import React from 'react'
 
+class ChatButton extends React.Component {
+    render() {
+        return <a onClick={this.handleClick} id="liveagent_button_online_573G0000000TXry" className="cta__button font-white bg-orange" href="javascript://Chat" style={{display:'none'}}>Chat Live</a>
+    }
+
+    handleClick() {
+        liveagent.startChat('573G0000000TXry')
+    }
+}
+
 const Hero = () => (
+    
     <div className="container--hero">
         <div className="container--ruler">
             <div className="hero__content">
@@ -14,7 +25,20 @@ const Hero = () => (
                         <a href="tel:+18884559750">
                             <div className="cta__phone font-heavy">Call 888-455-9750</div>
                         </a>
-                        <a id="liveagent_button_online_573G0000000TXry" onClick="liveagent.startChat('573G0000000TXry')" className="cta__button font-white bg-orange">Get Started Now</a>
+                        <script
+                            dangerouslySetInnerHTML={{ __html: `if (!window._laq) { window._laq = []; }
+                            window._laq.push(function () {
+                                liveagent.showWhenOnline(
+                                    '573G0000000TXry',
+                                    document.getElementById('liveagent_button_online_573G0000000TXry')
+                                );
+                                liveagent.showWhenOffline(
+                                    '573G0000000TXry',
+                                    document.getElementById('liveagent_button_offline_573G0000000TXry')
+                                );
+                            });` }}
+                        /> 
+                        <ChatButton />
                     </div>
                 </div>
             </div>

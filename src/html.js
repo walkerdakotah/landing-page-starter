@@ -15,7 +15,7 @@ module.exports = class HTML extends React.Component {
     if (process.env.NODE_ENV === `production`) {
       css = (
         <style
-          id="gatsby-inlined-css"
+          id='gatsby-inlined-css'
           dangerouslySetInnerHTML={{ __html: stylesStr }}
         />
       )
@@ -23,11 +23,11 @@ module.exports = class HTML extends React.Component {
     return (
       <html {...this.props.htmlAttributes}>
         <head>
-          <meta charSet="utf-8" />
-          <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+          <meta charSet='utf-8' />
+          <meta httpEquiv='x-ua-compatible' content='ie=edge' />
           <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+            name='viewport'
+            content='width=device-width, initial-scale=1, shrink-to-fit=no'
           />
           {this.props.headComponents}
           {css}
@@ -36,7 +36,7 @@ module.exports = class HTML extends React.Component {
           {this.props.preBodyComponents}
           <div
             key={`body`}
-            id="___gatsby"
+            id='___gatsby'
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
@@ -44,13 +44,13 @@ module.exports = class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: `lsv = 'WEB-AAC-MAIN';`}}
           />
           <script 
-            src="https://americanaddictioncenters.org/wp-content/plugins/aacattribution/dist/attrlib.min.js" 
+            src='https://americanaddictioncenters.org/wp-content/plugins/aacattribution/dist/attrlib.min.js' 
           />
           <script 
-            src="https://americanaddictioncenters.org/wp-content/plugins/aacattribution/dist/sfvar.min.js" 
+            src='https://americanaddictioncenters.org/wp-content/plugins/aacattribution/dist/sfvar.min.js' 
           />
           <script 
-            src="//cdn.callrail.com/companies/154422313/c8d5c08142940b7cb1ac/12/swap.js"
+            src='//cdn.callrail.com/companies/154422313/c8d5c08142940b7cb1ac/12/swap.js'
           />
           <script
             src='https://c.la1c1.salesforceliveagent.com/content/g/js/36.0/deployment.js'/>

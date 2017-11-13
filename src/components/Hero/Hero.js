@@ -1,14 +1,5 @@
 import React from 'react'
-
-class ChatButton extends React.Component {
-    render() {
-        return <a onClick={this.handleClick} id="liveagent_button_online_573G0000000TXry" className="cta__button font-white bg-orange" href="javascript://Chat" style={{display:'none'}}>Chat Live</a>
-    }
-
-    handleClick() {
-        liveagent.startChat('573G0000000TXry')
-    }
-}
+import ChatButton from '../ChatButton/ChatButton'
 
 const Hero = () => (
     
@@ -25,6 +16,7 @@ const Hero = () => (
                         <a href="tel:+18884559750">
                             <div className="cta__phone font-heavy">Call 888-455-9750</div>
                         </a>
+                        <ChatButton />
                         <script
                             dangerouslySetInnerHTML={{ __html: `if (!window._laq) { window._laq = []; }
                             window._laq.push(function () {
@@ -38,7 +30,6 @@ const Hero = () => (
                                 );
                             });` }}
                         /> 
-                        <ChatButton />
                     </div>
                 </div>
             </div>

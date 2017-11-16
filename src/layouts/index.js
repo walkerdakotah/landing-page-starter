@@ -1,14 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import Header from '../components/header/Header'
+import Header from '../components/Header/Header'
 import StickyFooter from '../components/StickyFooter/StickyFooter'
 
 
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby - Help For Addiction"
+      title='Gatsby - Help For Addiction'
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'author', content: 'American Addiction Center' },

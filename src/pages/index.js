@@ -13,7 +13,7 @@ import Footer from '../components/BrandedFooter/BrandedFooter'
 require('../scss/main.scss');
 
 const IndexPage = () => (
-  <div className="content">
+  <div className='content'>
     <Hero />
     <Congrats />
     <ContactForm />

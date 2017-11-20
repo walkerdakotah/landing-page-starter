@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../Button/Button'
+import ChatButton from '../ChatButton/ChatButton'
 
 const Hero = () => (
   <div className="container--hero">
@@ -27,13 +27,7 @@ const Hero = () => (
             <a href="tel:+18884559750">
               <div className="cta__phone font-heavy">Call 888-455-9750</div>
             </a>
-            <Button />
-            {/* <div
-              id="liveagent_button_offline_573G0000000TXry"
-              style="display: none;"
-            >
-              Chat is offline 
-            </div> */}
+            <ChatButton />
             <script
               dangerouslySetInnerHTML={{
                 __html: `if (!window._laq) { window._laq = []; }

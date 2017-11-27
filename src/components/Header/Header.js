@@ -9,8 +9,8 @@ const Header = () => (
                     <img className='header__logo' src={Logo}/>
                 </a>
                 <div className='header__cta font-teal'>
-                    <a href='tel:+18884559750'>
-                        <div className='header__cta--phone font-heavy'>Call 888-455-9750</div>
+                    <a href="tel:+18889668152">
+                        <div className='header__cta--phone font-heavy'>Call 888-966-8152</div>
                     </a>
                     <div className='header__cta--guarantee font-heavy'>Insurance Accepted. Privacy Guaranteed.</div>
                 </div>
@@ -20,3 +20,4 @@ const Header = () => (
 )
 
 export default Header
+

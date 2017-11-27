@@ -13,8 +13,8 @@ const Footer = () => (
                     <p className='contact--address'>Brentwood, TN 37027</p>
                     <p className='contact--address'>(888) 970-8544</p>
                 </div>
-                <a href='tel:+18884559750'>
-                    <div className='footer__cta--phone font-heavy font-white'>Call 888-455-9750</div>
+                <a href="tel:+18889668152">
+                    <div className='footer__cta--phone font-heavy font-white'>Call 888-966-8152</div>
                 </a>
             </div>
         </div>

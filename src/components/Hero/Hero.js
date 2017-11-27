@@ -24,8 +24,8 @@ const Hero = () => (
             </strong>
           </p>
           <div className="hero__sub-text--cta">
-            <a href="tel:+18884559750">
-              <div className="cta__phone font-heavy">Call 888-455-9750</div>
+            <a href="tel:+18889668152">
+              <div className="cta__phone font-heavy">Call 888-966-8152</div>
             </a>
             <ChatButton />
             <script

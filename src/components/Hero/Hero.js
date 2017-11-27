@@ -1,5 +1,6 @@
 import React from 'react'
 import ChatButton from '../ChatButton/ChatButton'
+import CallRail from '../../utils/CallRail'
 
 const Hero = () => (
   <div className="container--hero">
@@ -24,8 +25,8 @@ const Hero = () => (
             </strong>
           </p>
           <div className="hero__sub-text--cta">
-            <a href="tel:+18889668152">
-              <div className="cta__phone font-heavy">Call 888-966-8152</div>
+              <a href={`tel:+1${CallRail}`}>
+              <div className="cta__phone font-heavy">Call {CallRail}</div>
             </a>
             <ChatButton />
             <script

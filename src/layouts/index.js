@@ -8,7 +8,7 @@ import StickyFooter from '../components/StickyFooter/StickyFooter'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="American Addiction Center - Help For Addiction"
+      title="American Addiction Centers - Help For Addiction"
       meta={[
         { name: "description", content: "Sample" },
         { name: "author", content: "American Addiction Center" },

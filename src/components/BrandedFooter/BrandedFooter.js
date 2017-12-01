@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from './logo-white.png'
 import '../../data/SiteConfig'
+import './BrandedFooter.scss'
 
 const Footer = () => (
     <div className='branded-footer bg-blue'>

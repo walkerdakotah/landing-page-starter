@@ -1,6 +1,7 @@
 import React from 'react'
 import ChatButton from '../ChatButton/ChatButton'
 import '../../data/SiteConfig'
+import './Hero.scss'
 
 const Hero = () => (
   <div className="container--hero">

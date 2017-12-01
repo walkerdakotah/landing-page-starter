@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from './logo-multi.png'
 import '../../data/SiteConfig'
+import './Header.scss'
 
 const Header = () => (
     <div className='header is-sticky'>

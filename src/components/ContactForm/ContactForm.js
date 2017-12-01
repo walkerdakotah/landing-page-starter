@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../data/SiteConfig'
+import './ContactForm.scss'
 
 const ContactForm = () => (
     <div className='container--form bg-beige'>

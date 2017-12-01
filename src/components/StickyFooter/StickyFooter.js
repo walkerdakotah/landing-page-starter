@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../data/SiteConfig'
+import './StickyFooter.scss'
 
 const StickyFooter = () => (
   <div className="cta-footer is-sticky bg-orange">

@@ -1,5 +1,6 @@
 import React from 'react'
 import Seal from './seal-guarantee.png'
+import './ProgramGuarantee.scss'
 
 const ProgramGuarantee = () => (
     <div className='container--guarantee bg-gray'>

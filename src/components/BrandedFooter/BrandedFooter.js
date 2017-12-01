@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from './logo-white.png'
-import CallRail from '../../utils/CallRail'
+import '../../data/SiteConfig'
 
 const Footer = () => (
     <div className='branded-footer bg-blue'>

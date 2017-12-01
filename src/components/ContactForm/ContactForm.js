@@ -1,5 +1,5 @@
 import React from 'react'
-import CallRail from '../../utils/CallRail'
+import '../../data/SiteConfig'
 
 const ContactForm = () => (
     <div className='container--form bg-beige'>

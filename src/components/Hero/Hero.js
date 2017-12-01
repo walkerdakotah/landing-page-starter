@@ -1,6 +1,6 @@
 import React from 'react'
 import ChatButton from '../ChatButton/ChatButton'
-import CallRail from '../../utils/CallRail'
+import '../../data/SiteConfig'
 
 const Hero = () => (
   <div className="container--hero">

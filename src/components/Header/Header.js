@@ -1,7 +1,7 @@
 import React from 'react'
 import Logo from './logo-multi.png'
-import CallRail from '../../utils/CallRail'
-;
+import '../../data/SiteConfig'
+
 const Header = () => (
     <div className='header is-sticky'>
         <div className='container--ruler'>

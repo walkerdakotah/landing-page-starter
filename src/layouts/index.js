@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import '../scss/main.scss'
 import Header from '../components/Header/Header'
 import StickyFooter from '../components/StickyFooter/StickyFooter'
 
@@ -47,7 +48,7 @@ const TemplateWrapper = ({ children }) => (
             "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
           integrity:
             "sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN",
-          crossorigin: "anonymous"
+          CrossOrigin: "anonymous"
         },
         {
           rel: "stylesheet",

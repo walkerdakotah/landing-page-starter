@@ -38,11 +38,7 @@ const Hero = () => (
                                     '573G0000000TXry',
                                     document.getElementById('liveagent_button_online_573G0000000TXry')
                                 );
-                                liveagent.showWhenOffline(
-                                    '573G0000000TXry',
-                                    document.getElementById('liveagent_button_offline_573G0000000TXry')
-                                );
-                            });`
+                            })`
               }}
             />
           </div>

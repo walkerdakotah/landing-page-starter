@@ -1,6 +1,6 @@
 import React from 'react'
 import ChatButton from '../ChatButton/ChatButton'
-import '../../data/SiteConfig'
+import config from '../../data/SiteConfig'
 import './Hero.scss'
 
 const Hero = () => (
@@ -26,8 +26,8 @@ const Hero = () => (
             </strong>
           </p>
           <div className="hero__sub-text--cta">
-              <a href={`tel:+1${CallRail}`}>
-              <div className="cta__phone font-heavy">Call {CallRail}</div>
+              <a href={`tel:+1${config.CallRail}`}>
+              <div className="cta__phone font-heavy">Call {config.CallRail}</div>
             </a>
             <ChatButton />
             <script

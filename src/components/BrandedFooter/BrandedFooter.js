@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from './logo-white.png'
-import '../../data/SiteConfig'
+import config from '../../data/SiteConfig'
 import './BrandedFooter.scss'
 
 const Footer = () => (
@@ -15,9 +15,9 @@ const Footer = () => (
                     <p className='contact--address'>Brentwood, TN 37027</p>
                     <p className='contact--address'>(888) 970-8544</p>
                 </div>
-                    <a href={`tel:+1${CallRail}`}>
+                    <a href={`tel:+1${config.CallRail}`}>
                     {/* <div className='footer__cta--phone font-heavy font-white'>Call 888-966-8152</div> */}
-                    <div className='footer__cta--phone font-heavy font-white'>Call {CallRail}</div>
+                    <div className='footer__cta--phone font-heavy font-white'>Call {config.CallRail}</div>
                 </a>
             </div>
         </div>

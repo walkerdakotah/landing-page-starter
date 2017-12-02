@@ -1,3 +1,3 @@
 module.exports = {
-  CallRail = `888-966-8152`
+  CallRail: `888-966-8152`
 }

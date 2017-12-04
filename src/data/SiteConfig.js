@@ -1,3 +1,4 @@
 module.exports = {
-  CallRail: `888-966-8152`
+  CALLRAIL: `888-966-8152`,
+  LIVEAGENT_ID: `573G0000000TXry`,
 }

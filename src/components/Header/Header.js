@@ -11,8 +11,8 @@ const Header = () => (
                     <img className='header__logo' src={Logo}/>
                 </a>
                 <div className='header__cta font-teal'>
-                    <a href={`tel:+1${config.CallRail}`}>
-                        <div className='header__cta--phone font-heavy'>Call {config.CallRail}</div>
+                    <a href={`tel:+1${config.CALLRAIL}`}>
+                        <div className='header__cta--phone font-heavy'>Call {config.CALLRAIL}</div>
                     </a>
                     <div className='header__cta--guarantee font-heavy'>Insurance Accepted. Privacy Guaranteed.</div>
                 </div>

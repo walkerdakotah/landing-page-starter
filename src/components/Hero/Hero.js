@@ -26,8 +26,8 @@ const Hero = () => (
             </strong>
           </p>
           <div className="hero__sub-text--cta">
-              <a href={`tel:+1${config.CALLRAIL}`}>
-              <div className="cta__phone font-heavy">Call {config.CALLRAIL}</div>
+              <a href={`tel:+1${config.CALLRAIL.PHONE}`}>
+              <div className="cta__phone font-heavy">Call {config.CALLRAIL.PHONE}</div>
             </a>
             <ChatButton />
             <script
@@ -35,8 +35,8 @@ const Hero = () => (
                 __html: `if (!window._laq) { window._laq = []; }
                             window._laq.push(function () {
                                 liveagent.showWhenOnline(
-                                    '${config.LIVEAGENT_ID}',
-                                    document.getElementById('liveagent_button_online_${config.LIVEAGENT_ID}')
+                                    '${config.SALESFORCE.DEPLOYMENT_ID}',
+                                    document.getElementById('liveagent_button_online_${config.SALESFORCE.DEPLOYMENT_ID}')
                                 );
                             })`
               }}

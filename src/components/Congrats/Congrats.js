@@ -1,4 +1,5 @@
 import React from 'react'
+import './Congrats.scss'
 
 const Hero = () => (
   <div className='container--congrats'>

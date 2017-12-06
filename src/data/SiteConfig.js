@@ -1,0 +1,9 @@
+module.exports = {
+  CALLRAIL: {
+    PHONE: `888-966-8152`,
+  },
+  SALESFORCE: {
+    DEPLOYMENT_ID: `572G0000000TXdG`,
+    ORG_ID: `00DG0000000CLl1`,
+  }
+}

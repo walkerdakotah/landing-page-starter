@@ -1,5 +1,6 @@
 import React from 'react'
-import CallRail from '../../utils/CallRail'
+import config from '../../data/SiteConfig'
+import './ContactForm.scss'
 
 const ContactForm = () => (
     <div className='container--form bg-beige'>
@@ -8,8 +9,8 @@ const ContactForm = () => (
                 <div className='form__header'>
                     <div className='form__title font-grey font-medium'>Call 24/7, 365 Days a Year:</div>
                     <div className='form__cta font-teal'>
-                        <a href={`tel:+1${CallRail}`}>
-                            <div className='form__cta--phone font-heavy'>Call {CallRail}</div>
+                        <a href={`tel:+1${config.CALLRAIL.PHONE}`}>
+                            <div className='form__cta--phone font-heavy'>Call {config.CALLRAIL.PHONE}</div>
                         </a>
                         <div className='form__cta--tease font-heavy'>Prefer a call or email from us instead?</div>
                     </div>

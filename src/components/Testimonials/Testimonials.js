@@ -5,6 +5,7 @@ import RiverOaks from './river-oaks.png'
 import SunriseHouse from './sunrise-house.png'
 import FiveStar from './five-star.png'
 import FourStar from './four-star.png'
+import './Testimonials.scss'
 
 const Testimonials = () => (
     <div className='container--testimonial'>

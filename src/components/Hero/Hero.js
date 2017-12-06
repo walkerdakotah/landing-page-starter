@@ -1,6 +1,7 @@
 import React from 'react'
 import ChatButton from '../ChatButton/ChatButton'
-import CallRail from '../../utils/CallRail'
+import config from '../../data/SiteConfig'
+import './Hero.scss'
 
 const Hero = () => (
   <div className="container--hero">
@@ -25,8 +26,8 @@ const Hero = () => (
             </strong>
           </p>
           <div className="hero__sub-text--cta">
-              <a href={`tel:+1${CallRail}`}>
-              <div className="cta__phone font-heavy">Call {CallRail}</div>
+              <a href={`tel:+1${config.CALLRAIL.PHONE}`}>
+              <div className="cta__phone font-heavy">Call {config.CALLRAIL.PHONE}</div>
             </a>
             <ChatButton />
             <script
@@ -34,14 +35,10 @@ const Hero = () => (
                 __html: `if (!window._laq) { window._laq = []; }
                             window._laq.push(function () {
                                 liveagent.showWhenOnline(
-                                    '573G0000000TXry',
-                                    document.getElementById('liveagent_button_online_573G0000000TXry')
+                                    '${config.SALESFORCE.DEPLOYMENT_ID}',
+                                    document.getElementById('liveagent_button_online_${config.SALESFORCE.DEPLOYMENT_ID}')
                                 );
-                                liveagent.showWhenOffline(
-                                    '573G0000000TXry',
-                                    document.getElementById('liveagent_button_offline_573G0000000TXry')
-                                );
-                            });`
+                            })`
               }}
             />
           </div>

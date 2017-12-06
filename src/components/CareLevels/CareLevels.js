@@ -4,6 +4,7 @@ import Iop from './care-iop.png'
 import Op from './care-outpatient.png'
 import Php from './care-php.png'
 import Residential from './care-residential.png'
+import './CareLevels.scss'
 
 const CareLevels = () => (
     <div className='container--care bg-aqua'>

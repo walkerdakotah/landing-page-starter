@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import '../scss/main.scss'
 import Header from '../components/Header/Header'
 import StickyFooter from '../components/StickyFooter/StickyFooter'
 
@@ -18,32 +19,26 @@ const TemplateWrapper = ({ children }) => (
         {
           src:
             "https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js",
-          type: "text/javascript"
         },
         {
           src:
             "https://americanaddictioncenters.org/wp-content/plugins/aacattribution/dist/attrlib.min.js",
-          type: "text/javascript"
         },
         {
           src:
             "https://americanaddictioncenters.org/wp-content/plugins/aacattribution/dist/sfvar.min.js",
-          type: "text/javascript"
         },
         {
           src:
             "https://cdn.jsdelivr.net/fingerprintjs2/1.1.4/fingerprint2.min.js",
-          type: "text/javascript"
         },
         {
           src:
             "https://cdn.jsdelivr.net/jquery.validation/1.15.0/jquery.validate.min.js",
-          type: "text/javascript"
         },
         {
           src:
             "https://cdn.jsdelivr.net/jquery.validation/1.15.0/additional-methods.min.js",
-          type: "text/javascript"
         }
       ]}
       link={[
@@ -53,7 +48,7 @@ const TemplateWrapper = ({ children }) => (
             "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
           integrity:
             "sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN",
-          crossorigin: "anonymous"
+          crossOrigin: "anonymous"
         },
         {
           rel: "stylesheet",

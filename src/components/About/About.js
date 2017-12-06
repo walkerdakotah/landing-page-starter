@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from './logo-round.png'
+import './About.scss'
 
 const About = () => (
     <div className='container--about'>

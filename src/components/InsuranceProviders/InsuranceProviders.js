@@ -6,6 +6,7 @@ import harvardhealth from './harvard-health.png'
 import humana from './humana.png'
 import unitedhealth from './united-health.png'
 import upmc from './upmc.png'
+import './InsuranceProviders.scss'
 
 const InsuranceProviders = () => (
     <div className='container--providers'>

@@ -1,5 +1,6 @@
 .container--hero {
-    background: url('../assets/background-images/hero-mobile.png') no-repeat top center ;
+    $bg-path: '../../assets/background-images';
+    background: url('#{$bg-path}/hero-mobile.png') no-repeat top center ;
     background-size:cover;
     display: flex;
     flex-direction: column;
@@ -7,7 +8,7 @@
     height: 515px;
 
     @media(min-width: 480px) {
-        background: url('../assets/background-images/hero-desktop.png') no-repeat 70% center;
+        background: url('#{$bg-path}/hero-desktop.png') no-repeat 70% center;
         background-size: cover;
         justify-content: space-between;
         height: 368px;

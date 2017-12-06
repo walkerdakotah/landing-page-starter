@@ -10,8 +10,6 @@ import Testimonials from '../components/Testimonials/Testimonials'
 import ProgramGuarantee from '../components/ProgramGuarantee/ProgramGuarantee'
 import Footer from '../components/BrandedFooter/BrandedFooter'
 
-require('../scss/main.scss');
-
 const IndexPage = () => (
   <div className='content'>
     <Hero />

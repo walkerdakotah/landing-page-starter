@@ -1,4 +1,5 @@
 import React from 'react'
+import './Response.scss'
 
 const Response = () => (
     <div className='container--response'>

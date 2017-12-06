@@ -1,4 +1,5 @@
 import React from 'react'
+import config from './data/SiteConfig'
 
 let stylesStr
 if (process.env.NODE_ENV === `production`) {
@@ -55,7 +56,9 @@ module.exports = class HTML extends React.Component {
           <script
             src='https://c.la1c1.salesforceliveagent.com/content/g/js/36.0/deployment.js'/>
           <script
-            dangerouslySetInnerHTML={{ __html: `liveagent.init('https://d.la1c1.salesforceliveagent.com/chat', '572G0000000TXdG', '00DG0000000CLl1');`}} 
+            dangerouslySetInnerHTML={{
+              __html: `liveagent.init('https://d.la1c1.salesforceliveagent.com/chat', '${config.SALESFORCE.DEPLOYMENT_ID}', '${config.SALESFORCE.ORG_ID}');`
+            }} 
           />
         </body>
       </html>

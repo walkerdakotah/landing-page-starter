@@ -1,28 +1,28 @@
-import React from 'react'
-import Hero from '../components/Hero/Hero'
-import Congrats from '../components/Congrats/Congrats'
-import ContactForm from '../components/ContactForm/ContactForm'
-import Response from '../components/Response/Response'
-import InsuranceProviders from '../components/InsuranceProviders/InsuranceProviders'
-import CareLevels from '../components/CareLevels/CareLevels'
-import About from '../components/About/About'
-import Testimonials from '../components/Testimonials/Testimonials'
-import ProgramGuarantee from '../components/ProgramGuarantee/ProgramGuarantee'
-import Footer from '../components/BrandedFooter/BrandedFooter'
+import React from "react";
+import Hero from "../components/Hero/Hero";
+import MakeTheCall from "../components/MakeTheCall/MakeTheCall";
+import ContactForm from "../components/ContactForm/ContactForm";
+import WhatHappens from "../components/WhatHappens/WhatHappens";
+import InsuranceProviders from "../components/InsuranceProviders/InsuranceProviders";
+import CareLevels from "../components/CareLevels/CareLevels";
+import AboutAAC from "../components/AboutAAC/AboutAAC";
+import Testimonials from "../components/Testimonials/Testimonials";
+import ProgramGuarantee from "../components/ProgramGuarantee/ProgramGuarantee";
+import Footer from "../components/BrandedFooter/BrandedFooter";
 
 const IndexPage = () => (
-  <div className='content'>
+  <div className="content">
     <Hero />
-    <Congrats />
+    <MakeTheCall />
     <ContactForm />
-    <Response />
+    <WhatHappens />
     <InsuranceProviders />
     <CareLevels />
-    <About />
+    <AboutAAC />
     <Testimonials />
     <ProgramGuarantee />
     <Footer />
   </div>
-)
+);
 
-export default IndexPage
+export default IndexPage;

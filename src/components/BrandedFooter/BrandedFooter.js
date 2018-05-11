@@ -1,27 +1,42 @@
-import React from 'react'
-import Logo from './logo-white.png'
-import config from '../../data/SiteConfig'
-import './BrandedFooter.scss'
+import React from "react";
+import Logo from "./logo-white.png";
+import config from "../../data/SiteConfig";
+import "./BrandedFooter.scss";
 
 const Footer = () => (
-    <div className='branded-footer bg-blue'>
-        <div className='container--ruler'>
-            <div className='footer__content'>
-                <a className='logo--link' href='/' target='blank'>
-                    <img className='footer__logo' src={Logo}/>
-                </a>
-                <div className='footer__contact font-grey-blue'>
-                    <p className='contact--address'>200 Powell Pl.</p>
-                    <p className='contact--address'>Brentwood, TN 37027</p>
-                    <p className='contact--address'>(888) 970-8544</p>
-                </div>
-                    <a href={`tel:+1${config.CALLRAIL.PHONE}`}>
-                    {/* <div className='footer__cta--phone font-heavy font-white'>Call 888-966-8152</div> */}
-                    <div className='footer__cta--phone font-heavy font-white'>Call {config.CALLRAIL.PHONE}</div>
-                </a>
-            </div>
+  <div className="branded-footer bg-blue">
+    <div className="container--ruler">
+      <div className="footer__content">
+        <a className="logo--link" href="/" target="blank">
+          <img className="footer__logo" src={Logo} />
+        </a>
+        <div className="footer__contact font-grey-blue">
+          <p className="contact--address">200 Powell Pl.</p>
+          <p className="contact--address">Brentwood, TN 37027</p>
+          <p className="contact--address">(888) 970-8544</p>
         </div>
+        <a href={`tel:+1${config.CALLRAIL.PHONE}`}>
+          <div className="footer__cta--phone font-heavy font-white">
+            Call {config.CALLRAIL.PHONE}
+          </div>
+        </a>
+      </div>
+      <div className="footer__disclaimer">
+        <a
+          href="https://americanaddictioncenters.org/policy/"
+          className="font-grey-blue disclaimer"
+        >
+          Online Private Policy
+        </a>
+        <a
+          href="https://americanaddictioncenters.org/term-of-use/"
+          className="font-grey-blue disclaimer"
+        >
+          Terms of Use
+        </a>
+      </div>
     </div>
-)
+  </div>
+);
 
-export default Footer
+export default Footer;

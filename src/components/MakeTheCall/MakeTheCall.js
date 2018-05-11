@@ -1,15 +1,15 @@
 import React from "react";
-import "./Congrats.scss";
+import "./MakeTheCall.scss";
 
-const Hero = () => (
-  <div className="container--congrats">
+const MakeTheCall = () => (
+  <div className="container--make-the-call">
     <div className="container--ruler">
-      <div className="congrats__content">
-        <div className="congrats__title font-light">
+      <div className="make-the-call__content">
+        <div className="make-the-call__title font-light">
           Make the call now. We’ll handle the rest.
         </div>
-        <div className="congrats__content--whole">
-          <div className="congrats__content--half half--one">
+        <div className="make-the-call__content--whole">
+          <div className="make-the-call__content--half half--one">
             <div className="half--title font-blue blue-bottom font-heavy">
               For You.
             </div>
@@ -21,7 +21,7 @@ const Hero = () => (
               health disorder, and your unique needs.
             </div>
           </div>
-          <div className="congrats__content--half half--two">
+          <div className="make-the-call__content--half half--two">
             <div className="half--title font-teal teal-bottom font-heavy">
               For Someone You Care About.
             </div>
@@ -43,4 +43,4 @@ const Hero = () => (
   </div>
 );
 
-export default Hero;
+export default MakeTheCall;

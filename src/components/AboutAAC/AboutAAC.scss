@@ -1,51 +1,47 @@
-.container--about {
+.container--about-aac {
     padding-top: 2rem;
     padding-bottom: 2rem;
     display: flex;
     flex-direction: column;
 }
 
-.about__content {
+.about-aac__content {
     display: flex;
     flex-direction: column;
 }
 
-.about__logo {
+.about-aac__logo {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2rem;
 }
 
-.about__title {
+.about-aac__title {
     font-size: 22px;
     line-height: 123%;
     text-align: center;
-
     @media (min-width: 768px) {
         font-size: 28px;
     }
 }
 
-.about__sub-text--text {
+.about-aac__sub-text--text {
     margin-bottom: 1rem;
     display: block;
     font-size: 16px;
     line-height: 135%;
 }
 
-.about__list {
+.about-aac__list {
     font-size: 16px;
     line-height: 147%;
     padding-left: 20px;
-
     @media (min-width: 768px) {
         max-width: 750px;
     }
-
     @media(min-width: 992px) {
         max-width: 970px;
     }
-
     @media (min-width: 1200px) {
         margin-top: 1rem;
     }

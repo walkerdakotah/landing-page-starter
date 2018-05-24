@@ -1,7 +1,7 @@
-import React from 'react'
-import ChatButton from '../ChatButton/ChatButton'
-import config from '../../data/SiteConfig'
-import './Hero.scss'
+import React from 'react';
+import ChatButton from '../ChatButton/ChatButton';
+import config from '../../data/SiteConfig';
+import './Hero.scss';
 
 const Hero = () => (
   <div className="container--hero">
@@ -9,7 +9,7 @@ const Hero = () => (
       <div className="hero__content">
         <div className="hero__title">
           <h1 className="hero__title--pre-title font-lightest">
-            Strugging with addiction?
+            Struggling with addiction?
           </h1>
           <div className="hero__title--title font-light">
             Real help can start in just 24 hours.
@@ -20,14 +20,16 @@ const Hero = () => (
             Long-term recovery from drug and alcohol addiction is not only
             possible, it’s within your reach. We’ve helped thousands of people
             stop using for good through proven clinical treatment and positive
-            changes in attitude, behavior, lifestyle and values.{" "}
+            changes in attitude, behavior, lifestyle and values.{' '}
             <strong>
               We’re here to help you get your life back. Are you ready?
             </strong>
           </p>
           <div className="hero__sub-text--cta">
-              <a href={`tel:+1${config.CALLRAIL.PHONE}`}>
-              <div className="cta__phone font-heavy">Call {config.CALLRAIL.PHONE}</div>
+            <a href={`tel:+1${config.CALLRAIL.PHONE}`}>
+              <div className="cta__phone font-heavy">
+                Call {config.CALLRAIL.PHONE}
+              </div>
             </a>
             <ChatButton />
             <script
@@ -36,9 +38,10 @@ const Hero = () => (
                             window._laq.push(function () {
                                 liveagent.showWhenOnline(
                                     '${config.SALESFORCE.DEPLOYMENT_ID}',
-                                    document.getElementById('liveagent_button_online_${config.SALESFORCE.DEPLOYMENT_ID}')
+                                    document.getElementById('liveagent_button_online_${config
+                                      .SALESFORCE.DEPLOYMENT_ID}')
                                 );
-                            })`
+                            })`,
               }}
             />
           </div>
@@ -51,21 +54,21 @@ const Hero = () => (
       </p>
       <ul className="hero__sub--list font-light font-white">
         <li className="hero__sub--list-item">
-          Adult Addiction Treatment Programs{" "}
+          Adult Addiction Treatment Programs{' '}
         </li>
         <li className="hero__sub--list-item">
-          Dual Diagnosis Treatment Curriculum{" "}
+          Dual Diagnosis Treatment Curriculum{' '}
         </li>
         <li className="hero__sub--list-item">
-          Systemic Family Intervention Program{" "}
+          Systemic Family Intervention Program{' '}
         </li>
         <li className="hero__sub--list-item">Drug Recovery — Aftercare </li>
         <li className="hero__sub--list-item">
-          Fire Services & Law Enforcement{" "}
+          Fire Services & Law Enforcement{' '}
         </li>
       </ul>
     </div>
   </div>
 );
 
-export default Hero
+export default Hero;

@@ -1,6 +1,6 @@
-import React from "react";
-import Logo from "./logo-round.png";
-import "./AboutAAC.scss";
+import React from 'react';
+import Logo from './logo-round.png';
+import './AboutAAC.scss';
 
 const AboutAAC = () => (
   <div className="container--about-aac">
@@ -8,7 +8,7 @@ const AboutAAC = () => (
       <div className="about-aac__content">
         <img className="about-aac__logo" src={Logo} />
         <div className="about-aac__title font-heavy">
-          About-aac American Addiction Centers
+          About American Addiction Centers
         </div>
         <div className="about-aac__sub-text">
           <p className="about-aac__sub-text--text font-light">

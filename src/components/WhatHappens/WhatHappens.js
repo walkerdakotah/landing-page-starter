@@ -31,19 +31,6 @@ const WhatHappens = () => (
               facility that best meets your clinical and financial needs.
             </p>
           </li>
-          <li className="what-happens__list-item plane">
-            <h3 className="what-happens__list-item--title font-heavy">
-              We’ll book your travel.
-            </h3>
-            <p className="what-happens__list-item--content">
-              We’ll even coordinate all travel arrangements, including flights,
-              airport pickup and transportation directly to the facility,
-              usually arriving within 24 hours of the initial phone assessment.
-              Your Treatment Consultant will work closely with the facility and
-              its transportation staff to coordinate all flight schedules and
-              travel information.
-            </p>
-          </li>
           <li className="what-happens__list-item heart">
             <h3 className="what-happens__list-item--title font-heavy">
               We’ll make sure you get the help you need.

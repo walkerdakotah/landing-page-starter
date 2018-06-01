@@ -13,10 +13,10 @@ import Footer from "../components/BrandedFooter/BrandedFooter";
 const IndexPage = () => (
   <div className="content">
     <Hero />
+    <InsuranceProviders />
     <MakeTheCall />
     <ContactForm />
     <WhatHappens />
-    <InsuranceProviders />
     <CareLevels />
     <AboutAAC />
     <Testimonials />

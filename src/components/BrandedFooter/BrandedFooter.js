@@ -21,19 +21,25 @@ const Footer = () => (
           </div>
         </a>
       </div>
-      <div className="footer__disclaimer">
+      <div className="footer__terms">
         <a
           href="https://americanaddictioncenters.org/policy/"
-          className="font-grey-blue disclaimer"
+          className="font-grey-blue term"
+          target="_blank"
         >
           Online Private Policy
         </a>
         <a
           href="https://americanaddictioncenters.org/term-of-use/"
-          className="font-grey-blue disclaimer"
+          className="font-grey-blue term"
+          target="_blank"
         >
           Terms of Use
         </a>
+      </div>
+      <div className="footer__disclaimer">
+        <p className="font-grey-blue disclaimer">*Not all insurance policies are the same. Insurance coverage varies based on individual policies. All logos and trademarks are the sole and exclusive rights of their respective owners.</p>
+        <p className="font-grey-blue disclaimer">**Please call for an insurance verification</p>
       </div>
     </div>
   </div>

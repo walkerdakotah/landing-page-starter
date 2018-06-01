@@ -14,9 +14,19 @@
         font-size: 28px;
     }
 }
+.providers__subtitle {
+    font-size: 16px;
+    line-height: 123%;
+    text-align: center;
+    margin-top: 1.5rem;
+
+    @media (min-width: 768px) {
+        font-size: 20px;
+    }
+}
 
 .providers__list {
-    margin-top: 1rem;
+    margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

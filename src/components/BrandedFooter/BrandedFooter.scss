@@ -27,18 +27,25 @@
     line-height: 42px;
 }
 
-.footer__disclaimer {
-    margin-top: 2rem;
+.footer__terms, .footer__disclaimer {
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 
-.disclaimer {
+.footer__terms {
+    align-items: center;
+}
+
+.term {
     padding: 0.25rem 0;
     &:hover,
     &:active {
         color: #fff;
     }
+}
+
+.disclaimer {
+    font-size: 11px;
 }

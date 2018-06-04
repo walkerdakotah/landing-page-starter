@@ -41,24 +41,24 @@ module.exports = class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
-          <script 
-            dangerouslySetInnerHTML={{ __html: `lsv = 'WEB-AAC-MAIN';`}}
+          <script
+            dangerouslySetInnerHTML={{ __html: `lsv = '${config.LEADSOURCE.AAC}';` }}
           />
-          <script 
-            src='https://americanaddictioncenters.org/wp-content/plugins/aacattribution/dist/attrlib.min.js' 
+          <script
+            src='https://americanaddictioncenters.org/wp-content/plugins/aacattribution/dist/attrlib.min.js'
           />
-          <script 
-            src='https://americanaddictioncenters.org/wp-content/plugins/aacattribution/dist/sfvar.min.js' 
+          <script
+            src='https://americanaddictioncenters.org/wp-content/plugins/aacattribution/dist/sfvar.min.js'
           />
-          <script 
+          <script
             src='//cdn.callrail.com/companies/154422313/c8d5c08142940b7cb1ac/12/swap.js'
           />
           <script
-            src='https://c.la1c1.salesforceliveagent.com/content/g/js/36.0/deployment.js'/>
+            src='https://c.la1c1.salesforceliveagent.com/content/g/js/36.0/deployment.js' />
           <script
             dangerouslySetInnerHTML={{
               __html: `liveagent.init('https://d.la1c1.salesforceliveagent.com/chat', '${config.SALESFORCE.DEPLOYMENT_ID}', '${config.SALESFORCE.ORG_ID}');`
-            }} 
+            }}
           />
         </body>
       </html>

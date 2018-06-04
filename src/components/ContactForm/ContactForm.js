@@ -16,7 +16,7 @@ const ContactForm = () => (
                     </div>
                 </div>
                 <div className='form__body'>
-                    <form className='mktgform' id='ppcPage' method='POST' noValidate='noValidate'>
+                    <form className='mktgform' id='ppcPage' method='POST' action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8">
                         <input name='oid' type='hidden' value='00DG0000000CLl1' />
                         <div className='form__input'>
                             <input required id='first_name' placeholder='First Name *' maxLength='40' name='first_name' type='text' />

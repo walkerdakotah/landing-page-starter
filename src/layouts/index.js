@@ -11,8 +11,8 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="American Addiction Centers - Help For Addiction"
       meta={[
-        { name: "description", content: "Sample" },
-        { name: "author", content: "American Addiction Center" },
+        { name: "description", content: "Help for Addiction" },
+        { name: "author", content: "American Addiction Centers" },
         { name: "robots", content: "noindex,nofollow" }
       ]}
       script={[

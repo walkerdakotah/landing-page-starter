@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Help For Addiction`,
+    title: `A National Leader In Addiction Recovery Treatment`,
   },
   plugins: [
     {

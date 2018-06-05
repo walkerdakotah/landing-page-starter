@@ -13,7 +13,6 @@ const Footer = () => (
         <div className="footer__contact font-grey-blue">
           <p className="contact--address">200 Powell Pl.</p>
           <p className="contact--address">Brentwood, TN 37027</p>
-          <p className="contact--address">(888) 970-8544</p>
         </div>
         <a href={`tel:+1${config.CALLRAIL.PHONE}`}>
           <div className="footer__cta--phone font-heavy font-white">

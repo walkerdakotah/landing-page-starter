@@ -58,7 +58,7 @@ const ContactForm = () => (
                         <li className='font-medium form__footer--list-item search'>FREE Insurance Verification</li>
                         <li className='font-medium form__footer--list-item clock'>Help Available 24/7</li>
                     </ul>
-                    <div className='form__footer--disclaimer font-medium'>By submitting this form, I agree to be contacted by American Addiction Centers, Inc. at the phone number provided above, including my wireless numbers if provided. We won’t sell your information and will treat your information in accordance with our <a href='/policy' target='_blank' alt='Privacy Policy'>privacy policy</a>.</div>
+                    <div className='form__footer--disclaimer font-medium'>By submitting this form, I agree to be contacted by American Addiction Centers, Inc. at the phone number provided above, including my wireless numbers if provided. We won’t sell your information and will treat your information in accordance with our <a href='/policy/' target='_blank' alt='Privacy Policy'>privacy policy</a>.</div>
                 </div>
             </div>
         </div>

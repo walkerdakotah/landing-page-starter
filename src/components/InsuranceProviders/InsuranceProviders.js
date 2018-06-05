@@ -9,11 +9,10 @@ import upmc from './upmc.png'
 import './InsuranceProviders.scss'
 
 const InsuranceProviders = () => (
-    <div className='container--providers'>
+  <div className='container--providers'>
     <div className='container--ruler'>
       <div className='providers__content'>
-        <div className='providers__title'>Insurance Covers Up To <span className="font-heavy">100% of Treatment*</span></div>
-        <div className="providers__subtitle">We Accept Most Insurance**</div>
+        <div className='providers__title'>We Work with Many Insurance Companies, including: *</div>
         <div className='providers__list'>
           <img src={humana} className='provider' />
           <img src={bluecross} className='provider' />

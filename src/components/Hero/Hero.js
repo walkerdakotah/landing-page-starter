@@ -1,6 +1,6 @@
 import React from 'react';
 import ChatButton from '../ChatButton/ChatButton';
-import config from '../../data/SiteConfig';
+import config from '../../data/site-config';
 import './Hero.scss';
 
 const Hero = () => (
@@ -39,7 +39,7 @@ const Hero = () => (
                                 liveagent.showWhenOnline(
                                     '${config.SALESFORCE.DEPLOYMENT_ID}',
                                     document.getElementById('liveagent_button_online_${config
-                                      .SALESFORCE.DEPLOYMENT_ID}')
+                    .SALESFORCE.DEPLOYMENT_ID}')
                                 );
                             })`,
               }}

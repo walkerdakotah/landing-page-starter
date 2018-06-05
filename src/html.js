@@ -1,5 +1,5 @@
 import React from 'react'
-import config from './data/SiteConfig'
+import config from './data/site-config'
 
 let stylesStr
 if (process.env.NODE_ENV === `production`) {
@@ -42,16 +42,10 @@ module.exports = class HTML extends React.Component {
           />
           {this.props.postBodyComponents}
           <script
-            dangerouslySetInnerHTML={{ __html: `lsv = '${config.LEADSOURCE.AAC}';` }}
+            dangerouslySetInnerHTML={{ __html: `lsv = '${config.SITE.LEADSOURCE}';` }}
           />
           <script
-            src='https://americanaddictioncenters.org/wp-content/plugins/aacattribution/dist/attrlib.min.js'
-          />
-          <script
-            src='https://americanaddictioncenters.org/wp-content/plugins/aacattribution/dist/sfvar.min.js'
-          />
-          <script
-            src='//cdn.callrail.com/companies/154422313/c8d5c08142940b7cb1ac/12/swap.js'
+            src={`//cdn.callrail.com/companies/${config.CALLRAIL.SNIPPET_SLUG_1}/${config.CALLRAIL.SNIPPET_SLUG_2}/12/swap.js`}
           />
           <script
             src='https://c.la1c1.salesforceliveagent.com/content/g/js/36.0/deployment.js' />

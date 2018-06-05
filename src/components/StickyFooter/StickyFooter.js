@@ -1,5 +1,5 @@
 import React from 'react'
-import config from '../../data/SiteConfig'
+import config from '../../data/site-config'
 import './StickyFooter.scss'
 
 const StickyFooter = () => (

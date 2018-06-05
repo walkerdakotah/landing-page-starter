@@ -1,5 +1,5 @@
 import React from 'react'
-import config from '../../data/SiteConfig'
+import config from '../../data/site-config'
 import './ContactForm.scss'
 
 const ContactForm = () => (
@@ -33,7 +33,7 @@ const ContactForm = () => (
                         <div className='form__input form__input--text'>
                             <textarea required name='description' rows='8' cols='80' placeholder='What can we help you with? *'></textarea>
                         </div>
-                        <input name='retURL' type='hidden' value='https://americanaddictioncenters.org/thank-you-2/' />
+                        <input name='retURL' type='hidden' value={`https://${config.SITE.NAME}/thank-you-2/`} />
                         <input id='lead_source' name='lead_source' className='lead_source' type='hidden' />
                         <input id='OwnerId' name='OwnerId' type='hidden' value='00GG0000001MB0uMAG' />
                         <input id='recordType' name='recordType' type='hidden' value='012G0000001QDubIAG' />
@@ -58,7 +58,7 @@ const ContactForm = () => (
                         <li className='font-medium form__footer--list-item search'>FREE Insurance Verification</li>
                         <li className='font-medium form__footer--list-item clock'>Help Available 24/7</li>
                     </ul>
-                    <div className='form__footer--disclaimer font-medium'>By submitting this form, I agree to be contacted by American Addiction Centers, Inc. at the phone number provided above, including my wireless numbers if provided. We won’t sell your information and will treat your information in accordance with our <a href='/policy/' target='_blank' alt='Privacy Policy'>privacy policy</a>.</div>
+                    <div className='form__footer--disclaimer font-medium'>By submitting this form, I agree to be contacted by American Addiction Centers, Inc. at the phone number provided above, including my wireless numbers if provided. We won’t sell your information and will treat your information in accordance with our <a href={`https://${config.SITE.NAME}/${config.SITE.POLICY_LINK}/`} target='_blank' alt='Privacy Policy'>privacy policy</a>.</div>
                 </div>
             </div>
         </div>

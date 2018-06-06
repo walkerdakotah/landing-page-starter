@@ -32,17 +32,8 @@ const Hero = () => (
               </div>
             </a>
             <ChatButton />
-            <script
-              dangerouslySetInnerHTML={{
-                __html: `if (!window._laq) { window._laq = []; }
-                            window._laq.push(function () {
-                                liveagent.showWhenOnline(
-                                    '${config.SALESFORCE.DEPLOYMENT_ID}',
-                                    document.getElementById('liveagent_button_online_${config
-                    .SALESFORCE.DEPLOYMENT_ID}')
-                                );
-                            })`,
-              }}
+            <div
+              id={`liveagent_button_offline_${config.SALESFORCE.BUTTON_ID}`}
             />
           </div>
         </div>

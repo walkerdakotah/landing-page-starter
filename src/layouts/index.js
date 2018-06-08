@@ -1,74 +1,47 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import '../styles/app.scss';
 import Helmet from 'react-helmet';
-import '../scss/main.scss';
-import Header from '../components/Header/Header';
-import StickyFooter from '../components/StickyFooter/StickyFooter';
-import config from '../data/site-config';
+import {
+  Project,
+  MetaAuthor,
+  MetaRobots,
+  Fingerprint,
+  Fonts,
+  jQuery
+} from '../../project-config';
+import Header from '../modules/Header/Header';
 
-const TemplateWrapper = ({ children }) => (
-  <div>
+export default ({ children }) => (
+  <div className="app-wrap">
     <Helmet
-      title="American Addiction Centers - Help For Addiction"
+      title={`${Project.title}`}
       meta={[
-        { name: 'description', content: 'Help for Addiction' },
-        { name: 'author', content: 'American Addiction Centers' },
+        { name: 'description', content: `${Project.title}` },
+        { name: 'author', content: `${Project.name}` },
         { name: 'robots', content: 'noindex,nofollow' },
       ]}
       script={[
         {
-          src:
-            'https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js',
+          src: `${Fingerprint.src}`,
         },
         {
-          src:
-            'https://americanaddictioncenters.org/wp-content/plugins/aacattribution/dist/attrlib.min.js',
+          src: `${jQuery.core}`,
         },
         {
-          src:
-            'https://americanaddictioncenters.org/wp-content/plugins/aacattribution/dist/sfvar.min.js',
+          src: `${jQuery.validation}`,
         },
         {
-          src:
-            'https://cdn.jsdelivr.net/fingerprintjs2/1.1.4/fingerprint2.min.js',
-        },
-        {
-          src:
-            'https://cdn.jsdelivr.net/jquery.validation/1.15.0/jquery.validate.min.js',
-        },
-        {
-          src:
-            'https://cdn.jsdelivr.net/jquery.validation/1.15.0/additional-methods.min.js',
+          src: `${jQuery.additional_methods}`,
         },
       ]}
       link={[
         {
-          rel: 'stylesheet',
-          href:
-            'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
-          integrity:
-            'sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN',
-          crossOrigin: 'anonymous',
-        },
-        {
-          rel: 'stylesheet',
-          href:
-            'https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900',
-        },
-        {
-          rel: 'dns-prefetch',
-          href: `//${config.SALESFORCE.PREFETCH}`,
+          rel: `${Fonts.rel}`,
+          href: `${Fonts.href}`,
         },
       ]}
     />
     <Header />
-    <div>{children()}</div>
-    <StickyFooter />
+    {/* {children()} */}
   </div>
 );
-
-TemplateWrapper.propTypes = {
-  children: PropTypes.func,
-};
-
-export default TemplateWrapper;

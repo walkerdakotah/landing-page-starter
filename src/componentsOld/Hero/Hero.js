@@ -1,7 +1,6 @@
 import React from 'react';
-import ChatButton from '../ChatButton/ChatButton';
 import config from '../../data/site-config';
-import './Hero.scss';
+import backgroundImage from '../../assets/aac/hero/hero-mobile-aac.jpg';
 
 const Hero = () => (
   <div className="container--hero">
@@ -31,33 +30,9 @@ const Hero = () => (
                 Call {config.CALLRAIL.PHONE}
               </div>
             </a>
-            <ChatButton />
-            <div
-              id={`liveagent_button_offline_${config.SALESFORCE.BUTTON_ID}`}
-            />
           </div>
         </div>
       </div>
-    </div>
-    <div className="hero__sub">
-      <p className="hero__sub--title font-medium font-white">
-        A complete spectrum of options. Treatment tailored to YOU.
-      </p>
-      <ul className="hero__sub--list font-light font-white">
-        <li className="hero__sub--list-item">
-          Adult Addiction Treatment Programs{' '}
-        </li>
-        <li className="hero__sub--list-item">
-          Dual Diagnosis Treatment Curriculum{' '}
-        </li>
-        <li className="hero__sub--list-item">
-          Systemic Family Intervention Program{' '}
-        </li>
-        <li className="hero__sub--list-item">Drug Recovery — Aftercare </li>
-        <li className="hero__sub--list-item">
-          Fire Services & Law Enforcement{' '}
-        </li>
-      </ul>
     </div>
   </div>
 );

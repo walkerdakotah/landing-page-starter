@@ -6,7 +6,7 @@ class ChatButton extends React.Component {
     return (
       <a
         onClick={this.handleClick}
-        id={`liveagent_button_online_${config.SALESFORCE.BUTTON_ID}`}
+        id={`liveagent_button_online_${config.Salesforce.BUTTON_ID}`}
         className="cta__button font-white bg-orange"
         href="javascript://Chat"
       >
@@ -15,7 +15,7 @@ class ChatButton extends React.Component {
     );
   }
   handleClick() {
-    liveagent.startChat(`${config.SALESFORCE.BUTTON_ID}`);
+    liveagent.startChat(`${config.Salesforce.BUTTON_ID}`);
   }
 }
 

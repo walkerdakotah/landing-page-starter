@@ -1,18 +1,21 @@
 {
-  "name": "help-for-addiction",
-  "description": "A Facebook landing page",
+  "name": "ppc-landing-pages",
+  "description": "A marketing landing page built with Gatsby and styled with Tailwind",
   "version": "1.0.0",
   "author": "American Addiction Centers",
   "dependencies": {
     "eslint": "^4.9.0",
-    "gatsby": "^1.9.86",
+    "gatsby": "^1.9.270",
     "gatsby-link": "^1.6.23",
-    "gatsby-plugin-google-tagmanager": "^1.0.7",
-    "gatsby-plugin-react-helmet": "^1.0.8",
-    "gatsby-plugin-sass": "^1.0.12"
+    "gatsby-plugin-google-tagmanager": "^1.0.17",
+    "gatsby-plugin-react-helmet": "^2.0.11",
+    "gatsby-plugin-sass": "^1.0.26",
+    "react-helmet": "^5.2.0"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "tailwindcss",
+    "purgecss"
   ],
   "license": "MIT",
   "main": "n/a",
@@ -20,10 +23,15 @@
     "build:prod": "gatsby build --prefix-paths",
     "build:stage": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'"
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
+    "develop:tailwind": "npm run build:css && gatsby develop",
+    "build:tailwindcss": "tailwind build ./src/layouts/index.tailwind.css -c ./tailwind.config.js -o ./src/layouts/index.css",
+    "build:purgecss": "npm run build:css && purgecss -c ./purgecss.config.js -o ./src/layouts && gatsby build"
   },
   "devDependencies": {
     "gatsby-cli": "^1.1.11",
-    "prettier": "^1.7.4"
+    "prettier": "^1.7.4",
+    "purgecss": "^0.21.0",
+    "tailwindcss": "^0.5.3"
   }
 }

@@ -1,5 +1,11 @@
 import React from 'react';
-import config from './data/site-config';
+import {
+  Project,
+  Attribution,
+  Fingerprint,
+  Fonts,
+  CallRail
+} from '../project-config';
 
 let stylesStr;
 if (process.env.NODE_ENV === `production`) {
@@ -42,33 +48,11 @@ module.exports = class HTML extends React.Component {
           />
           {this.props.postBodyComponents}
           <script
-            dangerouslySetInnerHTML={{
-              __html: `lsv = '${config.SITE.LEADSOURCE}';`,
-            }}
+            dangerouslySetInnerHTML={{ __html: `${Attribution.leadsource}` }}
           />
-          <script
-            src={`//cdn.callrail.com/companies/${config.CALLRAIL
-              .SNIPPET_SLUG_1}/${config.CALLRAIL.SNIPPET_SLUG_2}/12/swap.js`}
-          />
-          <script src={`https://${config.SALESFORCE.DEPLOYMENT_SCRIPT}`} />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `liveagent.init('https://${config.SALESFORCE
-                .CHAT_URL}', '${config.SALESFORCE.DEPLOYMENT_ID}', '${config
-                .SALESFORCE.ORG_ID}');`,
-            }}
-          />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `if(!window._laq){window._laq=[];}window._laq.push(function(){liveagent.showWhenOnline('${config
-                .SALESFORCE
-                .BUTTON_ID}',document.getElementById('liveagent_button_online_${config
-                .SALESFORCE.BUTTON_ID}'));liveagent.showWhenOffline('${config
-                .SALESFORCE
-                .BUTTON_ID}',document.getElementById('liveagent_button_offline_${config
-                .SALESFORCE.BUTTON_ID}'));})`,
-            }}
-          />
+          <script src={`${Attribution.attr}`} />
+          <script src={`${Attribution.sf}`} />
+          <script src={`${CallRail.src}`} />
         </body>
       </html>
     );

@@ -8,8 +8,11 @@
     "gatsby": "^1.9.270",
     "gatsby-link": "^1.6.23",
     "gatsby-plugin-google-tagmanager": "^1.0.17",
+    "gatsby-plugin-postcss-sass": "^1.0.21",
     "gatsby-plugin-react-helmet": "^2.0.11",
     "gatsby-plugin-sass": "^1.0.26",
+    "node-sass-chokidar": "^1.3.0",
+    "postcss-cli": "^5.0.0",
     "react-helmet": "^5.2.0"
   },
   "keywords": [
@@ -20,18 +23,22 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "build:prod": "gatsby build --prefix-paths",
-    "build:stage": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
-    "develop:tailwind": "npm run build:css && gatsby develop",
-    "build:tailwindcss": "tailwind build ./src/layouts/index.tailwind.css -c ./tailwind.config.js -o ./src/layouts/index.css",
-    "build:purgecss": "npm run build:css && purgecss -c ./purgecss.config.js -o ./src/layouts && gatsby build"
+    "watch:sass": "node-sass-chokidar --source-map true src/styles/main.scss -o src/styles/builds/after-sass -w",
+    "watch:postcss": "postcss src/styles/builds/after-sass/main.css -o src/styles/builds/after-postcss/main.css -w",
+    "watch:styles": "npm run watch:sass & npm run watch:postcss",
+    "build:sass": "node-sass-chokidar src/styles/main.scss -o src/styles/builds/after-sass",
+    "build:postcss": "postcss src/styles/builds/after-sass/main.css -o src/styles/builds/after-postcss/main.css",
+    "build:purgecss": "purgecss --css src/styles/builds/after-postcss/main.css --con public/index.html src/**/*.js -o src/styles/builds/after-purgecss",
+    "build:styles": "npm run build:sass && npm run build:postcss && npm run build:purgecss",
+    "develop": "gatsby develop & npm run watch:styles",
+    "build": "npm run build:styles && gatsby build"
   },
   "devDependencies": {
     "gatsby-cli": "^1.1.11",
     "prettier": "^1.7.4",
     "purgecss": "^0.21.0",
-    "tailwindcss": "^0.5.3"
+    "tailwindcss": "^0.5.3",
+    "postcss": "^6.0.21",
+    "postcss-loader": "^2.1.4"
   }
 }

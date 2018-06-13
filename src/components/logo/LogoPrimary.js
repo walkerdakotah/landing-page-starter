@@ -1,22 +1,11 @@
 import React from 'react';
-import Logo from '../../assets/aac/logo/logo-multi.svg';
+
+import Logo from '../../assets/logo/aac-multi.svg';
 
 const LogoPrimary = () => (
-  <a className="corp-link" href="/" target="blank">
-    <img src={Logo} className="corp-logo" />
+  <a className="flex items-center" href="/" target="blank">
+    <img src={Logo} className="h-8 lg:h-12" />
   </a>
 );
 
 export default LogoPrimary;
-
-// export default function LogoPrimary({ logo }) {
-//   return (
-//     <a className="corp-link" href="/" target="blank">
-//       <img src={Logo} className="corp-logo" />
-//     </a>
-//   );
-// }
-
-// LogoPrimary.propTypes = {
-//   logo: PropTypes.string.isRequired,
-// };

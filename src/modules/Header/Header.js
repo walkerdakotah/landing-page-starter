@@ -1,12 +1,12 @@
 import React from 'react';
 import LogoPrimary from '../../components/logo/LogoPrimary';
-import ButtonCta from '../../components/buttons/ButtonCta/ButtonCta';
+import HeaderCTA from '../../components/cta/HeaderCTA';
 
 const Header = () => (
-  <header className="header bg-white">
-    <nav className="nav header-content">
+  <header className="bg-white py-10 flex justify-center lg:py-20">
+    <nav className="m-auto container flex justify-center sm:justify-between">
       <LogoPrimary />
-      <ButtonCta />
+      <HeaderCTA />
     </nav>
   </header>
 );

@@ -1,22 +1,29 @@
 import React from 'react';
-// import Hero from '../components/Hero/Hero';
-// import MakeTheCall from '../components/MakeTheCall/MakeTheCall';
-// import ContactForm from '../components/ContactForm/ContactForm';
-// import WhatHappens from '../components/WhatHappens/WhatHappens';
-// import InsuranceProviders from '../components/InsuranceProviders/InsuranceProviders';
-// import CareLevels from '../components/CareLevels/CareLevels';
-// import AboutAAC from '../components/AboutAAC/AboutAAC';
-// import Testimonials from '../components/Testimonials/Testimonials';
-// import ProgramGuarantee from '../components/ProgramGuarantee/ProgramGuarantee';
-// import Footer from '../components/BrandedFooter/BrandedFooter';
+
+import Hero from '../modules/Hero/Hero';
+import InsuranceBlock from '../modules/InsuranceBlock/InsuranceBlock';
+import YouAreNotAlone from '../modules/YouAreNotAlone/YouAreNotAlone';
+import WhatHappens from '../modules/WhatHappens/WhatHappens';
+import TreatmentApproach from '../modules/TreatmentApproach/TreatmentApproach';
+
+// import MakeTheCall from '../modules`/MakeTheCall/MakeTheCall';
+// import ContactForm from '../modules`/ContactForm/ContactForm';
+// import CareLevels from '../modules`/CareLevels/CareLevels';
+// import AboutAAC from '../modules`/AboutAAC/AboutAAC';
+// import Testimonials from '../modules`/Testimonials/Testimonials';
+// import ProgramGuarantee from '../modules`/ProgramGuarantee/ProgramGuarantee';
+// import Footer from '../modules`/BrandedFooter/BrandedFooter';
 
 const IndexPage = () => (
-  <div className="content">
-    {/*<Hero />
-     <InsuranceProviders />
+  <div className="pt-14 md:pt-18 lg:pt-22">
+    <Hero />
+    <InsuranceBlock />
+    <YouAreNotAlone />
+    <WhatHappens />
+    <TreatmentApproach />
+    {/*
     <MakeTheCall />
     <ContactForm />
-    <WhatHappens />
     <CareLevels />
     <AboutAAC />
     <Testimonials />

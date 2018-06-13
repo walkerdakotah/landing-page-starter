@@ -1,18 +1,22 @@
 import React from 'react';
-import '../styles/app.scss';
+
+import '../styles/main.scss';
+
 import Helmet from 'react-helmet';
-import {
-  Project,
-  MetaAuthor,
-  MetaRobots,
-  Fingerprint,
-  Fonts,
-  jQuery
-} from '../../project-config';
+import { Project, Fingerprint, Fonts, jQuery } from '../../project-config';
 import Header from '../modules/Header/Header';
 
+switch (process.env.NODE_ENV) {
+  case `development`:
+    require('../styles/builds/after-postcss/main.css');
+    break;
+  case `production`:
+    require('../styles/builds/after-purgecss/main.css');
+    break;
+}
+
 export default ({ children }) => (
-  <div className="app-wrap">
+  <div className="font-sans">
     <Helmet
       title={`${Project.title}`}
       meta={[
@@ -42,6 +46,6 @@ export default ({ children }) => (
       ]}
     />
     <Header />
-    {/* {children()} */}
+    {children()}
   </div>
 );

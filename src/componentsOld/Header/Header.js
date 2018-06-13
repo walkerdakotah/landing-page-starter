@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../assets/aac/logo/logo-multi.png';
+import Logo from '../../assets/aac/logo/aac-multi.png';
 import config, { CALLRAIL } from '../../data/site-config';
 
 const Header = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import AacLogo from '../../assets/img/logos/aac/aac-logo-white.svg';
+import AacLogo from '../../assets/img/logos/aac/aac-aac-white.svg';
 
 const LogoSecondary = () => (
   <a className="corp-link" href="/" target="blank">

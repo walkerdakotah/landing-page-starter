@@ -1,0 +1,33 @@
+/**
+ * This injects Tailwind's base styles, which is a combination of
+ * Normalize.css and some additional base styles.
+ *
+ * You can see the styles here:
+ * https://github.com/tailwindcss/tailwindcss/blob/master/css/preflight.css
+ */
+
+@tailwind preflight;
+/**
+ * This injects any component classes registered by plugins.
+ */
+
+@tailwind components;
+@import "./sass/background-image.scss";
+@import "./sass/hero.scss";
+/**
+* This injects all of Tailwind's utility classes, generated based on your
+* config file. It also injects any utility classes registered by plugins.
+*/
+
+@tailwind utilities;
+@import "./sass/form.scss";
+@import "./sass/image.scss";
+input,
+textarea {
+  border: 1px solid #8795a1;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #22292f;
+}

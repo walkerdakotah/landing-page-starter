@@ -1,7 +1,7 @@
-import React from "react";
-import Logo from "./logo-white.png";
-import config from "../../data/site-config";
-import "./BrandedFooter.scss";
+import React from 'react';
+import Logo from './aac-white.png';
+import config from '../../data/site-config';
+import './BrandedFooter.scss';
 
 const Footer = () => (
   <div className="branded-footer bg-blue">
@@ -37,8 +37,24 @@ const Footer = () => (
         </a>
       </div>
       <div className="footer__disclaimer">
-        <p className="font-grey-blue disclaimer">*Not all insurance policies are the same. Insurance coverage varies based on individual policies. All logos and trademarks are the sole and exclusive rights of their respective owners. Please call for an insurance verification.</p>
-        <p className="font-grey-blue disclaimer">**Terms and conditions apply. To lean more about how you can qualify for our guarantee, visit <a href={`https://${config.SITE.NAME}/disclaimer/`} className="font-grey-blue" target="_blank">americanaddictioncenters.org/disclaimer/</a> for details.</p>
+        <p className="font-grey-blue disclaimer">
+          *Not all insurance policies are the same. Insurance coverage varies
+          based on individual policies. All logos and trademarks are the sole
+          and exclusive rights of their respective owners. Please call for an
+          insurance verification.
+        </p>
+        <p className="font-grey-blue disclaimer">
+          **Terms and conditions apply. To lean more about how you can qualify
+          for our guarantee, visit{' '}
+          <a
+            href={`https://${config.SITE.NAME}/disclaimer/`}
+            className="font-grey-blue"
+            target="_blank"
+          >
+            americanaddictioncenters.org/disclaimer/
+          </a>{' '}
+          for details.
+        </p>
       </div>
     </div>
   </div>

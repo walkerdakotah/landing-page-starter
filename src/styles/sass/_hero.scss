@@ -1,0 +1,23 @@
+.atf {
+  height: calc(100vh - 52px);
+  @media (min-width: 768px) {
+    height: 70vh;
+  }
+}
+
+.hero-img {
+  background: url('/Users/dakotahwalker/Sites/ppc-landing-pages/src/assets/hero/hero-mobile-aac.jpg');
+  background-size: 100%;
+}
+
+.overlay--navy {
+  background: #344663;
+  opacity: .5;
+}
+
+.pin-b-hero {
+  position: absolute;
+  bottom: 18px;
+  right: 0;
+  left: 0;
+}

@@ -1,0 +1,21 @@
+input,
+textarea {
+  border: 1px solid #8795a1;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #4D4D4D;
+}
+
+.pin-form {
+  @media (min-width: 992px) {
+    position: absolute;
+    top: 7rem;
+    right: 2%;
+  }
+  @media (min-width: 1200px) {
+    top: 7rem;
+    right: 6%;
+  }
+}

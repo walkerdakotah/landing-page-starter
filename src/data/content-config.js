@@ -17,6 +17,21 @@ const ContentProject = {
   features: {
     title: `We Work with Many Insurance Companies, including: *`,
   },
+  treament_approach: {
+    title: `Our Approach to Treatment`,
+    content: `American Addiction Centers is a nationwide network of facilities and programs providing quality, compassionate, innovative care to adults struggling with addiction. Our whole-person approach considers lifestyle, environment, physical health, and mental health disorders as well as individual strengths, motivation and desire to make positive changes in one’s life. We’ve helped thousands of clients around the country find a personalized path to lifelong recovery.`,
+    content_list: [
+      `CARF and Joint Commission Accredited facilities`,
+      `Nationwide network`,
+      `Research-based therapies`,
+      `12-step based`,
+      `Experienced, qualified staff`,
+      `Inpatient and outpatient programs`,
+      `Co-occuring disorder care (Dual Diagnosis)`,
+      `Wellness focused`,
+      `Nationwide alumni support network`,
+    ],
+  },
 };
 
 export default ContentProject;

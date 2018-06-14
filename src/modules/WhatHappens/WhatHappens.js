@@ -7,7 +7,7 @@ import { CallRail } from '../../../project-config.js';
 const WhatHappens = () => (
   <section className="lg:py-40">
     <div className="m-auto container py-40 px-10 lg:px-40">
-      <h2 className="mb-10 md:mb-20 lg:mb-40 lg:pb-20 text-center text-24 lg:text-36 text-navy font-300">
+      <h2 className="mb-20 lg:mb-40 lg:pb-20 text-center text-24 lg:text-36 text-navy font-300 lg:font-400">
         What Happens When You Call
       </h2>
       <ul className="list-reset lg:m-auto lg:max-w-xl">

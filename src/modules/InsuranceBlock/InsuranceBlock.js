@@ -10,7 +10,7 @@ import upmc from '../../assets/logo/upmc.png';
 const InsuranceProviders = () => (
   <section className="lg:py-40">
     <div className="m-auto container py-40 px-10 text-center">
-      <h2 className="mb-10 lg:mb-40 lg:pb-20 text-center text-24 lg:text-36 text-navy font-300">
+      <h2 className="mb-20 lg:mb-40 lg:pb-20 text-center text-24 lg:text-36 text-navy font-300 lg:font-400">
         We Work with Many Insurance Companies, including: *
       </h2>
       <div className="flex flex-wrap justify-center lg:m-auto lg:max-w-xl">

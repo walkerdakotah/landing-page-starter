@@ -8,10 +8,10 @@ const { hero } = Content;
 
 const Hero = () => (
   <section>
-    <div className="atf bg-aqua">
+    <div className="atf better-chance">
       <div className="m-auto container pt-80 ">
         <div className="text-white text-center sm:text-left lg:w-2/3">
-          <h1 className="pb-20 sm:pt-80 text-36 font-400 leading-tight">
+          <h1 className="mb-20 sm:pt-80 text-36 font-400 leading-tight">
             {hero.title}
           </h1>
           <p className="hidden md:block pb-20 text-26 font-300 leading-loose md:leading-normal">

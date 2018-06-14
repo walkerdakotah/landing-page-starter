@@ -8,10 +8,10 @@ import Header from '../modules/Header/Header';
 
 switch (process.env.NODE_ENV) {
   case `development`:
-    require('../styles/builds/after-postcss/main.css');
+    require('../styles/after-postcss/main.css');
     break;
   case `production`:
-    require('../styles/builds/after-purgecss/main.css');
+    require('../styles/after-purgecss/main.css');
     break;
 }
 

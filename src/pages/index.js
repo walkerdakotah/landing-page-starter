@@ -4,7 +4,11 @@ import Hero from '../modules/Hero/Hero';
 import InsuranceBlock from '../modules/InsuranceBlock/InsuranceBlock';
 import YouAreNotAlone from '../modules/YouAreNotAlone/YouAreNotAlone';
 import WhatHappens from '../modules/WhatHappens/WhatHappens';
-import TreatmentApproach from '../modules/TreatmentApproach/TreatmentApproach';
+import OurApproach from '../modules/OurApproach/OurApproach';
+import Outcomes from '../modules/Outcomes/Outcomes';
+import BrandPromise from '../modules/BrandPromise/BrandPromise';
+import Testimonials from '../modules/Testimonials/Testimonials';
+import ThreeSteps from '../modules/ThreeSteps/ThreeSteps';
 
 // import MakeTheCall from '../modules`/MakeTheCall/MakeTheCall';
 // import ContactForm from '../modules`/ContactForm/ContactForm';
@@ -20,14 +24,18 @@ const IndexPage = () => (
     <InsuranceBlock />
     <YouAreNotAlone />
     <WhatHappens />
-    <TreatmentApproach />
+    <OurApproach />
+    <Outcomes />
+    <BrandPromise />
+    <Testimonials />
+    <ThreeSteps />
     {/*
     <MakeTheCall />
     <ContactForm />
     <CareLevels />
     <AboutAAC />
     <Testimonials />
-    <ProgramGuarantee />
+
     <Footer /> */}
   </div>
 );

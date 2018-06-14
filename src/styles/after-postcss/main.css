@@ -3072,6 +3072,21 @@ button,
   width: 18rem;
 }
 
+.w-80 {
+  width: 320px;
+  width: 20rem;
+}
+
+.w-88 {
+  width: 352px;
+  width: 22rem;
+}
+
+.w-96 {
+  width: 384px;
+  width: 24rem;
+}
+
 .w-auto {
   width: auto;
 }
@@ -3158,24 +3173,6 @@ button,
 
 .z-auto {
   z-index: auto;
-}
-
-.better-chance {
-  background: url("/assets/background-images/better-chance--mobile.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.hero {
-  background: url("../../../assets/background-images/hero--mobile.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.our-approach {
-  background: url("/assets/background-images/our-approach--mobile.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .atf {
@@ -5541,6 +5538,18 @@ textarea::placeholder {
     width: 18rem;
   }
 
+  .sm\:w-80 {
+    width: 20rem;
+  }
+
+  .sm\:w-88 {
+    width: 22rem;
+  }
+
+  .sm\:w-96 {
+    width: 24rem;
+  }
+
   .sm\:w-auto {
     width: auto;
   }
@@ -7897,6 +7906,18 @@ textarea::placeholder {
 
   .md\:w-72 {
     width: 18rem;
+  }
+
+  .md\:w-80 {
+    width: 20rem;
+  }
+
+  .md\:w-88 {
+    width: 22rem;
+  }
+
+  .md\:w-96 {
+    width: 24rem;
   }
 
   .md\:w-auto {
@@ -10257,6 +10278,18 @@ textarea::placeholder {
     width: 18rem;
   }
 
+  .lg\:w-80 {
+    width: 20rem;
+  }
+
+  .lg\:w-88 {
+    width: 22rem;
+  }
+
+  .lg\:w-96 {
+    width: 24rem;
+  }
+
   .lg\:w-auto {
     width: auto;
   }
@@ -12613,6 +12646,18 @@ textarea::placeholder {
 
   .xl\:w-72 {
     width: 18rem;
+  }
+
+  .xl\:w-80 {
+    width: 20rem;
+  }
+
+  .xl\:w-88 {
+    width: 22rem;
+  }
+
+  .xl\:w-96 {
+    width: 24rem;
   }
 
   .xl\:w-auto {

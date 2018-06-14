@@ -1,7 +1,17 @@
-.hero {
-  background: url('/Users/dakotahwalker/Sites/ppc-landing-pages/src/assets/hero/hero-mobile-aac.jpg');
+.better-chance {
+  background: url("../../assets/background-images/better-chance--mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-// .md\:hero {
-//   background-image: url('/Users/dakotahwalker/Sites/ppc-landing-pages/src/assets/hero/hero-desktop-aac.jpg');
-// }
+.hero {
+  background: url("../../assets/background-images/hero--mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.our-approach {
+  background: url("../../assets/background-images/our-approach--mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

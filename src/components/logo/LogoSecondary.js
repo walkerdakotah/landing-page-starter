@@ -1,9 +1,9 @@
 import React from 'react';
-import AacLogo from '../../assets/img/logos/aac/aac-aac-white.svg';
+import Logo from '../../assets/logo/aac-white.svg';
 
 const LogoSecondary = () => (
-  <a className="corp-link" href="/" target="blank">
-    <img src={AacLogo} className="corp-logo" />
+  <a className="flex items-center" href="/" target="blank">
+    <img src={Logo} className="h-10" />
   </a>
 );
 

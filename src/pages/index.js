@@ -9,14 +9,7 @@ import Outcomes from '../modules/Outcomes/Outcomes';
 import BrandPromise from '../modules/BrandPromise/BrandPromise';
 import Testimonials from '../modules/Testimonials/Testimonials';
 import ThreeSteps from '../modules/ThreeSteps/ThreeSteps';
-
-// import MakeTheCall from '../modules`/MakeTheCall/MakeTheCall';
-// import ContactForm from '../modules`/ContactForm/ContactForm';
-// import CareLevels from '../modules`/CareLevels/CareLevels';
-// import AboutAAC from '../modules`/AboutAAC/AboutAAC';
-// import Testimonials from '../modules`/Testimonials/Testimonials';
-// import ProgramGuarantee from '../modules`/ProgramGuarantee/ProgramGuarantee';
-// import Footer from '../modules`/BrandedFooter/BrandedFooter';
+import Footer from '../modules/Footer/Footer';
 
 const IndexPage = () => (
   <div className="pt-14 md:pt-18 lg:pt-22">
@@ -29,14 +22,7 @@ const IndexPage = () => (
     <BrandPromise />
     <Testimonials />
     <ThreeSteps />
-    {/*
-    <MakeTheCall />
-    <ContactForm />
-    <CareLevels />
-    <AboutAAC />
-    <Testimonials />
-
-    <Footer /> */}
+    <Footer />
   </div>
 );
 

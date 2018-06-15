@@ -44,7 +44,7 @@ const Testimonials = () => (
             </p>
           </div>
         </li>
-        <li className="mb-40 lg:px-20 flex flex-col items-center lg:w-1/3">
+        <li className="lg:mb-40 lg:px-20 flex flex-col items-center lg:w-1/3">
           <div className="mb-20 flex-none">
             <img src={GreenhouseRating} alt="Greenhouse 5 Star Rating" />
           </div>
@@ -61,35 +61,6 @@ const Testimonials = () => (
             </p>
           </div>
         </li>
-        {/* <li className="flex flex-col items-center pb-40">
-          <div className="mb-20">
-            <img src={OxfordRating} alt="Oxford 5 Star Rating" />
-          </div>
-          <div className="mb-20 text-center">
-            “The staff of Oxford Center were extremely supportive and concerned.
-            The group starts were informative and gave me a variety of tools to
-            maintain sobriety.”
-          </div>
-          <div className="text-center">
-            Chandler<br />
-            January 11th, 2018
-          </div>
-        </li>
-        <li className="flex flex-col items-center">
-          <div className="mb-20">
-            <img src={GreenhouseRating} alt="Greenhouse 5 Star Rating" />
-          </div>
-          <div className="mb-20 text-center">
-            “I believe that the staff you have here is amazing. Everyone is very
-            compassionate about their job. They have helped me! I would
-            recommend Greenhouse (American Addiction Centers) to any friends and
-            family.”
-          </div>
-          <div className="text-center">
-            Anonymous<br />
-            March 6th, 2018
-          </div>
-        </li> */}
       </ul>
     </div>
   </section>

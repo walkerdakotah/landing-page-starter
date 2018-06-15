@@ -1,19 +1,17 @@
 import React from 'react';
 
-import '../styles/main.scss';
-
 import Helmet from 'react-helmet';
 import { Project, Fingerprint, Fonts, jQuery } from '../../project-config';
 import Header from '../modules/Header/Header';
-
-switch (process.env.NODE_ENV) {
-  case `development`:
-    require('../styles/after-postcss/main.css');
-    break;
-  case `production`:
-    require('../styles/after-purgecss/main.css');
-    break;
-}
+import '../styles/after-postcss/main.css';
+// switch (process.env.NODE_ENV) {
+//   case `development`:
+//     require('../styles/after-postcss/main.css');
+//     break;
+//   case `production`:
+//     require('../styles/after-purgecss/main.css');
+//     break;
+// }
 
 export default ({ children }) => (
   <div className="font-sans">

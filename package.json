@@ -28,10 +28,10 @@
     "watch:styles": "npm run watch:sass & npm run watch:postcss",
     "build:sass": "node-sass-chokidar src/styles/main.scss -o src/styles/after-sass",
     "build:postcss": "postcss src/styles/after-sass/main.css -o src/styles/after-postcss/main.css",
-    "build:purgecss": "purgecss --css src/styles/after-postcss/main.css --con public/index.html src/**/*.js -o src/styles/after-purgecss",
-    "build:styles": "npm run build:sass && npm run build:postcss && npm run build:purgecss",
+    "build:styles": "npm run build:sass && npm run build:postcss",
     "develop": "gatsby develop & npm run watch:styles",
-    "build": "npm run build:styles && gatsby build"
+    "build": "npm run build:styles && gatsby build",
+    "build:prod": "npm run build:styles && gatsby build --prefix-paths"
   },
   "devDependencies": {
     "gatsby-cli": "^1.1.11",

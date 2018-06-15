@@ -4,7 +4,13 @@ module.exports = {
     name: `American Addiction Centers`,
     short_name: `aac`,
     title: `American Addiction Centers - Help For Addiction`,
-    policy_link: `policy`,
+    online_policy_link: `https://americanaddictioncenters.org/policy/`,
+    private_policy_link: `https://americanaddictioncenters.org/notice-of-privacy-practices/`,
+    terms_link: `https://americanaddictioncenters.org/term-of-use/`,
+    facebook_link: `https://www.facebook.com/AmericanAddictionCenters`,
+    instagram_link: `https://www.instagram.com/soberusa/`,
+    linkedin_link: `https://www.linkedin.com/company/american-addiction-centers`,
+    twitter_link: `https://twitter.com/AAC_Tweet`,
   },
   Attribution: {
     leadsource: `lsv = 'WEB-AAC-MAIN';`,
@@ -46,6 +52,13 @@ module.exports = {
     features: {
       title: `American Addiction Centers is your first step toward recovery.`,
       content: `With coast-to-coast treatment options and a “whole person” approach to long-term recovery, American Addiction Centers can help you get sober for good. We’ve spent decades helping people recover from drug and alcohol addiction in specialized healing environments across the country, and we’re here to help you start your journey today.`,
+    },
+    contact: {
+      phone: `(888) 987-1784`,
+      street_address: `200 Powell Pl`,
+      city: `Brentwood`,
+      state_abv: `TN`,
+      zipcode: `37027`,
     },
   },
 };

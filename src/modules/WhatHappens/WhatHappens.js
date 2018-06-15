@@ -61,14 +61,12 @@ const WhatHappens = () => (
           </div>
         </li>
       </ul>
-      <div className="hidden md:block m-auto mb-20 px-40 py-10 w-72 text-18 bg-orange rounded-full">
-        <a
-          className="no-underline text-white text-24 font-300"
-          href={`tel:+1${CallRail.phone}`}
-        >
-          Call {CallRail.phone}
-        </a>
-      </div>
+      <a
+        className="hidden md:block m-auto mb-20 px-40 py-10 w-72 no-underline bg-orange hover:bg-orange-500 text-white text-24 font-300 rounded-full"
+        href={`tel:+1${CallRail.phone}`}
+      >
+        Call {CallRail.phone}
+      </a>
       <div className="hidden md:block text-center text-14 font-300 text-grey">
         Privacy Guaranteed
       </div>

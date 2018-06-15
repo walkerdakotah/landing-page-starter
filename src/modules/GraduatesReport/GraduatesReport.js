@@ -9,8 +9,8 @@ const GraduatesReport = () => (
     <h2 className="mb-20 lg:mb-40 lg:pb-20 text-center text-24 lg:text-36 text-navy font-300 lg:font-400">
       Our Graduates Report:
     </h2>
-    <ul className="list-reset flex flex-col lg:flex-row">
-      <li className="mb-40 lg:px-20 flex flex-col items-center lg:w-1/3 lg:border-r">
+    <ul className="list-reset flex flex-col items-center lg:flex-row">
+      <li className="mb-40 lg:px-20 flex flex-col items-center w-48 lg:w-1/3 lg:border-r">
         <div className="w-40 lg:w-56 my-10 flex-none">
           <img src={Number44} alt="44 percent" />
         </div>
@@ -20,7 +20,7 @@ const GraduatesReport = () => (
           </p>
         </div>
       </li>
-      <li className="mb-40 lg:px-20 flex flex-col items-center lg:w-1/3 lg:border-r">
+      <li className="mb-40 lg:px-20 flex flex-col items-center w-48 lg:w-1/3 lg:border-r">
         <div className="w-40 lg:w-56 my-10 flex-none">
           <img src={Number56} alt="44 percent" />
         </div>
@@ -30,7 +30,7 @@ const GraduatesReport = () => (
           </p>
         </div>
       </li>
-      <li className="mb-40 lg:px-20 flex flex-col items-center lg:w-1/3 ">
+      <li className="mb-40 lg:px-20 flex flex-col items-center w-48 lg:w-1/3">
         <div className="w-40 lg:w-56 my-10 flex-none">
           <img src={Number94} alt="44 percent" />
         </div>

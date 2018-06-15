@@ -8,14 +8,12 @@ const YouAreNotAlone = () => (
       <div className="pb-40 text-36 font-300 text-white leading-normal">
         Over 20 million people struggle with addiction. We’re here to help.
       </div>
-      <div className="m-auto mb-10 px-40 py-10 w-72 text-18 bg-navy border-aqua border-2 rounded-full">
-        <a
-          className="no-underline text-aqua text-22 font-400"
-          href={`tel:+1${CallRail.phone}`}
-        >
-          Call {CallRail.phone}
-        </a>
-      </div>
+      <a
+        className="block m-auto mb-10 px-40 py-10 w-72 no-underline bg-navy hover:bg-aqua text-aqua hover:text-navy text-22 font-400 border-aqua border-2 rounded-full"
+        href={`tel:+1${CallRail.phone}`}
+      >
+        Call {CallRail.phone}
+      </a>
       <div className="text-14 font-300 text-white">Privacy Guaranteed</div>
     </div>
   </section>

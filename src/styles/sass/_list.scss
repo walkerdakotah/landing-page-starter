@@ -1,0 +1,10 @@
+.short-border::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  height: 1px;
+  width: 70%;
+  border-bottom: 1px solid magenta;
+  transform: translateX(-50%);
+}

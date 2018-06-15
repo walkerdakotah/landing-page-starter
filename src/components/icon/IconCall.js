@@ -3,7 +3,7 @@ import IconCallImg from '../../assets/icon/icon-call-orange.svg';
 
 const IconCall = () => (
   <div className="flex">
-    <img src={IconCallImg} className="shadow" />
+    <img src={IconCallImg} />
   </div>
 );
 

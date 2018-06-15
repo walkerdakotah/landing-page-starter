@@ -18,26 +18,7 @@
 */
 
 @tailwind utilities;
-// @import "./sass/background-image.scss";
-@import "./sass/hero.scss";
-@import "./sass/form.scss";
-@import "./sass/image.scss";
-input,
-textarea {
-  border: 1px solid #8795a1;
-}
-
-input::placeholder,
-textarea::placeholder {
-  color: #22292f;
-}
-
-// "watch:sass": "node-sass-chokidar --source-map true src/styles/main.scss -o src/styles/builds/after-sass -w",
-// "watch:postcss": "postcss src/styles/builds/after-sass/main.css -o src/styles/builds/after-postcss/main.css -w",
-// "watch:styles": "npm run watch:sass & npm run watch:postcss",
-// "build:sass": "node-sass-chokidar src/styles/main.scss -o src/styles/builds/after-sass",
-// "build:postcss": "postcss src/styles/builds/after-sass/main.css -o src/styles/builds/after-postcss/main.css",
-// "build:purgecss": "purgecss --css src/styles/builds/after-postcss/main.css --con public/index.html src/**/*.js -o src/styles/builds/after-purgecss",
-// "build:styles": "npm run build:sass && npm run build:postcss && npm run build:purgecss",
-// "develop": "gatsby develop & npm run watch:styles",
-// "build": "npm run build:styles && gatsby build"
+@import "sass/background-image.scss";
+@import "sass/hero.scss";
+@import "sass/form.scss";
+@import "sass/image.scss";

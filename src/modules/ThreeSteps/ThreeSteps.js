@@ -2,8 +2,8 @@ import React from 'react';
 
 const ThreeSteps = () => (
   <section className="bg-aqua">
-    <div className="m-auto container py-40 px-10 lg:px-40 lg:m-auto max-w-xs lg:max-w-xl">
-      <ul className="list-reset flex flex-col lg:flex-row">
+    <div className="m-auto container py-40 px-10 lg:px-40">
+      <ul className="list-reset flex flex-col items-center lg:flex-row">
         <li className="text-center lg:text-left border-b lg:border-b-0 lg:border-r border-navy lg:px-20 lg:w-1/3">
           <h2 className="mb-10 text-24 lg:text-36 font-400 text-navy leading-normal lg:text-left">
             Free.

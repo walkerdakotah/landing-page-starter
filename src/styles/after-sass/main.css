@@ -15,18 +15,46 @@
 * config file. It also injects any utility classes registered by plugins.
 */
 @tailwind utilities;
+.better-chance {
+  background: url("../../assets/background-images/better-chance--mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media (min-width: 768px) {
+    .better-chance {
+      background: url("../../assets/background-images/better-chance--desktop.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; } }
+
+.hero {
+  background: url("../../assets/background-images/hero--mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media (min-width: 768px) {
+    .hero {
+      background: url("../../assets/background-images/hero--desktop.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; } }
+
+.our-approach {
+  background: url("../../assets/background-images/our-approach--mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: contain; }
+  @media (min-width: 768px) {
+    .our-approach {
+      background: url("../../assets/background-images/our-approach--desktop.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; } }
+
 .atf {
   height: calc(100vh - 52px); }
   @media (min-width: 768px) {
     .atf {
-      height: 70vh; } }
+      height: 85vh; } }
 
 .overlay--navy {
-  background: #344663;
-  opacity: .5; }
+  background: rgba(52, 70, 99, 0.5); }
 
 .pin-b-hero {
-  position: absolute;
   bottom: 18px;
   right: 0;
   left: 0; }
@@ -39,17 +67,6 @@ input::placeholder,
 textarea::placeholder {
   color: #4D4D4D; }
 
-@media (min-width: 992px) {
-  .pin-form {
-    position: absolute;
-    top: 7rem;
-    right: 2%; } }
-
-@media (min-width: 1200px) {
-  .pin-form {
-    top: 7rem;
-    right: 6%; } }
-
 .svg-orange {
   height: 50px;
   width: 50px; }
@@ -61,13 +78,3 @@ textarea::placeholder {
     .svg-trans {
       height: 170px;
       width: 170px; } }
-
-input,
-textarea {
-  border: 1px solid #8795a1; }
-
-input::placeholder,
-textarea::placeholder {
-  color: #22292f; }
-
-/*# sourceMappingURL=main.css.map */

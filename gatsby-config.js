@@ -5,7 +5,6 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
-    // `gatsby-plugin-postcss-sass`,
     {
       resolve: `gatsby-plugin-google-tagmanager`,
       options: {

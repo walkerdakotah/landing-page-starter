@@ -7,6 +7,7 @@ const PoliciesList = () => (
       <a
         className="no-underline text-white text-14 font-100 hover:underline"
         href={Project.online_policy_link}
+        target="blank"
       >
         Notice of Privacy Practices
       </a>
@@ -15,6 +16,7 @@ const PoliciesList = () => (
       <a
         className="no-underline text-white text-14 font-100 hover:underline"
         href={Project.private_policy_link}
+        target="blank"
       >
         Online Privacy Policy
       </a>
@@ -23,6 +25,7 @@ const PoliciesList = () => (
       <a
         className="no-underline text-white text-14 font-100 hover:underline"
         href={Project.terms_link}
+        target="blank"
       >
         Terms of Use
       </a>

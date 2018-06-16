@@ -1,13 +1,6 @@
 $navy: #344663;
-.atf {
-  height: calc(100vh - 52px);
-  @media (min-width: 768px) {
-    height: 85vh;
-  }
-}
-
 .overlay--navy {
-  background: rgba($navy, .5);
+  background: rgba($navy, .8);
 }
 
 .pin-b-hero {

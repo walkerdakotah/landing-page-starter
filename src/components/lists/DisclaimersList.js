@@ -14,6 +14,7 @@ const DisclaimersList = () => (
       <a
         href="https://americanaddictioncenters.org/disclaimer/"
         className="text-grey no-underline hover:underline"
+        target="blank"
       >
         americanaddictioncenters.org/disclaimer
       </a>{' '}

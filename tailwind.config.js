@@ -118,6 +118,7 @@ module.exports = {
 
   fonts: {
     sans: [
+      'Lato',
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',
@@ -132,6 +133,7 @@ module.exports = {
       'sans-serif',
     ],
     serif: [
+      'Rufina',
       'Constantia',
       'Lucida Bright',
       'Lucidabright',
@@ -190,7 +192,9 @@ module.exports = {
     '26': '26px',
     '30': '30px',
     '36': '36px',
+    '40': '40px',
     '50': '50px',
+    '60': '60px',
   },
 
   /*
@@ -464,6 +468,7 @@ module.exports = {
     '10': '2.5rem',
     '12': '3rem',
     '16': '4rem',
+    '20': '5rem',
     '24': '6rem',
     '32': '8rem',
     '48': '12rem',

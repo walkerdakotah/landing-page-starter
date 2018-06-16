@@ -45,14 +45,8 @@
       background-repeat: no-repeat;
       background-size: cover; } }
 
-.atf {
-  height: calc(100vh - 52px); }
-  @media (min-width: 768px) {
-    .atf {
-      height: 85vh; } }
-
 .overlay--navy {
-  background: rgba(52, 70, 99, 0.5); }
+  background: rgba(52, 70, 99, 0.8); }
 
 .pin-b-hero {
   bottom: 18px;

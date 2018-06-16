@@ -2,9 +2,9 @@ import React from 'react';
 import IconCallImg from '../../assets/icon/icon-call-orange.svg';
 
 const IconCall = () => (
-  <div className="flex">
+  <a className="flex" href="tel:+1888-327-3017">
     <img src={IconCallImg} />
-  </div>
+  </a>
 );
 
 export default IconCall;

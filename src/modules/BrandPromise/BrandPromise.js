@@ -7,7 +7,7 @@ const BrandPromise = () => (
       <div className="w-48 m-auto mb-20">
         <img src={PromiseSeal} alt="90 day promise" />
       </div>
-      <div className="text-center text-18 text-grey-500 font-500 leading-normal lg:m-auto lg:max-w-lg">
+      <div className="text-center text-18 lg:text-22 text-grey-500 font-500 leading-normal lg:m-auto lg:max-w-lg">
         If you successfully complete our 90-day program, we guarantee you’ll
         stay clean and sober, or you can return for a complimentary 30 days of
         treatment. **

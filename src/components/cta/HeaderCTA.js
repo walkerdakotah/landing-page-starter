@@ -4,7 +4,7 @@ import { CallRail } from '../../../project-config';
 const HeaderCTA = () => (
   <div className="hidden sm:flex sm:flex-col sm:items-end lg:justify-center">
     <a
-      className="no-underline text-orange text-18 font-400 lg:text-36 lg:font-500"
+      className="no-underline hover:underline text-orange text-18 font-400 lg:text-36 lg:font-500"
       href={`tel:+1${CallRail.phone}`}
     >
       Call {CallRail.phone}

@@ -22,7 +22,7 @@ module.exports = {
   },
   Fonts: {
     rel: `stylesheet`,
-    href: `//fast.fonts.net/cssapi/c6e4cfb9-9a6a-4ae6-ac13-31c80577a512.css`,
+    href: `https://fonts.googleapis.com/css?family=Lato|Rufina`,
   },
   CallRail: {
     src: `//cdn.callrail.com/companies/154422313/c8d5c08142940b7cb1ac/12/swap.js`,

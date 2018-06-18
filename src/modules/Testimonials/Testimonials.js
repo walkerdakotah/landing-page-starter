@@ -62,10 +62,10 @@ const Testimonials = () => (
           </div>
           <div className="text-center">
             <p className="mb-20 text-16 lg:text-18 font-500 text-grey-500 leading-normal">
-              “The treatment experience gives the tools necessary for a
-              successful long-term recovery. Staff are supportive, and will go
-              above and beyond to help the patients to the best of their
-              abilities.”
+              “I believe that the staff you have here is amazing. Everyone is
+              very compassionate about their job. They have helped me! I would
+              recommend Greenhouse (American Addiction Centers) to any friends
+              and family.”
             </p>
             <p className="text-16 lg:text-18 font-500 text-grey-500 leading-normal">
               Anonymous<br />

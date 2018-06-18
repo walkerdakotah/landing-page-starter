@@ -18,7 +18,7 @@ const OurApproach = () => (
         </p>
         <ul className="pl-20 text-16 lg:text-18 font-500 text-grey-500">
           <li className="pb-10 lg:pb-20">
-            CARF and Joint Commission Accredited facilities
+            CARF and Joint Commission accredited facilities
           </li>
           <li className="pb-10 lg:pb-20">Nationwide network</li>
           <li className="pb-10 lg:pb-20">Research-based therapies</li>
@@ -26,7 +26,7 @@ const OurApproach = () => (
           <li className="pb-10 lg:pb-20">Experienced, qualified staff</li>
           <li className="pb-10 lg:pb-20">Inpatient and outpatient programs</li>
           <li className="pb-10 lg:pb-20">
-            Co-occuring disorder care (Dual Diagnosis)
+            Co-occuring disorder care (dual diagnosis)
           </li>
           <li className="pb-10 lg:pb-20">Wellness focused</li>
           <li className="pb-10 lg:pb-20">Nationwide alumni support network</li>

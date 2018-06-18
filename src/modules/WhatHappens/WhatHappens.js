@@ -52,11 +52,11 @@ const WhatHappens = () => (
               We’ll make sure you get the help you need.
             </h4>
             <p className="mb-20 text-16 lg:text-18 font-500 text-grey-500 leading-normal">
-              Your Treatment Consultant will stay in contact with you and/ or
+              Your Treatment Consultant will stay in contact with you and/or
               your family throughout the entire admissions process for a
               seamless transition into residential treatment, where you’ll begin
               your recovery journey in a supportive, healing environment with a
-              “whole person” approach.
+              whole-person approach.
             </p>
           </div>
         </li>

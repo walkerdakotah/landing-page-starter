@@ -13,7 +13,7 @@ const BetterChance = () => (
           <img src={Graph} alt="63 percent" />
         </div>
         <div className="text-center mb-20 text-18 lg:text-26 font-500 text-grey-500 leading-normal">
-          we're abstinent from all substances at 12 months
+          were abstinent from all substances at 12 months
         </div>
         <div className="text-center mb-10 text-14 lg:text-18 font-500 text-grey-500 leading-normal">
           *Outcomes data from a 4-year study paid for by AAC and conducted at

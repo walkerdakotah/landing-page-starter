@@ -3283,6 +3283,21 @@ textarea {
   border: 1px solid #8795a1;
 }
 
+input:invalid,
+textarea:invalid {
+  box-shadow: none;
+}
+
+input:-moz-submit-invalid,
+textarea:-moz-submit-invalid {
+  box-shadow: none;
+}
+
+input:-moz-ui-invalid,
+textarea:-moz-ui-invalid {
+  box-shadow: none;
+}
+
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   color: #4d4d4d;
@@ -12986,3 +13001,5 @@ textarea::placeholder {
     z-index: auto;
   }
 }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,12 @@
+// ==========================================================================
+// Global config
+// ==========================================================================
+$image-path: '../../../assets'; // relative to builds/after-postcss directory
+// =============
+// Overlay
+// ==============
+$overlay--base: color(config('colors.navy') a(config('opacity.80')));
+// =============
+// Hero
+// ==============
+$hero-min-height: rem(450);

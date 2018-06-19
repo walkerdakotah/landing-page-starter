@@ -1,7 +1,7 @@
 import React from 'react';
-import IconCall from '../../assets/icon/icon-call-trans.svg';
-import IconWrite from '../../assets/icon/icon-write-trans.svg';
-import IconCare from '../../assets/icon/icon-care-trans.svg';
+import Phone from '../../assets/icons/phone-orange.svg';
+import HandWrite from '../../assets/icons/handwrite-orange.svg';
+import HeartInHands from '../../assets/icons/heart-in-hands-orange.svg';
 import { CallRail } from '../../../project-config.js';
 
 const WhatHappens = () => (
@@ -13,7 +13,7 @@ const WhatHappens = () => (
       <ul className="list-reset lg:m-auto lg:max-w-xl">
         <li className="flex flex-col items-center md:flex-row md:mb-40">
           <div className="my-20 md:my-0 md:mr-20 lg:mr-40 flex-none svg-trans">
-            <img src={IconCall} alt="phone" />
+            <img src={Phone} alt="phone" />
           </div>
           <div className="text-center md:text-left">
             <h4 className="mb-10 text-20 lg:text-24 font-700 text-navy">
@@ -30,7 +30,7 @@ const WhatHappens = () => (
         </li>
         <li className="flex flex-col items-center md:flex-row md:mb-40">
           <div className="my-20 md:my-0 md:mr-20 lg:mr-40 flex-none svg-trans">
-            <img src={IconWrite} alt="pen and paper" />
+            <img src={HandWrite} alt="pen and paper" />
           </div>
           <div className="text-center md:text-left">
             <h4 className="mb-10 text-20 lg:text-24 font-700 text-navy">
@@ -45,7 +45,7 @@ const WhatHappens = () => (
         </li>
         <li className="flex flex-col items-center md:flex-row md:mb-40">
           <div className="my-20 md:my-0 md:mr-20 lg:mr-40 flex-none svg-trans">
-            <img src={IconCare} alt="heart in hands" />
+            <img src={HeartInHands} alt="heart in hands" />
           </div>
           <div className="text-center md:text-left">
             <h4 className="mb-10 text-20 lg:text-24 font-700 text-navy">

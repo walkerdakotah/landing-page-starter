@@ -2,10 +2,10 @@ import React from 'react';
 
 import { Project } from '../../../project-config.js';
 
-import FacebookIcon from '../../assets/icon/icon-social-facebook.svg';
-import InstagramIcon from '../../assets/icon/icon-social-instagram.svg';
-import LinkedInIcon from '../../assets/icon/icon-social-linkedin.svg';
-import TwitterIcon from '../../assets/icon/icon-social-twitter.svg';
+import FacebookIcon from '../../assets/icons/facebook-white.svg';
+import InstagramIcon from '../../assets/icons/instagram-white.svg';
+import LinkedInIcon from '../../assets/icons/linkedin-white.svg';
+import TwitterIcon from '../../assets/icons/twitter-white.svg';
 
 const SocialList = () => (
   <ul className="list-reset flex">

@@ -3,8 +3,8 @@ import React from 'react';
 import HeroCTA from '../../components/cta/HeroCTA';
 import Form from '../../components/form/Form';
 
-import { Project, Content, CallRail } from '../../../project-config.js';
-const { hero } = Content;
+import { Project, CallRail } from '../../../project-config.js';
+import { hero } from '../../data/content-config';
 
 const Hero = () => (
   <section>
@@ -44,7 +44,7 @@ const Hero = () => (
                 We won’t sell your information and will treat your information
                 in accordance with our{' '}
                 <a
-                  href={`${Project.online_policy_link}/`}
+                  href={`${Project.online_policy_link}`}
                   target="blank"
                   alt="Privacy Policy"
                   className="text-grey-500"
@@ -76,7 +76,7 @@ const Hero = () => (
             We won’t sell your information and will treat your information in
             accordance with our{' '}
             <a
-              href={`${Project.online_policy_link}/`}
+              href={`${Project.online_policy_link}`}
               target="blank"
               alt="Privacy Policy"
               className="text-grey-500"

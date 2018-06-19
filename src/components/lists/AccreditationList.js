@@ -1,8 +1,8 @@
 import React from 'react';
 
-import BBBLogo from '../../assets/logo/bbb.png';
-import CarfLogo from '../../assets/logo/carf-white.png';
-import JointCommissionLogo from '../../assets/logo/joint-commission-white.png';
+import BBBLogo from '../../assets/logos/bbb.png';
+import CarfLogo from '../../assets/logos/carf-white.png';
+import JointCommissionLogo from '../../assets/logos/joint-commission-white.png';
 
 const AccreditationList = () => (
   <ul className="list-reset flex">

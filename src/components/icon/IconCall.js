@@ -1,5 +1,5 @@
 import React from 'react';
-import IconCallImg from '../../assets/icon/icon-call-orange.svg';
+import IconCallImg from '../../assets/icons/phone-white.svg';
 
 const IconCall = () => (
   <a className="flex" href="tel:+1888-327-3017">

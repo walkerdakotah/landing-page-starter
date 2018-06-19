@@ -1,8 +1,8 @@
 import React from 'react';
 
-import LagunaRating from '../../assets/testimonials/laguna-horiz.png';
-import OxfordRating from '../../assets/testimonials/oxford-horiz.png';
-import GreenhouseRating from '../../assets/testimonials/greenhouse-horiz.png';
+import LagunaRating from '../../assets/testimonials/laguna-horiz-5-star.png';
+import OxfordRating from '../../assets/testimonials/oxford-horiz-4-star.png';
+import GreenhouseRating from '../../assets/testimonials/greenhouse-horiz-5-star.png';
 
 const Testimonials = () => (
   <section>

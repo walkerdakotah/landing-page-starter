@@ -1,10 +1,13 @@
 import React from 'react';
-
-import Logo from '../../assets/logo/aac-multi.svg';
+import { Project } from '../../../project-config';
 
 const LogoPrimary = () => (
   <a className="flex items-center" href="/" target="blank">
-    <img src={Logo} className="h-8 lg:h-12" />
+    <img
+      src={require(`../../assets/logos/${Project.short_name}-horiz.svg`)}
+      alt="american addiction centers logo"
+      className="h-8 lg:h-12"
+    />
   </a>
 );
 

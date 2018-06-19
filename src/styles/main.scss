@@ -12,13 +12,10 @@
  */
 
 @tailwind components;
+@import "sass/index";
 /**
 * This injects all of Tailwind's utility classes, generated based on your
 * config file. It also injects any utility classes registered by plugins.
 */
 
 @tailwind utilities;
-@import "sass/background-image.scss";
-@import "sass/hero.scss";
-@import "sass/form.scss";
-@import "sass/image.scss";

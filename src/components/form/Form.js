@@ -45,7 +45,7 @@ const Form = () => (
       placeholder="Phone *"
       name="phone"
       size="20"
-      type="number"
+      type="text"
     />
 
     <textarea

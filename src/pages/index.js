@@ -5,7 +5,6 @@ import InsuranceBlock from '../modules/InsuranceBlock/InsuranceBlock';
 import YouAreNotAlone from '../modules/YouAreNotAlone/YouAreNotAlone';
 import WhatHappens from '../modules/WhatHappens/WhatHappens';
 import OurApproach from '../modules/OurApproach/OurApproach';
-import Outcomes from '../modules/Outcomes/Outcomes';
 import BrandPromise from '../modules/BrandPromise/BrandPromise';
 import Testimonials from '../modules/Testimonials/Testimonials';
 import ThreeSteps from '../modules/ThreeSteps/ThreeSteps';
@@ -18,7 +17,6 @@ const IndexPage = () => (
     <YouAreNotAlone />
     <WhatHappens />
     <OurApproach />
-    <Outcomes />
     <BrandPromise />
     <Testimonials />
     <ThreeSteps />

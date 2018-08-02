@@ -98,5 +98,3 @@ textarea::placeholder {
 * config file. It also injects any utility classes registered by plugins.
 */
 @tailwind utilities;
-
-/*# sourceMappingURL=main.css.map */

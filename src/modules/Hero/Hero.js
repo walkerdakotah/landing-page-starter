@@ -62,8 +62,8 @@ const Hero = () => (
 
     <div className="mobile-form lg:hidden">
       <div className="bg-grey-100">
-        <div className="m-auto container text-center py-40 lg:py-10 xl:py-20 px-10 xl:px-20 lg:w-96 xl:w-112">
-          <div className="pb-20 text-18 font-700 text-grey-500">
+        <div className="m-auto container text-center p-40 lg:w-96">
+          <div className="pb-40 text-18 font-700 text-navy">
             Prefer a call or email from us instead?
           </div>
           <Form />

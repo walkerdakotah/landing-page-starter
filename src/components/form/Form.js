@@ -31,14 +31,6 @@ const Form = () => (
       type="text"
     />
     <input
-      id="email"
-      className="container p-5  mb-10  text-16"
-      placeholder="Email (optional)"
-      name="email"
-      size="20"
-      type="text"
-    />
-    <input
       required
       id="phone"
       className="container p-5 mb-10 text-16"

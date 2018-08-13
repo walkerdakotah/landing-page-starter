@@ -1,8 +1,9 @@
 import React from 'react';
 
 import Hero from '../modules/Hero/Hero';
-import InsuranceBlock from '../modules/InsuranceBlock/InsuranceBlock';
+import FacilityFeatures from '../modules/FacilityFeatures/FacilityFeatures';
 import YouAreNotAlone from '../modules/YouAreNotAlone/YouAreNotAlone';
+import InsuranceBlock from '../modules/InsuranceBlock/InsuranceBlock';
 import WhatHappens from '../modules/WhatHappens/WhatHappens';
 import OurApproach from '../modules/OurApproach/OurApproach';
 import BrandPromise from '../modules/BrandPromise/BrandPromise';
@@ -13,8 +14,9 @@ import Footer from '../modules/Footer/Footer';
 const IndexPage = () => (
   <div className="pt-14 md:pt-18 lg:pt-22">
     <Hero />
-    <InsuranceBlock />
+    <FacilityFeatures />
     <YouAreNotAlone />
+    <InsuranceBlock />
     <WhatHappens />
     <OurApproach />
     <BrandPromise />

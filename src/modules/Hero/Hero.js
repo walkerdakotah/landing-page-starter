@@ -1,6 +1,6 @@
 import React from 'react';
 
-import HeroCTA from '../../components/cta/HeroCTA';
+import HeroButton from '../../components/buttons/HeroButton';
 import Form from '../../components/form/Form';
 
 import { Project, CallRail } from '../../../project-config.js';
@@ -8,17 +8,15 @@ import { hero } from '../../data/content-config';
 
 const Hero = () => (
   <section>
-    <div className="py-80 hero lg:flex lg:px-10 lg:py-40">
-      <div className="container m-auto lg:flex lg:justify-between">
-        <div className="container px-10 lg:px-0 max-w-md">
-          <div className="text-white text-center sm:text-left lg:py-40">
-            <h1 className="mb-20 text-36 lg:text-60 font-700 leading-tight">
-              {hero.title}
-            </h1>
-            <p className="hidden md:block pb-20 text-18 lg:text-26 font-400 leading-loose md:leading-normal">
+    <div className="hero alcohol-abuse flex flex-col lg:flex-row justify-end items-center lg:px-10 lg:py-40">
+      <div className="container lg:flex lg:justify-between">
+        <div className="container px-20 lg:flex lg:flex-col lg:justify-end">
+          <div className="text-white text-center lg:text-left lg:py-40">
+            <h1 className="mb-20 text-48 lg:text-72 font-700">{hero.title}</h1>
+            <p className="hidden lg:block pb-20 text-18 lg:text-22 font-300">
               {hero.content}
             </p>
-            <p className="pb-20 text-18 lg:text-26 font-300 leading-loose md:leading-normal">
+            <p className="text-18 lg:text-22 font-300 lg:font-500">
               {hero.subline}
             </p>
           </div>
@@ -57,8 +55,8 @@ const Hero = () => (
         </div>
       </div>
 
-      <div className="md:hidden">
-        <HeroCTA />
+      <div className="lg:hidden py-40">
+        <HeroButton />
       </div>
     </div>
 

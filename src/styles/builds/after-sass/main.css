@@ -10,18 +10,18 @@
  * This injects any component classes registered by plugins.
  */
 @tailwind components;
-.hero {
-  background-size: cover;
+.alcohol-abuse {
+  background-size: auto;
   background-repeat: no-repeat;
-  background-position: unset;
-  background-image: url("../../../assets/background-images/hero--mobile.jpg"); }
+  background-position: 50% -72px;
+  background-image: url("../../../assets/background-images/alcohol-abuse--mobile.jpg"); }
 
-@screen md {
-  .hero {
+@screen lg {
+  .alcohol-abuse {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: unset;
-    background-image: url("../../../assets/background-images/hero--desktop.jpg"); } }
+    background-image: url("../../../assets/background-images/alcohol-abuse--desktop.jpg"); } }
 
 .our-approach {
   background-size: contain;
@@ -63,6 +63,13 @@ input::placeholder,
 textarea::placeholder {
   color: #4D4D4D; }
 
+.hero {
+  min-height: 530px; }
+
+@screen lg {
+  .hero {
+    min-height: 774px; } }
+
 .pin-b-hero {
   bottom: 18px;
   right: 0;
@@ -98,3 +105,5 @@ textarea::placeholder {
 * config file. It also injects any utility classes registered by plugins.
 */
 @tailwind utilities;
+
+/*# sourceMappingURL=main.css.map */

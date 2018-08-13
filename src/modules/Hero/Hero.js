@@ -9,9 +9,9 @@ import { hero } from '../../data/content-config';
 const Hero = () => (
   <section>
     <div className="hero alcohol-abuse flex flex-col lg:flex-row justify-end items-center lg:px-10 lg:py-40">
-      <div className="container lg:flex lg:justify-between">
+      <div className="lg:m-auto container lg:flex lg:justify-between">
         <div className="container px-20 lg:flex lg:flex-col lg:justify-end">
-          <div className="text-white text-center lg:text-left lg:py-40">
+          <div className="text-white text-center lg:text-left">
             <h1 className="mb-20 text-48 lg:text-72 font-700">{hero.title}</h1>
             <p className="hidden lg:block pb-20 text-18 lg:text-22 font-300">
               {hero.content}

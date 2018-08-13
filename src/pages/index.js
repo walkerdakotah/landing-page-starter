@@ -3,9 +3,9 @@ import React from 'react';
 import Hero from '../modules/Hero/Hero';
 import FacilityFeatures from '../modules/FacilityFeatures/FacilityFeatures';
 import YouAreNotAlone from '../modules/YouAreNotAlone/YouAreNotAlone';
-import InsuranceBlock from '../modules/InsuranceBlock/InsuranceBlock';
 import WhatHappens from '../modules/WhatHappens/WhatHappens';
 import OurApproach from '../modules/OurApproach/OurApproach';
+
 import BrandPromise from '../modules/BrandPromise/BrandPromise';
 import Testimonials from '../modules/Testimonials/Testimonials';
 import ThreeSteps from '../modules/ThreeSteps/ThreeSteps';
@@ -16,9 +16,9 @@ const IndexPage = () => (
     <Hero />
     <FacilityFeatures />
     <YouAreNotAlone />
-    <InsuranceBlock />
     <WhatHappens />
     <OurApproach />
+
     <BrandPromise />
     <Testimonials />
     <ThreeSteps />

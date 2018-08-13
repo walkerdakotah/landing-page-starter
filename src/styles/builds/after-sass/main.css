@@ -95,10 +95,11 @@ textarea::placeholder {
 .svg-trans {
   height: 85px;
   width: 85px; }
-  @media (min-width: 768px) {
-    .svg-trans {
-      height: 170px;
-      width: 170px; } }
+
+@screen lg {
+  .svg-trans {
+    height: 170px;
+    width: 170px; } }
 
 /**
 * This injects all of Tailwind's utility classes, generated based on your

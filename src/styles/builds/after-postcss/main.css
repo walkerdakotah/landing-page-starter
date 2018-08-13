@@ -783,7 +783,7 @@ textarea::placeholder {
   width: 85px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .svg-trans {
     height: 170px;
     width: 170px;

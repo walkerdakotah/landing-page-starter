@@ -2,7 +2,7 @@ import React from 'react';
 import Phone from '../../assets/icons/phone-orange.svg';
 import HandWrite from '../../assets/icons/handwrite-orange.svg';
 import HeartInHands from '../../assets/icons/heart-in-hands-orange.svg';
-import { CallRail } from '../../../project-config.js';
+import { callRail } from '../../lib/project-config';
 
 const WhatHappens = () => (
   <section className="lg:py-40">
@@ -63,9 +63,9 @@ const WhatHappens = () => (
       </ul>
       <a
         className="hidden lg:block m-auto mb-20 px-40 py-10 w-72 no-underline bg-orange hover:bg-orange-500 text-white text-24 font-300 rounded-full"
-        href={`tel:+1${CallRail.phone}`}
+        href={`tel:+1${callRail.phone}`}
       >
-        Call {CallRail.phone}
+        Call {callRail.phone}
       </a>
       <div className="hidden lg:block text-center text-14 font-300 text-grey">
         Privacy Guaranteed

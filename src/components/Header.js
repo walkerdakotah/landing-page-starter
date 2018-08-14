@@ -1,6 +1,6 @@
 import React from 'react';
-import LogoPrimary from '../../components/logo/LogoPrimary';
-import HeaderCTA from '../../components/cta/HeaderCTA';
+import LogoPrimary from './logo/LogoPrimary';
+import HeaderCTA from './cta/HeaderCTA';
 
 const Header = () => (
   <header className="bg-white p-10 flex justify-center lg:py-20">

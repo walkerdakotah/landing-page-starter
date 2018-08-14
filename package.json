@@ -1,44 +1,39 @@
 {
   "name": "ppc-landing-pages",
-  "description": "A marketing landing page built with Gatsby and styled with Tailwind",
+  "description":
+    "A marketing landing page built with Gatsby and styled with Tailwind",
   "version": "1.0.0",
   "author": "American Addiction Centers",
   "dependencies": {
+    "autoprefixer": "^9.1.1",
     "eslint": "^4.9.0",
     "gatsby": "^1.9.270",
     "gatsby-link": "^1.6.23",
     "gatsby-plugin-google-tagmanager": "^1.0.17",
-    "gatsby-plugin-postcss-sass": "^1.0.21",
+    "gatsby-plugin-postcss": "^1.0.0",
     "gatsby-plugin-react-helmet": "^2.0.11",
-    "gatsby-plugin-sass": "^1.0.26",
-    "node-sass-chokidar": "^1.3.0",
     "postcss-cli": "^5.0.0",
+    "precss": "^3.1.2",
+    "purgecss-webpack-plugin": "^1.2.1",
     "react-helmet": "^5.2.0"
   },
-  "keywords": [
-    "gatsby",
-    "tailwindcss",
-    "purgecss"
-  ],
+  "keywords": ["gatsby", "tailwindcss", "purgecss"],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "watch:sass": "node-sass-chokidar --source-map true src/styles/main.scss -o src/styles/builds/after-sass -w",
-    "watch:postcss": "postcss src/styles/builds/after-sass/main.css -o src/styles/builds/after-postcss/main.css -w",
-    "watch:styles": "npm run watch:sass & npm run watch:postcss",
-    "build:sass": "node-sass-chokidar src/styles/main.scss -o src/styles/builds/after-sass",
-    "build:postcss": "postcss src/styles/builds/after-sass/main.css -o src/styles/builds/after-postcss/main.css",
-    "build:styles": "npm run build:sass && npm run build:postcss",
-    "develop": "gatsby develop & npm run watch:styles",
-    "build": "npm run build:styles && gatsby build",
-    "build:prod": "npm run build:styles && gatsby build --prefix-paths"
+    "build:css": "postcss ./src/styles/index.css -o ./src/index.css",
+    "watch:css": "postcss ./src/styles/index.css -o ./src/index.css -w",
+    "dev": "npm run watch:css & gatsby develop",
+    "build": "npm run build:css ./src && gatsby build",
+    "build:prod": "npm run build:css ./src && gatsby build --prefix-paths",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "gatsby-cli": "^1.1.11",
+    "postcss": "^6.0.21",
+    "postcss-loader": "^2.1.4",
     "prettier": "^1.7.4",
     "purgecss": "^0.21.0",
-    "tailwindcss": "^0.5.3",
-    "postcss": "^6.0.21",
-    "postcss-loader": "^2.1.4"
+    "tailwindcss": "^0.5.3"
   }
 }

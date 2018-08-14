@@ -44,7 +44,6 @@ View the full documentation at https://tailwindcss.com.
 
 let colors = {
   transparent: 'transparent',
-
   navy: '#344663',
   orange: '#D28430',
   'orange-500': `#B96B17`,
@@ -141,29 +140,13 @@ module.exports = {
   */
 
   textSizes: {
-    // 'xs': '.75rem',     // 12px
-    // 'sm': '.875rem',    // 14px
-    // 'base': '1rem',     // 16px
-    // 'lg': '1.125rem',   // 18px
-    // 'xl': '1.25rem',    // 20px
-    // '2xl': '1.5rem',    // 24px
-    // '3xl': '1.875rem',  // 30px
-    // '4xl': '2.25rem',   // 36px
-    // '5xl': '3rem',      // 48px
-    '10': '10px',
-    '14': '14px',
-    '18': '18px',
-    '22': '22px',
+    '12': '12px',
+    '16': '16px',
+    '20': '20px',
     '24': '24px',
-    '26': '26px',
-    '28': '28px',
     '30': '30px',
     '36': '36px',
-    '40': '40px',
-    '48': '48px',
-    '50': '50px',
-    '60': '60px',
-    '72': '72px'
+    '50': '50px'
   },
 
   /*
@@ -181,24 +164,15 @@ module.exports = {
   */
 
   fontWeights: {
-    // 'hairline': 100,
-    // 'thin': 200,
-    // 'light': 300,
-    // 'normal': 400,
-    // 'medium': 500,
-    // 'semibold': 600,
-    // 'bold': 700,
-    // 'extrabold': 800,
-    // 'black': 900,
-    '100': 100,
-    '200': 200,
-    '300': 300,
-    '400': 400,
-    '500': 500,
-    '600': 600,
-    '700': 700,
-    '800': 800,
-    '900': 900
+    hairline: 100,
+    thin: 200,
+    light: 300,
+    normal: 400,
+    medium: 500,
+    semibold: 600,
+    bold: 700,
+    extrabold: 800,
+    black: 900
   },
 
   /*

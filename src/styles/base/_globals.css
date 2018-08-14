@@ -1,0 +1,42 @@
+body {
+  @apply font-sans;
+}
+.h1 {
+  @apply text-36 font-bold;
+}
+.h2 {
+  @apply text-24 font-bold font-serif;
+}
+.h3 {
+  @apply text-24 font-normal;
+}
+.h4 {
+  @apply text-20 font-bold;
+}
+.subline {
+  @apply text-24 font-thin;
+}
+.p {
+  @apply text-16 font-normal;
+}
+.p3 {
+  @apply text-12 font-normal;
+}
+
+@screen lg {
+  .h1 {
+    @apply text-50;
+  }
+  .h2 {
+    @apply text-36;
+  }
+  .h3 {
+    @apply text-30;
+  }
+  .h4 {
+    @apply text-24;
+  }
+  .subline {
+    @apply text-36;
+  }
+}

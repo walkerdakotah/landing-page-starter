@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Hero from '../modules/Hero/Hero';
+import Hero from '../components/Hero';
 import FacilityFeatures from '../modules/FacilityFeatures/FacilityFeatures';
 import YouAreNotAlone from '../modules/YouAreNotAlone/YouAreNotAlone';
 import WhatHappens from '../modules/WhatHappens/WhatHappens';

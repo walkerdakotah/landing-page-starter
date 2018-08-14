@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Project } from '../../../project-config.js';
+import { facilityInfo } from '../../lib/project-config.js';
 
 const Form = () => (
   <form
@@ -52,7 +52,7 @@ const Form = () => (
     <input
       name="retURL"
       type="hidden"
-      value={`https://${Project.url}/thank-you-2/`}
+      value={`https://${facilityInfo.url}/thank-you-2/`}
     />
     <input
       id="lead_source"

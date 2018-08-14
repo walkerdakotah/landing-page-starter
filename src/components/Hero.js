@@ -1,10 +1,10 @@
 import React from 'react';
 
-import HeroButton from '../../components/buttons/HeroButton';
-import Form from '../../components/form/Form';
+import HeroButton from './buttons/HeroButton';
+import Form from './form/Form';
 
-import { Project, CallRail } from '../../../project-config.js';
-import { hero } from '../../data/content-config';
+import { facilityInfo, callRail } from '../lib/project-config';
+import { hero } from '../lib/content-config';
 
 const Hero = () => (
   <section>
@@ -27,9 +27,9 @@ const Hero = () => (
             <div className="m-auto container text-center py-40 lg:py-10 xl:py-20 px-10 xl:px-20 lg:w-96 ">
               <a
                 className="hidden md:block m-auto mb-20 px-40 py-10 w-72 no-underline bg-orange hover:bg-orange-500 text-white text-24 font-300 rounded-full"
-                href={`tel:+1${CallRail.phone}`}
+                href={`tel:+1${callRail.phone}`}
               >
-                Call {CallRail.phone}
+                Call {callRail.phone}
               </a>
               <div className="pb-20 text-18 font-700 text-grey-500">
                 Prefer a call or email from us instead?
@@ -42,7 +42,7 @@ const Hero = () => (
                 We won’t sell your information and will treat your information
                 in accordance with our{' '}
                 <a
-                  href={`${Project.online_policy_link}`}
+                  href={`${facilityInfo.onlinePolicyLink}`}
                   target="blank"
                   alt="Privacy Policy"
                   className="text-grey-500"
@@ -74,7 +74,7 @@ const Hero = () => (
             We won’t sell your information and will treat your information in
             accordance with our{' '}
             <a
-              href={`${Project.online_policy_link}`}
+              href={`${facilityInfo.onlinePolicyLink}`}
               target="blank"
               alt="Privacy Policy"
               className="text-grey-500"

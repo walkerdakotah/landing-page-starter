@@ -1,5 +1,5 @@
 import React from 'react';
-import { CallRail } from '../../../project-config.js';
+import { callRail } from '../../lib/project-config.js';
 
 const YouAreNotAlone = () => (
   <section className="bg-navy py-40">
@@ -13,9 +13,9 @@ const YouAreNotAlone = () => (
       </h2>
       <a
         className="block max-w-xs m-auto mb-20 px-40 py-10 no-underline bg-navy hover:bg-aqua text-aqua hover:text-navy text-18 lg:text-24 font-400 border-aqua border-2 rounded-full leading-normal"
-        href={`tel:+1${CallRail.phone}`}
+        href={`tel:+1${callRail.phone}`}
       >
-        Call {CallRail.phone}
+        Call {callRail.phone}
       </a>
       <div className="text-14 font-300 text-white">Privacy Guaranteed</div>
     </div>

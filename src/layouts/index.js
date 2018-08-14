@@ -1,38 +1,43 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import { Project, Fingerprint, Fonts, jQuery } from '../../project-config';
-import Header from '../modules/Header/Header';
+import {
+  facilityInfo,
+  fingerprint,
+  fonts,
+  jQuery
+} from '../lib/project-config';
+import Header from '../components/Header';
 
-import '../styles/builds/after-postcss/main.css';
+import '../index.css';
 
 export default ({ children }) => (
   <div className="font-sans">
     <Helmet
-      title={`${Project.title}`}
+      title={`${facilityInfo.title}`}
       meta={[
-        { name: 'description', content: `${Project.title}` },
-        { name: 'author', content: `${Project.name}` },
-        { name: 'robots', content: 'noindex,nofollow' },
+        { name: 'description', content: `${facilityInfo.title}` },
+        { name: 'author', content: `${facilityInfo.name}` },
+        { name: 'robots', content: 'noindex,nofollow' }
       ]}
       script={[
         {
-          src: `${Fingerprint.src}`,
+          src: `${fingerprint.src}`
         },
         {
-          src: `${jQuery.core}`,
+          src: `${jQuery.core}`
         },
         {
-          src: `${jQuery.validation}`,
+          src: `${jQuery.validation}`
         },
         {
-          src: `${jQuery.additional_methods}`,
-        },
+          src: `${jQuery.additionalMethods}`
+        }
       ]}
       link={[
         {
-          rel: `${Fonts.rel}`,
-          href: `${Fonts.href}`,
-        },
+          rel: `${fonts.rel}`,
+          href: `${fonts.href}`
+        }
       ]}
     />
     <Header />

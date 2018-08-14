@@ -1,11 +1,5 @@
 import React from 'react';
-import {
-  Project,
-  Attribution,
-  Fingerprint,
-  Fonts,
-  CallRail
-} from '../project-config';
+import { attribution, fonts, callRail } from './lib/project-config';
 
 let stylesStr;
 if (process.env.NODE_ENV === `production`) {
@@ -48,11 +42,13 @@ module.exports = class HTML extends React.Component {
           />
           {this.props.postBodyComponents}
           <script
-            dangerouslySetInnerHTML={{ __html: `${Attribution.leadsource}` }}
+            dangerouslySetInnerHTML={{
+              __html: `${attribution.leadsource}`
+            }}
           />
-          <script src={`${Attribution.attr}`} />
-          <script src={`${Attribution.sf}`} />
-          <script src={`${CallRail.src}`} />
+          <script src={`${attribution.attr}`} />
+          <script src={`${attribution.sf}`} />
+          <script src={`${callRail.src}`} />
         </body>
       </html>
     );

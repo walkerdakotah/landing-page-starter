@@ -1,12 +1,12 @@
 import React from 'react';
-import { Project } from '../../../project-config.js';
+import { facilityInfo } from '../../lib/project-config.js';
 
 const PoliciesList = () => (
   <ul className="list-reset pt-20 flex flex-wrap">
     <li className="mb-5 pr-10 flex-none border-r border-white">
       <a
         className="no-underline text-white text-14 font-100 hover:underline"
-        href={Project.online_policy_link}
+        href={facilityInfo.onlinePolicyLink}
         target="blank"
       >
         Notice of Privacy Practices
@@ -15,7 +15,7 @@ const PoliciesList = () => (
     <li className="mb-5 px-10 flex-none border-r border-white">
       <a
         className="no-underline text-white text-14 font-100 hover:underline"
-        href={Project.private_policy_link}
+        href={facilityInfo.privatePolicyLink}
         target="blank"
       >
         Online Privacy Policy
@@ -24,7 +24,7 @@ const PoliciesList = () => (
     <li className="mb-5 px-10 flex-none">
       <a
         className="no-underline text-white text-14 font-100 hover:underline"
-        href={Project.terms_link}
+        href={facilityInfo.termsLink}
         target="blank"
       >
         Terms of Use

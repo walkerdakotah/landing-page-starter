@@ -1,0 +1,31 @@
+.bg-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: unset;
+}
+
+.alcohol-abuse {
+  background-image: url('./assets/background-images/alcohol-abuse--mobile.jpg');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 50% -72px;
+  @screen lg {
+    background-image: url('./assets/background-images/alcohol-abuse--desktop.jpg');
+    background-size: cover;
+    background-position: unset;
+  }
+}
+
+.our-approach {
+  background-image: url('./assets/background-images/our-approach--mobile.jpg');
+  @screen lg {
+    background-image: url('./assets/background-images/our-approach--desktop.jpg');
+  }
+}
+
+.better-chance {
+  background-image: url('./assets/background-images/better-chance--mobile.jpg');
+  @screen lg {
+    background-image: url('./assets/background-images/better-chance--desktop.jpg');
+  }
+}

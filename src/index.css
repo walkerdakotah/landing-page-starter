@@ -688,6 +688,10 @@ button,
   background-color: #344663;
 }
 
+.bg-orange-100 {
+  background-color: #e4c158;
+}
+
 .bg-orange {
   background-color: #d28430;
 }
@@ -726,6 +730,10 @@ button,
 
 .hover\:bg-navy:hover {
   background-color: #344663;
+}
+
+.hover\:bg-orange-100:hover {
+  background-color: #e4c158;
 }
 
 .hover\:bg-orange:hover {
@@ -832,6 +840,10 @@ button,
   border-color: #344663;
 }
 
+.border-orange-100 {
+  border-color: #e4c158;
+}
+
 .border-orange {
   border-color: #d28430;
 }
@@ -870,6 +882,10 @@ button,
 
 .hover\:border-navy:hover {
   border-color: #344663;
+}
+
+.hover\:border-orange-100:hover {
+  border-color: #e4c158;
 }
 
 .hover\:border-orange:hover {
@@ -2230,6 +2246,10 @@ button,
   padding: 10px;
 }
 
+.p-15 {
+  padding: 15px;
+}
+
 .p-20 {
   padding: 20px;
 }
@@ -2274,6 +2294,16 @@ button,
 .px-10 {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.py-15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.px-15 {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .py-20 {
@@ -2362,6 +2392,22 @@ button,
 
 .pl-10 {
   padding-left: 10px;
+}
+
+.pt-15 {
+  padding-top: 15px;
+}
+
+.pr-15 {
+  padding-right: 15px;
+}
+
+.pb-15 {
+  padding-bottom: 15px;
+}
+
+.pl-15 {
+  padding-left: 15px;
 }
 
 .pt-20 {
@@ -2565,6 +2611,10 @@ button,
   color: #344663;
 }
 
+.text-orange-100 {
+  color: #e4c158;
+}
+
 .text-orange {
   color: #d28430;
 }
@@ -2603,6 +2653,10 @@ button,
 
 .hover\:text-navy:hover {
   color: #344663;
+}
+
+.hover\:text-orange-100:hover {
+  color: #e4c158;
 }
 
 .hover\:text-orange:hover {
@@ -3118,6 +3172,35 @@ body {
   }
 }
 
+.btn-sm {
+  width: 220px;
+  border-radius: 9999px;
+}
+
+.btn {
+  width: 270px;
+  border-radius: 9999px;
+}
+
+.btn-lg {
+  width: 320px;
+  border-radius: 9999px;
+}
+
+.btn-orange {
+  background-color: #d28430;
+  color: #fff;
+  font-size: 24px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.btn-orange:hover {
+  background-color: #b96b17;
+}
+
+/* block max-w-xs m-auto mb-20 px-20 py-5 no-underline bg-orange hover:bg-orange-500 text-white text-24 font-700 rounded-full flex justify-around items-center  */
+
 input,
 textarea {
   border: 1px solid #9b9b9b;
@@ -3190,6 +3273,10 @@ textarea::placeholder {
     background-color: #344663;
   }
 
+  .sm\:bg-orange-100 {
+    background-color: #e4c158;
+  }
+
   .sm\:bg-orange {
     background-color: #d28430;
   }
@@ -3228,6 +3315,10 @@ textarea::placeholder {
 
   .sm\:hover\:bg-navy:hover {
     background-color: #344663;
+  }
+
+  .sm\:hover\:bg-orange-100:hover {
+    background-color: #e4c158;
   }
 
   .sm\:hover\:bg-orange:hover {
@@ -3334,6 +3425,10 @@ textarea::placeholder {
     border-color: #344663;
   }
 
+  .sm\:border-orange-100 {
+    border-color: #e4c158;
+  }
+
   .sm\:border-orange {
     border-color: #d28430;
   }
@@ -3372,6 +3467,10 @@ textarea::placeholder {
 
   .sm\:hover\:border-navy:hover {
     border-color: #344663;
+  }
+
+  .sm\:hover\:border-orange-100:hover {
+    border-color: #e4c158;
   }
 
   .sm\:hover\:border-orange:hover {
@@ -4732,6 +4831,10 @@ textarea::placeholder {
     padding: 10px;
   }
 
+  .sm\:p-15 {
+    padding: 15px;
+  }
+
   .sm\:p-20 {
     padding: 20px;
   }
@@ -4776,6 +4879,16 @@ textarea::placeholder {
   .sm\:px-10 {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .sm\:py-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .sm\:px-15 {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .sm\:py-20 {
@@ -4864,6 +4977,22 @@ textarea::placeholder {
 
   .sm\:pl-10 {
     padding-left: 10px;
+  }
+
+  .sm\:pt-15 {
+    padding-top: 15px;
+  }
+
+  .sm\:pr-15 {
+    padding-right: 15px;
+  }
+
+  .sm\:pb-15 {
+    padding-bottom: 15px;
+  }
+
+  .sm\:pl-15 {
+    padding-left: 15px;
   }
 
   .sm\:pt-20 {
@@ -5059,6 +5188,10 @@ textarea::placeholder {
     color: #344663;
   }
 
+  .sm\:text-orange-100 {
+    color: #e4c158;
+  }
+
   .sm\:text-orange {
     color: #d28430;
   }
@@ -5097,6 +5230,10 @@ textarea::placeholder {
 
   .sm\:hover\:text-navy:hover {
     color: #344663;
+  }
+
+  .sm\:hover\:text-orange-100:hover {
+    color: #e4c158;
   }
 
   .sm\:hover\:text-orange:hover {
@@ -5548,6 +5685,10 @@ textarea::placeholder {
     background-color: #344663;
   }
 
+  .md\:bg-orange-100 {
+    background-color: #e4c158;
+  }
+
   .md\:bg-orange {
     background-color: #d28430;
   }
@@ -5586,6 +5727,10 @@ textarea::placeholder {
 
   .md\:hover\:bg-navy:hover {
     background-color: #344663;
+  }
+
+  .md\:hover\:bg-orange-100:hover {
+    background-color: #e4c158;
   }
 
   .md\:hover\:bg-orange:hover {
@@ -5692,6 +5837,10 @@ textarea::placeholder {
     border-color: #344663;
   }
 
+  .md\:border-orange-100 {
+    border-color: #e4c158;
+  }
+
   .md\:border-orange {
     border-color: #d28430;
   }
@@ -5730,6 +5879,10 @@ textarea::placeholder {
 
   .md\:hover\:border-navy:hover {
     border-color: #344663;
+  }
+
+  .md\:hover\:border-orange-100:hover {
+    border-color: #e4c158;
   }
 
   .md\:hover\:border-orange:hover {
@@ -7090,6 +7243,10 @@ textarea::placeholder {
     padding: 10px;
   }
 
+  .md\:p-15 {
+    padding: 15px;
+  }
+
   .md\:p-20 {
     padding: 20px;
   }
@@ -7134,6 +7291,16 @@ textarea::placeholder {
   .md\:px-10 {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .md\:py-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .md\:px-15 {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .md\:py-20 {
@@ -7222,6 +7389,22 @@ textarea::placeholder {
 
   .md\:pl-10 {
     padding-left: 10px;
+  }
+
+  .md\:pt-15 {
+    padding-top: 15px;
+  }
+
+  .md\:pr-15 {
+    padding-right: 15px;
+  }
+
+  .md\:pb-15 {
+    padding-bottom: 15px;
+  }
+
+  .md\:pl-15 {
+    padding-left: 15px;
   }
 
   .md\:pt-20 {
@@ -7417,6 +7600,10 @@ textarea::placeholder {
     color: #344663;
   }
 
+  .md\:text-orange-100 {
+    color: #e4c158;
+  }
+
   .md\:text-orange {
     color: #d28430;
   }
@@ -7455,6 +7642,10 @@ textarea::placeholder {
 
   .md\:hover\:text-navy:hover {
     color: #344663;
+  }
+
+  .md\:hover\:text-orange-100:hover {
+    color: #e4c158;
   }
 
   .md\:hover\:text-orange:hover {
@@ -7906,6 +8097,10 @@ textarea::placeholder {
     background-color: #344663;
   }
 
+  .lg\:bg-orange-100 {
+    background-color: #e4c158;
+  }
+
   .lg\:bg-orange {
     background-color: #d28430;
   }
@@ -7944,6 +8139,10 @@ textarea::placeholder {
 
   .lg\:hover\:bg-navy:hover {
     background-color: #344663;
+  }
+
+  .lg\:hover\:bg-orange-100:hover {
+    background-color: #e4c158;
   }
 
   .lg\:hover\:bg-orange:hover {
@@ -8050,6 +8249,10 @@ textarea::placeholder {
     border-color: #344663;
   }
 
+  .lg\:border-orange-100 {
+    border-color: #e4c158;
+  }
+
   .lg\:border-orange {
     border-color: #d28430;
   }
@@ -8088,6 +8291,10 @@ textarea::placeholder {
 
   .lg\:hover\:border-navy:hover {
     border-color: #344663;
+  }
+
+  .lg\:hover\:border-orange-100:hover {
+    border-color: #e4c158;
   }
 
   .lg\:hover\:border-orange:hover {
@@ -9448,6 +9655,10 @@ textarea::placeholder {
     padding: 10px;
   }
 
+  .lg\:p-15 {
+    padding: 15px;
+  }
+
   .lg\:p-20 {
     padding: 20px;
   }
@@ -9492,6 +9703,16 @@ textarea::placeholder {
   .lg\:px-10 {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .lg\:py-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .lg\:px-15 {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .lg\:py-20 {
@@ -9580,6 +9801,22 @@ textarea::placeholder {
 
   .lg\:pl-10 {
     padding-left: 10px;
+  }
+
+  .lg\:pt-15 {
+    padding-top: 15px;
+  }
+
+  .lg\:pr-15 {
+    padding-right: 15px;
+  }
+
+  .lg\:pb-15 {
+    padding-bottom: 15px;
+  }
+
+  .lg\:pl-15 {
+    padding-left: 15px;
   }
 
   .lg\:pt-20 {
@@ -9775,6 +10012,10 @@ textarea::placeholder {
     color: #344663;
   }
 
+  .lg\:text-orange-100 {
+    color: #e4c158;
+  }
+
   .lg\:text-orange {
     color: #d28430;
   }
@@ -9813,6 +10054,10 @@ textarea::placeholder {
 
   .lg\:hover\:text-navy:hover {
     color: #344663;
+  }
+
+  .lg\:hover\:text-orange-100:hover {
+    color: #e4c158;
   }
 
   .lg\:hover\:text-orange:hover {
@@ -10264,6 +10509,10 @@ textarea::placeholder {
     background-color: #344663;
   }
 
+  .xl\:bg-orange-100 {
+    background-color: #e4c158;
+  }
+
   .xl\:bg-orange {
     background-color: #d28430;
   }
@@ -10302,6 +10551,10 @@ textarea::placeholder {
 
   .xl\:hover\:bg-navy:hover {
     background-color: #344663;
+  }
+
+  .xl\:hover\:bg-orange-100:hover {
+    background-color: #e4c158;
   }
 
   .xl\:hover\:bg-orange:hover {
@@ -10408,6 +10661,10 @@ textarea::placeholder {
     border-color: #344663;
   }
 
+  .xl\:border-orange-100 {
+    border-color: #e4c158;
+  }
+
   .xl\:border-orange {
     border-color: #d28430;
   }
@@ -10446,6 +10703,10 @@ textarea::placeholder {
 
   .xl\:hover\:border-navy:hover {
     border-color: #344663;
+  }
+
+  .xl\:hover\:border-orange-100:hover {
+    border-color: #e4c158;
   }
 
   .xl\:hover\:border-orange:hover {
@@ -11806,6 +12067,10 @@ textarea::placeholder {
     padding: 10px;
   }
 
+  .xl\:p-15 {
+    padding: 15px;
+  }
+
   .xl\:p-20 {
     padding: 20px;
   }
@@ -11850,6 +12115,16 @@ textarea::placeholder {
   .xl\:px-10 {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .xl\:py-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .xl\:px-15 {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .xl\:py-20 {
@@ -11938,6 +12213,22 @@ textarea::placeholder {
 
   .xl\:pl-10 {
     padding-left: 10px;
+  }
+
+  .xl\:pt-15 {
+    padding-top: 15px;
+  }
+
+  .xl\:pr-15 {
+    padding-right: 15px;
+  }
+
+  .xl\:pb-15 {
+    padding-bottom: 15px;
+  }
+
+  .xl\:pl-15 {
+    padding-left: 15px;
   }
 
   .xl\:pt-20 {
@@ -12133,6 +12424,10 @@ textarea::placeholder {
     color: #344663;
   }
 
+  .xl\:text-orange-100 {
+    color: #e4c158;
+  }
+
   .xl\:text-orange {
     color: #d28430;
   }
@@ -12171,6 +12466,10 @@ textarea::placeholder {
 
   .xl\:hover\:text-navy:hover {
     color: #344663;
+  }
+
+  .xl\:hover\:text-orange-100:hover {
+    color: #e4c158;
   }
 
   .xl\:hover\:text-orange:hover {

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import HeroButton from './buttons/HeroButton';
+// import CallButton from './buttons/CallButton';
 import Form from './form/Form';
 
 import { facilityInfo, callRail } from '../lib/project-config';
@@ -12,13 +13,9 @@ const Hero = () => (
       <div className="lg:m-auto container lg:flex lg:justify-between">
         <div className="container px-20 lg:flex lg:flex-col lg:justify-end">
           <div className="text-white text-center lg:text-left">
-            <h1 className="mb-20 text-48 lg:text-72 font-700">{hero.title}</h1>
-            <p className="hidden lg:block pb-20 text-18 lg:text-22 font-300">
-              {hero.content}
-            </p>
-            <p className="text-18 lg:text-22 font-300 lg:font-500">
-              {hero.subline}
-            </p>
+            <h1 className="h1">{hero.title}</h1>
+            <p className="hidden lg:block p">{hero.content}</p>
+            <p className="p">{hero.subline}</p>
           </div>
         </div>
 

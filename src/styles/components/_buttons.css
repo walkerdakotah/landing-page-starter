@@ -1,0 +1,21 @@
+.btn-sm {
+  width: 220px;
+  @apply rounded-full;
+}
+.btn {
+  width: 270px;
+  @apply rounded-full;
+}
+.btn-lg {
+  width: 320px;
+  @apply rounded-full;
+}
+
+.btn-orange {
+  @apply bg-orange text-white text-24 py-15;
+}
+.btn-orange:hover {
+  @apply bg-orange-500;
+}
+
+/* block max-w-xs m-auto mb-20 px-20 py-5 no-underline bg-orange hover:bg-orange-500 text-white text-24 font-700 rounded-full flex justify-around items-center  */

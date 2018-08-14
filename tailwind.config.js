@@ -45,6 +45,7 @@ View the full documentation at https://tailwindcss.com.
 let colors = {
   transparent: 'transparent',
   navy: '#344663',
+  'orange-100': '#e4c158',
   orange: '#D28430',
   'orange-500': `#B96B17`,
   white: '#ffffff',
@@ -527,6 +528,7 @@ module.exports = {
     '0': '0',
     '5': '5px',
     '10': '10px',
+    '15': '15px',
     '20': '20px',
     '40': '40px',
     '80': '80px'

@@ -1,11 +1,11 @@
 import React from 'react';
-import ameriHealth from '../../assets/logos/ameri-health.png';
-import blueCross from '../../assets/logos/blue-cross.png';
-import cigna from '../../assets/logos/cigna.png';
-import harvardHealth from '../../assets/logos/harvard-health.png';
-import humana from '../../assets/logos/humana.png';
-import unitedHealth from '../../assets/logos/united-health.png';
-import upmc from '../../assets/logos/upmc.png';
+import ameriHealth from '../assets/logos/ameri-health.png';
+import blueCross from '../assets/logos/blue-cross.png';
+import cigna from '../assets/logos/cigna.png';
+import harvardHealth from '../assets/logos/harvard-health.png';
+import humana from '../assets/logos/humana.png';
+import unitedHealth from '../assets/logos/united-health.png';
+import upmc from '../assets/logos/upmc.png';
 
 const InsuranceProviders = () => (
   <section className="lg:py-40">

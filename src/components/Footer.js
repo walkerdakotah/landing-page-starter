@@ -1,9 +1,9 @@
 import React from 'react';
-import LogoSecondary from '../../components/logo/LogoSecondary';
-import ContactInfo from '../../components/contactInfo/ContactInfo';
-import AccreditationList from '../../components/lists/AccreditationList';
-import PoliciesList from '../../components/lists/PoliciesList';
-import DisclaimersList from '../../components/lists/DisclaimersList';
+import LogoSecondary from './logo/LogoSecondary';
+import ContactInfo from './contactInfo/ContactInfo';
+import AccreditationList from './lists/AccreditationList';
+import PoliciesList from './lists/PoliciesList';
+import DisclaimersList from './lists/DisclaimersList';
 
 const Footer = () => (
   <section className="bg-navy">

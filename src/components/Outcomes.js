@@ -1,7 +1,7 @@
 import React from 'react';
 
-import GraduatesReport from '../GraduatesReport/GraduatesReport';
-import BetterChance from '../BetterChance/BetterChance';
+import GraduatesReport from './GraduatesReport';
+import BetterChance from './BetterChance';
 
 const Outcomes = () => (
   <section>

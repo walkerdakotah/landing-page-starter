@@ -1,15 +1,15 @@
 import React from 'react';
 
 import Hero from '../components/Hero';
-import FacilityFeatures from '../modules/FacilityFeatures/FacilityFeatures';
-import YouAreNotAlone from '../modules/YouAreNotAlone/YouAreNotAlone';
-import WhatHappens from '../modules/WhatHappens/WhatHappens';
-import OurApproach from '../modules/OurApproach/OurApproach';
+import FacilityFeatures from '../components/FacilityFeatures';
+import YouAreNotAlone from '../components/YouAreNotAlone';
+import WhatHappens from '../components/WhatHappens';
+import OurApproach from '../components/OurApproach';
 
-import BrandPromise from '../modules/BrandPromise/BrandPromise';
-import Testimonials from '../modules/Testimonials/Testimonials';
-import ThreeSteps from '../modules/ThreeSteps/ThreeSteps';
-import Footer from '../modules/Footer/Footer';
+import BrandPromise from '../components/BrandPromise';
+import Testimonials from '../components/Testimonials';
+import ThreeSteps from '../components/ThreeSteps';
+import Footer from '../components/Footer';
 
 const IndexPage = () => (
   <div className="pt-14 md:pt-18 lg:pt-22">

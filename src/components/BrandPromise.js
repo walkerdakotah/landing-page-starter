@@ -1,5 +1,5 @@
 import React from 'react';
-import PromiseSeal from '../../assets/logos/90-day-promise.png';
+import PromiseSeal from '../assets/logos/90-day-promise.png';
 
 const BrandPromise = () => (
   <section className="bg-grey-100 py-40">

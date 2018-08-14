@@ -1,8 +1,8 @@
 import React from 'react';
-import Phone from '../../assets/icons/phone-orange.svg';
-import HandWrite from '../../assets/icons/handwrite-orange.svg';
-import HeartInHands from '../../assets/icons/heart-in-hands-orange.svg';
-import { callRail } from '../../lib/project-config';
+import Phone from '../assets/icons/phone-orange.svg';
+import HandWrite from '../assets/icons/handwrite-orange.svg';
+import HeartInHands from '../assets/icons/heart-in-hands-orange.svg';
+import { callRail } from '../lib/project-config';
 
 const WhatHappens = () => (
   <section className="lg:py-40">

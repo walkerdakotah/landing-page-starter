@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { facilityFeatures } from '../../lib/content-config.js';
+import { facilityFeatures } from '../lib/content-config.js';
 
-import FeaturesList from '../../components/lists/FeaturesList.js';
+import FeaturesList from './lists/FeaturesList.js';
 const FacilityFeatures = () => (
   <section>
     <div className="features py-40 lg:py-80 px-10 lg:px-40">

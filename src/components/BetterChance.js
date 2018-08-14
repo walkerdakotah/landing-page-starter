@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Graph from '../../assets/outcomes/outcomes-graph.png';
+import Graph from '../assets/outcomes/outcomes-graph.png';
 
 const BetterChance = () => (
   <div className="better-chance lg:py-80">

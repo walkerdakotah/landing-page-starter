@@ -1,5 +1,5 @@
 import React from 'react';
-import { callRail } from '../../lib/project-config.js';
+import { callRail } from '../lib/project-config.js';
 
 const YouAreNotAlone = () => (
   <section className="bg-navy py-40">

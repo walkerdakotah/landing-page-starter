@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Number44 from '../../assets/outcomes/outcomes-44.png';
-import Number56 from '../../assets/outcomes/outcomes-56.png';
-import Number94 from '../../assets/outcomes/outcomes-94.png';
+import Number44 from '../assets/outcomes/outcomes-44.png';
+import Number56 from '../assets/outcomes/outcomes-56.png';
+import Number94 from '../assets/outcomes/outcomes-94.png';
 
 const GraduatesReport = () => (
   <div className="m-auto container pt-40 lg:pt-80">

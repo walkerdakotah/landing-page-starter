@@ -662,134 +662,6 @@ button,
   }
 }
 
-.alcohol-abuse {
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: 50% -72px;
-  background-image: url("../../../assets/background-images/alcohol-abuse--mobile.jpg");
-}
-
-@media (min-width: 992px) {
-  .alcohol-abuse {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: unset;
-    background-image: url("../../../assets/background-images/alcohol-abuse--desktop.jpg");
-  }
-}
-
-.our-approach {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: unset;
-  background-image: url("../../../assets/background-images/our-approach--mobile.jpg");
-}
-
-@media (min-width: 768px) {
-  .our-approach {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: unset;
-    background-image: url("../../../assets/background-images/our-approach--desktop.jpg");
-  }
-}
-
-.better-chance {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: unset;
-  background-image: url("../../../assets/background-images/better-chance--mobile.jpg");
-}
-
-@media (min-width: 768px) {
-  .better-chance {
-    background-image: url("../../../assets/background-images/better-chance--desktop.jpg");
-  }
-}
-
-input,
-textarea {
-  border: 1px solid #8795a1;
-}
-
-input:invalid,
-textarea:invalid {
-  box-shadow: none;
-}
-
-input:-moz-submit-invalid,
-textarea:-moz-submit-invalid {
-  box-shadow: none;
-}
-
-input:-moz-ui-invalid,
-textarea:-moz-ui-invalid {
-  box-shadow: none;
-}
-
-input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder {
-  color: #4d4d4d;
-}
-
-input:-ms-input-placeholder,
-textarea:-ms-input-placeholder {
-  color: #4d4d4d;
-}
-
-input::placeholder,
-textarea::placeholder {
-  color: #4d4d4d;
-}
-
-.hero {
-  min-height: 530px;
-}
-
-@media (min-width: 992px) {
-  .hero {
-    min-height: 774px;
-  }
-}
-
-.pin-b-hero {
-  bottom: 18px;
-  right: 0;
-  left: 0;
-}
-
-.short-border::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  height: 1px;
-  width: 70%;
-  border-bottom: 1px solid magenta;
-  transform: translateX(-50%);
-}
-
-.overlay--navy {
-  background: rgba(52, 70, 99, .8);
-}
-
-.svg-orange {
-  height: 50px;
-  width: 50px;
-}
-
-.svg-trans {
-  height: 85px;
-  width: 85px;
-}
-
-@media (min-width: 992px) {
-  .svg-trans {
-    height: 170px;
-    width: 170px;
-  }
-}
-
 /**
 * This injects all of Tailwind's utility classes, generated based on your
 * config file. It also injects any utility classes registered by plugins.
@@ -3360,6 +3232,134 @@ textarea::placeholder {
 
 .z-auto {
   z-index: auto;
+}
+
+.alcohol-abuse {
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 50% -72px;
+  background-image: url("../../../assets/background-images/alcohol-abuse--mobile.jpg");
+}
+
+@media (min-width: 992px) {
+  .alcohol-abuse {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: unset;
+    background-image: url("../../../assets/background-images/alcohol-abuse--desktop.jpg");
+  }
+}
+
+.our-approach {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: unset;
+  background-image: url("../../../assets/background-images/our-approach--mobile.jpg");
+}
+
+@media (min-width: 768px) {
+  .our-approach {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: unset;
+    background-image: url("../../../assets/background-images/our-approach--desktop.jpg");
+  }
+}
+
+.better-chance {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: unset;
+  background-image: url("../../../assets/background-images/better-chance--mobile.jpg");
+}
+
+@media (min-width: 768px) {
+  .better-chance {
+    background-image: url("../../../assets/background-images/better-chance--desktop.jpg");
+  }
+}
+
+input,
+textarea {
+  border: 1px solid #8795a1;
+}
+
+input:invalid,
+textarea:invalid {
+  box-shadow: none;
+}
+
+input:-moz-submit-invalid,
+textarea:-moz-submit-invalid {
+  box-shadow: none;
+}
+
+input:-moz-ui-invalid,
+textarea:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #4d4d4d;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #4d4d4d;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #4d4d4d;
+}
+
+.hero {
+  min-height: 530px;
+}
+
+@media (min-width: 992px) {
+  .hero {
+    min-height: 774px;
+  }
+}
+
+.pin-b-hero {
+  bottom: 18px;
+  right: 0;
+  left: 0;
+}
+
+.short-border::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  height: 1px;
+  width: 70%;
+  border-bottom: 1px solid magenta;
+  transform: translateX(-50%);
+}
+
+.overlay--navy {
+  background: rgba(52, 70, 99, .8);
+}
+
+.svg-orange {
+  height: 50px;
+  width: 50px;
+}
+
+.svg-trans {
+  height: 85px;
+  width: 85px;
+}
+
+@media (min-width: 992px) {
+  .svg-trans {
+    height: 170px;
+    width: 170px;
+  }
 }
 
 @media (min-width: 576px) {

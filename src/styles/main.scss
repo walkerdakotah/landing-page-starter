@@ -12,10 +12,19 @@
  */
 
 @tailwind components;
-@import "sass/index";
 /**
 * This injects all of Tailwind's utility classes, generated based on your
 * config file. It also injects any utility classes registered by plugins.
 */
 
 @tailwind utilities;
+
+.h1 {
+  @apply text-36 font-700 font-sans lg:text-50;
+}
+
+.h2 {
+  @apply text-24 font-700 font-serif lg:text-36;
+}
+
+@import 'sass/index';

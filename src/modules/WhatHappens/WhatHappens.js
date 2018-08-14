@@ -20,7 +20,7 @@ const WhatHappens = () => (
               We'll listen.
             </h4>
             <p className="mb-20 text-14 lg:text-18 font-500 text-grey-500 leading-normal">
-              Your Treatment Consultant will complete a 15-30 minute
+              Your admissions coordinator will complete a 15-30 minute
               confidential clinical evaluation of you or your loved one’s
               addiction history and behavioral health issues (anxiety disorders,
               depression, bipolar disorder, etc.). This evaluation is absolutely

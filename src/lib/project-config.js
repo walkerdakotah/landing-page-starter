@@ -56,12 +56,3 @@ export const jQuery = {
   additionalMethods:
     'https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/additional-methods.min.js'
 };
-
-export const corpAddress = {
-  street: '200 Powell Pl',
-  city: 'Brentwood',
-  state: 'TN',
-  zipcode: '37027'
-};
-
-export const corpPhone = '(888) 987-1784';

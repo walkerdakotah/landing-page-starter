@@ -1,6 +1,8 @@
 import React from 'react';
 import LogoSecondary from './logo/LogoSecondary';
-import { facilityInfo, corpAddress, corpPhone } from '../lib/project-config.js';
+import aacHorizontal from '../assets/logos/aac-horiz-white.svg';
+import { facilityInfo } from '../lib/project-config.js';
+import { phoneNumber } from '../lib/globals.js';
 
 // imports icons for SocialList
 import FacebookIcon from '../assets/icons/facebook-white.svg';
@@ -11,20 +13,6 @@ import TwitterIcon from '../assets/icons/twitter-white.svg';
 import BBBLogo from '../assets/logos/bbb.png';
 import CarfLogo from '../assets/logos/carf-white.png';
 import JointCommissionLogo from '../assets/logos/joint-commission-white.png';
-
-const AccreditationList = () => (
-  <ul className="list-reset flex">
-    <li className="pr-20">
-      <img src={BBBLogo} alt="Better Business Bureau logo" />
-    </li>
-    <li className="pr-20">
-      <img src={CarfLogo} alt="CARF logo" />
-    </li>
-    <li className="pr-20">
-      <img src={JointCommissionLogo} alt="Joint Commission logo" />
-    </li>
-  </ul>
-);
 
 const DisclaimersList = () => (
   <ul className="subtext text-grey-100 list-reset pt-20 pl-10">
@@ -48,96 +36,107 @@ const DisclaimersList = () => (
   </ul>
 );
 
-const PoliciesList = () => (
-  <ul className="list-reset pt-20 flex flex-wrap">
-    <li className="mb-5 pr-10 flex-none border-r border-white">
-      <a
-        className="subtext text-white"
-        href={facilityInfo.onlinePolicyLink}
-        target="blank"
-      >
-        Notice of Privacy Practices
-      </a>
-    </li>
-    <li className="mb-5 px-10 flex-none border-r border-white">
-      <a
-        className="subtext text-white"
-        href={facilityInfo.privatePolicyLink}
-        target="blank"
-      >
-        Online Privacy Policy
-      </a>
-    </li>
-    <li className="mb-5 px-10 flex-none">
-      <a
-        className="subtext text-white"
-        href={facilityInfo.termsLink}
-        target="blank"
-      >
-        Terms of Use
-      </a>
-    </li>
-  </ul>
-);
-
-const SocialList = () => (
-  <ul className="list-reset flex">
-    <li className="pr-10">
-      <a href={facilityInfo.linkedinLink} target="blank">
-        <img src={LinkedInIcon} alt="linkedin icon" />
-      </a>
-    </li>
-    <li className="pr-10">
-      <a href={facilityInfo.twitterLink} target="blank">
-        <img src={TwitterIcon} alt="twitter icon" />
-      </a>
-    </li>
-    <li className="pr-10">
-      <a href={facilityInfo.facebookLink} target="blank">
-        <img src={FacebookIcon} alt="facebook icon" />
-      </a>
-    </li>
-    <li>
-      <a href={facilityInfo.instagramLink} target="blank">
-        <img src={InstagramIcon} alt="instagram icon" />
-      </a>
-    </li>
-  </ul>
-);
-
-const ContactInfo = () => (
-  <div className="pb-20">
-    <div className="p text-white leading-normal lg:pb-10">
-      <p className="mb-10">{corpPhone}</p>
-      <p className="mb-10">{corpAddress.street}</p>
-      <p className="mb-10">
-        {corpAddress.city}, {corpAddress.state} {corpAddress.zipcode}
-      </p>
-    </div>
-  </div>
-);
-
-const Footer = () => (
-  <section className="bg-navy">
-    <div className="m-auto container py-40 px-10 lg:px-40">
-      <LogoSecondary />
-      <div className="pt-20 lg:pb-20 flex flex-col lg:flex-row lg:justify-between">
-        <div className="pb-20">
-          <ContactInfo />
-          <SocialList />
+export default function Footer() {
+  const date = new Date();
+  const year = date.getFullYear();
+  return (
+    <footer className="bg-navy flex flex-col">
+      <div className="lg:flex">
+        <div className="lg:w-1/3 footer-section my-8 text-center">
+          <img src={aacHorizontal} style={{ width: '290px', height: 'auto' }} />
+          <p className="p text-white leading-normal my-8">
+            American Addiction Centers <br />
+            {phoneNumber} <br />
+            200 Powell Pl <br />
+            Brentwood, TN 37027
+          </p>
+          <div
+            className="flex justify-between m-auto"
+            style={{ width: '120px' }}
+          >
+            <a href={facilityInfo.linkedinLink} target="blank">
+              <img src={LinkedInIcon} alt="linkedin icon" />
+            </a>
+            <a href={facilityInfo.twitterLink} target="blank">
+              <img src={TwitterIcon} alt="twitter icon" />
+            </a>
+            <a href={facilityInfo.facebookLink} target="blank">
+              <img src={FacebookIcon} alt="facebook icon" />
+            </a>
+            <a href={facilityInfo.instagramLink} target="blank">
+              <img src={InstagramIcon} alt="instagram icon" />
+            </a>
+          </div>
         </div>
-
-        <div className="flex flex-col lg:items-end lg:justify-end">
-          <AccreditationList />
-          <PoliciesList />
+        <div className="lg:mt-8 lg:w-1/3 footer-section pt-4">
+          <h3 className="p text-aqua mb-8 px-4">Privacy</h3>
+          <ul className="list-reset mt-8 mb-4 px-8 pb-4">
+            <li className="mb-2 text-aqua">
+              <a
+                className="subtext"
+                href={facilityInfo.onlinePolicyLink}
+                target="blank"
+              >
+                Notice of Privacy Practices
+              </a>
+            </li>
+            <li className="mb-2 text-aqua">
+              <a
+                className="subtext"
+                href={facilityInfo.privatePolicyLink}
+                target="blank"
+              >
+                Online Privacy Policy
+              </a>
+            </li>
+            <li className="mb-2 text-aqua">
+              <a
+                className="subtext"
+                href={facilityInfo.termsLink}
+                target="blank"
+              >
+                Terms of Use
+              </a>
+            </li>
+          </ul>
+          <div
+            className="flex justify-between m-auto lg:ml-8 pb-16"
+            style={{ width: '220px' }}
+          >
+            <img src={BBBLogo} alt="Better Business Bureau " />
+            <img src={CarfLogo} alt="CARF " />
+            <img src={JointCommissionLogo} alt="Joint Commission " />
+          </div>
+        </div>
+        <div className="lg:mt-8 lg:w-1/3 footer-section pt-4">
+          <h3 className="p text-aqua mb-8 px-4">Resources</h3>
+          <ul className="list-reset mt-8 mb-4 px-8 pb-4">
+            <li className="subtext text-aqua mb-2">
+              *Source:{' '}
+              <a
+                href="https://www.niaaa.nih.gov/alcohol-health/overview-alcohol-consumption/alcohol-use-disorders"
+                target="blank"
+              >
+                www.niaaa.nih.gov
+              </a>
+            </li>
+            <li className="subtext text-aqua mb-2">
+              **Terms and conditions apply. To learn more about how you can
+              qualify for our guarantee, read our{' '}
+              <a
+                href="https://americanaddictioncenters.org/disclaimer/"
+                target="blank"
+              >
+                disclaimer
+              </a>{' '}
+              for details.
+            </li>
+          </ul>
         </div>
       </div>
-      <DisclaimersList />
-      <div className="subtext text-grey-100 text-center py-40">
-        © American Addiction Centers Copyright 2018
+      <div className="subtext text-aqua text-center py-4">
+        American Addiction Centers Copyright {year}
       </div>
-    </div>
-  </section>
-);
-
-export default Footer;
+    </footer>
+  );
+}

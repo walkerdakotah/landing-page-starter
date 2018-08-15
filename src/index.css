@@ -3080,6 +3080,10 @@ body {
   color: #4d4d4d;
 }
 
+a {
+  color: inherit;
+}
+
 .h1 {
   font-size: 36px;
   font-weight: 700;
@@ -3111,7 +3115,7 @@ body {
   font-weight: 400;
 }
 
-.p3 {
+.subtext {
   font-size: 12px;
   font-weight: 400;
 }

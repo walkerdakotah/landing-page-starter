@@ -1,6 +1,9 @@
 body {
   @apply font-sans text-grey-500;
 }
+a {
+  color: inherit;
+}
 .h1 {
   @apply text-36 font-bold;
 }
@@ -19,7 +22,7 @@ body {
 .p {
   @apply text-16 font-normal;
 }
-.p3 {
+.subtext {
   @apply text-12 font-normal;
 }
 .quote {

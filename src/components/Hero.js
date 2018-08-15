@@ -74,7 +74,6 @@ const Hero = () => (
               href={`${facilityInfo.onlinePolicyLink}`}
               target="blank"
               alt="Privacy Policy"
-              className="text-grey-500"
             >
               privacy policy
             </a>.

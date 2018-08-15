@@ -3224,21 +3224,29 @@ textarea:-moz-ui-invalid {
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   color: #4d4d4d;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
   color: #4d4d4d;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 input::-ms-input-placeholder,
 textarea::-ms-input-placeholder {
   color: #4d4d4d;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 input::placeholder,
 textarea::placeholder {
   color: #4d4d4d;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 @media (min-width: 576px) {

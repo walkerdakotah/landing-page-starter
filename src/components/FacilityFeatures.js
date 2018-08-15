@@ -7,7 +7,7 @@ const FacilityFeatures = () => (
   <section>
     <div className="features py-40 lg:py-80 px-10 lg:px-40">
       <div className="m-auto container">
-        <h2 className="mb-20 lg:mb-40 lg:pb-20 text-center text-24 lg:text-40 text-navy font-serif font-700">
+        <h2 className="h2 text-navy text-center mb-20 lg:mb-40 lg:pb-20">
           {facilityFeatures.title}
         </h2>
         <FeaturesList />

@@ -60,14 +60,14 @@ const Hero = () => (
     <div className="mobile-form lg:hidden">
       <div className="bg-grey-100">
         <div className="m-auto container text-center p-40 lg:w-96">
-          <div className="pb-40 text-18 font-700 text-navy">
+          <h4 className="h4 pb-40 text-navy">
             Prefer a call or email from us instead?
-          </div>
+          </h4>
           <Form />
-          <div className="mt-5 lg:mt-0 pb-20 text-18 font-700 text-grey-500">
+          <h4 className="h4 mt-5 lg:mt-0 pb-20 text-grey-500">
             Insurance Accepted. Privacy Guaranteed.
-          </div>
-          <div className="text-grey-500 text-14 font-500 leading-normal md:m-auto md:w-1/2 lg:w-auto">
+          </h4>
+          <div className="p3 text-grey-500 md:m-auto md:w-1/2 lg:w-auto">
             We won’t sell your information and will treat your information in
             accordance with our{' '}
             <a

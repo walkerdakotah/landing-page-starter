@@ -13,7 +13,7 @@ const Form = () => (
     <input
       required
       id="first_name"
-      className="container p-5  mb-10  text-16"
+      className="container p-5  mb-10 "
       placeholder="First Name *"
       maxLength="40"
       name="first_name"
@@ -23,7 +23,7 @@ const Form = () => (
     <input
       required
       id="last_name"
-      className="container p-5  mb-10  text-16"
+      className="container p-5  mb-10 "
       placeholder="Last Name *"
       maxLength="40"
       name="last_name"
@@ -33,7 +33,7 @@ const Form = () => (
     <input
       required
       id="phone"
-      className="container p-5 mb-10 text-16"
+      className="container p-5 mb-10"
       placeholder="Phone *"
       name="phone"
       size="20"
@@ -42,7 +42,7 @@ const Form = () => (
 
     <textarea
       required
-      className="container p-5  mb-10  text-16"
+      className="container p-5  mb-10 "
       name="description"
       rows="6"
       cols="40"

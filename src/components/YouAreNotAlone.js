@@ -4,10 +4,8 @@ import { callRail } from '../lib/project-config.js';
 const YouAreNotAlone = () => (
   <section className="bg-navy py-40">
     <div className="max-w-lg m-auto container p-40 text-center">
-      <h3 className="pb-40 text-18 lg:text-24 font-300 text-white">
-        You are not alone.
-      </h3>
-      <h2 className="pb-40 font-serif text-22 lg:text-36 font-300 text-white leading-normal">
+      <h3 className="h3 text-white pb-40">You are not alone.</h3>
+      <h2 className="h2 text-white leading-normal pb-40">
         An estimated 16 million people in the United States have an alcohol use
         disorder.* We're here to help.
       </h2>
@@ -17,7 +15,7 @@ const YouAreNotAlone = () => (
       >
         Call {callRail.phone}
       </a>
-      <div className="text-14 font-300 text-white">Privacy Guaranteed</div>
+      <div className="p3 text-white">Privacy Guaranteed</div>
     </div>
   </section>
 );

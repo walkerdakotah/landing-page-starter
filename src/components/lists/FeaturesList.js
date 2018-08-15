@@ -14,10 +14,8 @@ const list = facilityFeatures.features.map(feature => (
       />
     </div>
     <div className="text-center">
-      <h4 className="mb-10 text-18 lg:text-24 font-700 text-grey-500">
-        {feature.title}
-      </h4>
-      <p className="mb-20 text-14 lg:text-18 font-500 text-grey-500 leading-normal">
+      <h4 className="h4 text-grey-500 mb-10">{feature.title}</h4>
+      <p className="p text-grey-500 mb-20 leading-normal">
         {feature.description}
       </p>
     </div>

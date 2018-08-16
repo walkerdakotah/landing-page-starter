@@ -2557,7 +2557,11 @@ button,
 }
 
 .p-20 {
-  padding: 5rem;
+  padding: 20px;
+}
+
+.p-32 {
+  padding: 8rem;
 }
 
 .p-40 {
@@ -2703,13 +2707,23 @@ button,
 }
 
 .py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.py-32 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.px-32 {
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
 .py-40 {
@@ -2951,19 +2965,35 @@ button,
 }
 
 .pt-20 {
-  padding-top: 5rem;
+  padding-top: 20px;
 }
 
 .pr-20 {
-  padding-right: 5rem;
+  padding-right: 20px;
 }
 
 .pb-20 {
-  padding-bottom: 5rem;
+  padding-bottom: 20px;
 }
 
 .pl-20 {
-  padding-left: 5rem;
+  padding-left: 20px;
+}
+
+.pt-32 {
+  padding-top: 8rem;
+}
+
+.pr-32 {
+  padding-right: 8rem;
+}
+
+.pb-32 {
+  padding-bottom: 8rem;
+}
+
+.pl-32 {
+  padding-left: 8rem;
 }
 
 .pt-40 {
@@ -3615,6 +3645,8 @@ button,
   z-index: auto;
 }
 
+/** text-styles */
+
 body {
   font-family: Lato, Helvetica, Arial, sans-serif;
   color: #4d4d4d;
@@ -3667,6 +3699,18 @@ a {
   line-height: 1.5;
 }
 
+/** containers */
+
+.section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.content-block {
+  max-width: 1170px;
+  margin: auto;
+}
+
 @media (min-width: 992px) {
   .h1 {
     font-size: 50px;
@@ -3686,6 +3730,11 @@ a {
 
   .subline {
     font-size: 36px;
+  }
+
+  .section {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
 }
 
@@ -5702,7 +5751,11 @@ textarea::placeholder {
   }
 
   .sm\:p-20 {
-    padding: 5rem;
+    padding: 20px;
+  }
+
+  .sm\:p-32 {
+    padding: 8rem;
   }
 
   .sm\:p-40 {
@@ -5848,13 +5901,23 @@ textarea::placeholder {
   }
 
   .sm\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .sm\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .sm\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .sm\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 
   .sm\:py-40 {
@@ -6096,19 +6159,35 @@ textarea::placeholder {
   }
 
   .sm\:pt-20 {
-    padding-top: 5rem;
+    padding-top: 20px;
   }
 
   .sm\:pr-20 {
-    padding-right: 5rem;
+    padding-right: 20px;
   }
 
   .sm\:pb-20 {
-    padding-bottom: 5rem;
+    padding-bottom: 20px;
   }
 
   .sm\:pl-20 {
-    padding-left: 5rem;
+    padding-left: 20px;
+  }
+
+  .sm\:pt-32 {
+    padding-top: 8rem;
+  }
+
+  .sm\:pr-32 {
+    padding-right: 8rem;
+  }
+
+  .sm\:pb-32 {
+    padding-bottom: 8rem;
+  }
+
+  .sm\:pl-32 {
+    padding-left: 8rem;
   }
 
   .sm\:pt-40 {
@@ -8654,7 +8733,11 @@ textarea::placeholder {
   }
 
   .md\:p-20 {
-    padding: 5rem;
+    padding: 20px;
+  }
+
+  .md\:p-32 {
+    padding: 8rem;
   }
 
   .md\:p-40 {
@@ -8800,13 +8883,23 @@ textarea::placeholder {
   }
 
   .md\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .md\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .md\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .md\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 
   .md\:py-40 {
@@ -9048,19 +9141,35 @@ textarea::placeholder {
   }
 
   .md\:pt-20 {
-    padding-top: 5rem;
+    padding-top: 20px;
   }
 
   .md\:pr-20 {
-    padding-right: 5rem;
+    padding-right: 20px;
   }
 
   .md\:pb-20 {
-    padding-bottom: 5rem;
+    padding-bottom: 20px;
   }
 
   .md\:pl-20 {
-    padding-left: 5rem;
+    padding-left: 20px;
+  }
+
+  .md\:pt-32 {
+    padding-top: 8rem;
+  }
+
+  .md\:pr-32 {
+    padding-right: 8rem;
+  }
+
+  .md\:pb-32 {
+    padding-bottom: 8rem;
+  }
+
+  .md\:pl-32 {
+    padding-left: 8rem;
   }
 
   .md\:pt-40 {
@@ -11606,7 +11715,11 @@ textarea::placeholder {
   }
 
   .lg\:p-20 {
-    padding: 5rem;
+    padding: 20px;
+  }
+
+  .lg\:p-32 {
+    padding: 8rem;
   }
 
   .lg\:p-40 {
@@ -11752,13 +11865,23 @@ textarea::placeholder {
   }
 
   .lg\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .lg\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .lg\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .lg\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 
   .lg\:py-40 {
@@ -12000,19 +12123,35 @@ textarea::placeholder {
   }
 
   .lg\:pt-20 {
-    padding-top: 5rem;
+    padding-top: 20px;
   }
 
   .lg\:pr-20 {
-    padding-right: 5rem;
+    padding-right: 20px;
   }
 
   .lg\:pb-20 {
-    padding-bottom: 5rem;
+    padding-bottom: 20px;
   }
 
   .lg\:pl-20 {
-    padding-left: 5rem;
+    padding-left: 20px;
+  }
+
+  .lg\:pt-32 {
+    padding-top: 8rem;
+  }
+
+  .lg\:pr-32 {
+    padding-right: 8rem;
+  }
+
+  .lg\:pb-32 {
+    padding-bottom: 8rem;
+  }
+
+  .lg\:pl-32 {
+    padding-left: 8rem;
   }
 
   .lg\:pt-40 {
@@ -14558,7 +14697,11 @@ textarea::placeholder {
   }
 
   .xl\:p-20 {
-    padding: 5rem;
+    padding: 20px;
+  }
+
+  .xl\:p-32 {
+    padding: 8rem;
   }
 
   .xl\:p-40 {
@@ -14704,13 +14847,23 @@ textarea::placeholder {
   }
 
   .xl\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .xl\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .xl\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .xl\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 
   .xl\:py-40 {
@@ -14952,19 +15105,35 @@ textarea::placeholder {
   }
 
   .xl\:pt-20 {
-    padding-top: 5rem;
+    padding-top: 20px;
   }
 
   .xl\:pr-20 {
-    padding-right: 5rem;
+    padding-right: 20px;
   }
 
   .xl\:pb-20 {
-    padding-bottom: 5rem;
+    padding-bottom: 20px;
   }
 
   .xl\:pl-20 {
-    padding-left: 5rem;
+    padding-left: 20px;
+  }
+
+  .xl\:pt-32 {
+    padding-top: 8rem;
+  }
+
+  .xl\:pr-32 {
+    padding-right: 8rem;
+  }
+
+  .xl\:pb-32 {
+    padding-bottom: 8rem;
+  }
+
+  .xl\:pl-32 {
+    padding-left: 8rem;
   }
 
   .xl\:pt-40 {

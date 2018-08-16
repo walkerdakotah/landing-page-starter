@@ -1,3 +1,4 @@
+/** text-styles */
 body {
   @apply font-sans text-grey-500;
 }
@@ -28,6 +29,14 @@ a {
 .quote {
   @apply p italic leading-normal;
 }
+/** containers */
+.section {
+  @apply py-16;
+}
+.content-block {
+  max-width: 1170px;
+  @apply m-auto;
+}
 
 @screen lg {
   .h1 {
@@ -44,5 +53,8 @@ a {
   }
   .subline {
     @apply text-36;
+  }
+  .section {
+    @apply py-32;
   }
 }

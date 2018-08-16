@@ -1,8 +1,17 @@
 import React from 'react';
 
+/**
+ * Potential global class rules:  element - classes
+ *
+ * section - section
+ * ul - content-block list-reset text-center flex flex-col items-center lg:flex-row lg:items-start lg:justify-around
+ * li - py-8 {style: logoWidth}
+ * h2 - mb-4
+ *
+ */
 const logoWidth = { maxWidth: '290px' };
 
-export default function() {
+export default function ThreeSteps() {
   return (
     <section className="section bg-aqua text-navy">
       <ul className="content-block list-reset text-center flex flex-col items-center lg:flex-row lg:items-start lg:justify-around">
@@ -29,13 +38,3 @@ export default function() {
     </section>
   );
 }
-
-/**
- * Potential global class rules:  element - classes
- *
- * section - section
- * ul - content-block list-reset text-center flex flex-col items-center lg:flex-row lg:items-start lg:justify-around
- * li - py-8 {style: logoWidth}
- * h2 - mb-4
- *
- */

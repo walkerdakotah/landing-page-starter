@@ -29,7 +29,7 @@ export const fingerprint = {
 export const fonts = {
   rel: 'stylesheet',
   href:
-    'https://fonts.googleapis.com/css?family=Lato:300,300i,400,700,900|Playfair+Display:400,400i,700'
+    'https://fonts.googleapis.com/css?family=Lato:300,300i,400,700,700i,900|Playfair+Display:400,400i,700'
 };
 
 export const callRail = {

@@ -24,8 +24,9 @@
 }
 
 .better-chance {
-  background-image: url('./assets/background-images/better-chance--mobile.jpg');
+  /* background-image: url('./assets/background-images/better-chance--mobile.jpg');
   @screen lg {
     background-image: url('./assets/background-images/better-chance--desktop.jpg');
-  }
+  } */
+  background-image: url('./assets/background-images/better-chance--desktop.jpg');
 }

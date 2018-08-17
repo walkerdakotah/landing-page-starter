@@ -29,6 +29,7 @@ a {
 .quote {
   @apply p italic leading-normal;
 }
+
 /** containers */
 .section {
   @apply py-16;
@@ -38,6 +39,13 @@ a {
   @apply m-auto;
 }
 
+/** misc */
+.progress-circle {
+  height: 13.75rem;
+}
+.progress-circle--points {
+  bottom: 75px;
+}
 @screen lg {
   .h1 {
     @apply text-50;
@@ -56,5 +64,11 @@ a {
   }
   .section {
     @apply py-32;
+  }
+  .progress-circle {
+    height: 23.875rem;
+  }
+  .progress-circle--points {
+    bottom: 110px;
   }
 }

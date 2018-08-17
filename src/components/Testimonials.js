@@ -44,6 +44,7 @@ const testimonialList = [
  * Potential global class rules:  element - classes
  *
  * section - section
+ * h2 - h2 text-center lg:mb-8
  * ul - content-block list-reset text-center flex flex-col items-center lg:flex-row lg:items-start lg:justify-around
  * li - py-8 {style: logoWidth}
  * h2 - text-center lg:mb-8

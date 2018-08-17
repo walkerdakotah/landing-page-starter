@@ -13,12 +13,12 @@ import React from 'react';
 export default function OurApproach() {
   return (
     <section className="section bg-aqua-100">
-      <h2 className="h2 text-navy text-center lg:mb-8">
+      <h2 className="h2 text-navy text-center mb-4 lg:mb-8">
         Our Approach to Treatment
       </h2>
 
       <div className="content-block pt-8">
-        <div className="p leading-normal px-8 lg:w-3/4 ml-auto">
+        <div className="p leading-normal px-8 lg:px-0 lg:w-3/4 ml-auto">
           <p className="pb-8">
             American Addiction Centers is a nationwide network of facilities and
             programs providing quality, compassionate, innovative care to adults

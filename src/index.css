@@ -3735,6 +3735,10 @@ a {
   margin: auto;
 }
 
+.list-svg {
+  height: 85px;
+}
+
 /** misc */
 
 .progress-circle {
@@ -3743,6 +3747,10 @@ a {
 
 .progress-circle--points {
   bottom: 75px;
+}
+
+.what-list {
+  max-width: 290px;
 }
 
 @media (min-width: 992px) {
@@ -3777,6 +3785,14 @@ a {
 
   .progress-circle--points {
     bottom: 110px;
+  }
+
+  .list-svg {
+    height: 170px;
+  }
+
+  .what-list {
+    max-width: 100%;
   }
 }
 

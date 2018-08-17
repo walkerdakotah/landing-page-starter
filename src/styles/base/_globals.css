@@ -38,6 +38,9 @@ a {
   max-width: 1170px;
   @apply m-auto;
 }
+.list-svg {
+  height: 85px;
+}
 
 /** misc */
 .progress-circle {
@@ -46,6 +49,10 @@ a {
 .progress-circle--points {
   bottom: 75px;
 }
+.what-list {
+  max-width: 290px;
+}
+
 @screen lg {
   .h1 {
     @apply text-50;
@@ -70,5 +77,11 @@ a {
   }
   .progress-circle--points {
     bottom: 110px;
+  }
+  .list-svg {
+    height: 170px;
+  }
+  .what-list {
+    max-width: 100%;
   }
 }

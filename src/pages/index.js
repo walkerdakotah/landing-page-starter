@@ -12,13 +12,14 @@ import ThreeSteps from '../components/ThreeSteps';
 import Footer from '../components/Footer';
 
 const IndexPage = () => (
-  <div className="pt-14 md:pt-18 lg:pt-22">
+  // <div className="pt-14 md:pt-18 lg:pt-22">
+  <div>
     {/*
     <Hero />
     <FacilityFeatures />
     <YouAreNotAlone />
-    <WhatHappens />
   */}
+    <WhatHappens />
     <OurApproach />
     <Outcomes />
     <BrandPromise />

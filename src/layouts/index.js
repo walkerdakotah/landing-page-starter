@@ -19,20 +19,20 @@ export default ({ children }) => (
         { name: 'author', content: `${facilityInfo.name}` },
         { name: 'robots', content: 'noindex,nofollow' }
       ]}
-      script={[
-        {
-          src: `${fingerprint.src}`
-        },
-        {
-          src: `${jQuery.core}`
-        },
-        {
-          src: `${jQuery.validation}`
-        },
-        {
-          src: `${jQuery.additionalMethods}`
-        }
-      ]}
+      // script={[
+      //   {
+      //     src: `${fingerprint.src}`
+      //   },
+      //   {
+      //     src: `${jQuery.core}`
+      //   },
+      //   {
+      //     src: `${jQuery.validation}`
+      //   },
+      //   {
+      //     src: `${jQuery.additionalMethods}`
+      //   }
+      // ]}
       link={[
         {
           rel: `${fonts.rel}`,

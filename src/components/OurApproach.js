@@ -16,7 +16,6 @@ export default function OurApproach() {
       <h2 className="h2 text-navy text-center mb-4 lg:mb-8">
         Our Approach to Treatment
       </h2>
-
       <div className="content-block pt-8">
         <div className="p leading-normal px-8 lg:px-0 lg:w-3/4 ml-auto">
           <p className="pb-8">

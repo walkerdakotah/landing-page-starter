@@ -49,7 +49,8 @@ a {
 .progress-circle--points {
   bottom: 75px;
 }
-.what-list {
+.what-list,
+.features-list {
   max-width: 290px;
 }
 

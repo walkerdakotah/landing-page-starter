@@ -22,7 +22,7 @@ export default function Footer() {
       <div className="lg:flex">
         <div className="footer-section my-8 text-center lg:mt-16 lg:w-1/3">
           <img src={AacHorizontalLogo} style={logoWidth} />
-          <p className="p text-white leading-normal my-8">
+          <p className="p text-white my-8">
             American Addiction Centers <br />
             {phoneNumber} <br />
             200 Powell Pl <br />

@@ -11,22 +11,19 @@ import Testimonials from '../components/Testimonials';
 import ThreeSteps from '../components/ThreeSteps';
 import Footer from '../components/Footer';
 
-const IndexPage = () => (
-  // <div className="pt-14 md:pt-18 lg:pt-22">
-  <div>
-    <Hero />
-    {/*
+export default function IndexPage() {
+  return (
+    <div>
+      <Hero />
       <FacilityFeatures />
-    <YouAreNotAlone />
-    <WhatHappens />
-    <OurApproach />
-    <Outcomes />
-    <BrandPromise />
-    <Testimonials />
-    <ThreeSteps />
-  */}
-    <Footer />
-  </div>
-);
-
-export default IndexPage;
+      <YouAreNotAlone />
+      <WhatHappens />
+      <OurApproach />
+      <Outcomes />
+      <BrandPromise />
+      <Testimonials />
+      <ThreeSteps />
+      <Footer />
+    </div>
+  );
+}

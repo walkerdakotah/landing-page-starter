@@ -3674,6 +3674,7 @@ button,
 body {
   font-family: Lato, Helvetica, Arial, sans-serif;
   color: #4d4d4d;
+  line-height: 1.5;
 }
 
 a {
@@ -3754,6 +3755,12 @@ a {
   max-width: 290px;
 }
 
+.pin-b-center {
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
 @media (min-width: 992px) {
   .h1 {
     font-size: 50px;
@@ -3812,7 +3819,7 @@ a {
   @media (min-width: 992px) {
     background-image: url('./assets/background-images/alcohol-abuse--desktop.jpg');
     background-size: cover;
-    background-position: unset;
+    background-position: 40% 50%;
   }
 }
 
@@ -3832,17 +3839,33 @@ a {
   background-image: url('./assets/background-images/better-chance--desktop.jpg');
 }
 
+.hero {
+  min-height: 530px;
+
+  @media (min-width: 992px) {
+    min-height: 774px;
+  }
+}
+
+.pin-b-hero {
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
 .btn-sm {
-  width: 220px;
+  width: 180px;
   border-radius: 9999px;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
 .btn {
   width: 270px;
   border-radius: 9999px;
   font-size: 24px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .btn-lg {
@@ -3871,7 +3894,19 @@ a {
   color: #344663;
 }
 
-/* block max-w-xs m-auto mb-20 px-20 py-5 no-underline bg-orange hover:bg-orange-500 text-white text-24 font-700 rounded-full flex justify-around items-center  */
+.btn-grey-100 {
+  background-color: #e5e5e5;
+  color: #344663;
+  border-color: #344663;
+  border-width: 2px;
+}
+
+.btn-grey-100:hover {
+  background-color: #344663;
+  color: #e5e5e5;
+  border-color: #e5e5e5;
+  border-width: 2px;
+}
 
 input,
 textarea {

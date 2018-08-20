@@ -1,10 +1,10 @@
 .btn-sm {
-  width: 220px;
-  @apply rounded-full;
+  width: 180px;
+  @apply rounded-full py-2;
 }
 .btn {
   width: 270px;
-  @apply rounded-full text-24 py-15;
+  @apply rounded-full text-24 py-4;
 }
 .btn-lg {
   width: 320px;
@@ -22,5 +22,9 @@
 .btn-navy:hover {
   @apply bg-aqua text-navy;
 }
-
-/* block max-w-xs m-auto mb-20 px-20 py-5 no-underline bg-orange hover:bg-orange-500 text-white text-24 font-700 rounded-full flex justify-around items-center  */
+.btn-grey-100 {
+  @apply bg-grey-100 text-navy border-navy border-2;
+}
+.btn-grey-100:hover {
+  @apply bg-navy text-grey-100 border-grey-100 border-2;
+}

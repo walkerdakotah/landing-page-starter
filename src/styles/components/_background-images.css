@@ -12,7 +12,7 @@
   @screen lg {
     background-image: url('./assets/background-images/alcohol-abuse--desktop.jpg');
     background-size: cover;
-    background-position: unset;
+    background-position: 40% 50%;
   }
 }
 

@@ -53,7 +53,7 @@ export default function FacilityFeatures() {
           </div>
 
           <h4 className="h4 text-navy pb-2">EarlySense® Technology</h4>
-          <p className="p leading-normal">
+          <p className="p">
             Monitors vital signs and alerts nurses of changes that may signal an
             impending medical emergency during detox.
           </p>
@@ -65,7 +65,7 @@ export default function FacilityFeatures() {
           </div>
 
           <h4 className="h4 text-navy pb-2">Medication-Assisted Treatment</h4>
-          <p className="p leading-normal">
+          <p className="p">
             After detox, we may use medication along with therapy to treat your
             alcohol use disorder. This does not replace one addiction with
             another, but rather helps decrease cravings and deter individuals
@@ -79,7 +79,7 @@ export default function FacilityFeatures() {
           </div>
 
           <h4 className="h4 text-navy pb-2">Hospital Setting</h4>
-          <p className="p leading-normal">
+          <p className="p">
             More than just a building, we employ doctors and nurses who
             understand addiction and the needs of a patient in withdrawal.
           </p>

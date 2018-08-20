@@ -1,87 +1,79 @@
 import React from 'react';
-
-import HeroButton from './buttons/HeroButton';
-// import CallButton from './buttons/CallButton';
-import Form from './form/Form';
-
+import Form from './Form';
+import { OrangePhoneIcon } from './svgs/Svgs';
 import { facilityInfo, callRail } from '../lib/project-config';
-import { hero } from '../lib/content-config';
 
-const Hero = () => (
-  <section>
-    <div className="hero alcohol-abuse flex flex-col lg:flex-row justify-end items-center lg:px-10 lg:py-40">
-      <div className="lg:m-auto container lg:flex lg:justify-between">
-        <div className="container px-20 lg:flex lg:flex-col lg:justify-end">
-          <div className="text-white text-center lg:text-left">
-            <h1 className="h1">{hero.title}</h1>
-            <p className="hidden lg:block p">{hero.content}</p>
-            <p className="p">{hero.subline}</p>
-          </div>
+export default function Hero() {
+  return (
+    <section>
+      <div className="hero bg-img alcohol-abuse relative lg:static lg:flex">
+        {/* mobile hero -- content only */}
+        <div className="text-center px-4 pb-8 absolute pin-b-center lg:hidden">
+          <h1 className="h1 text-white">Help can start in just 24 hours.</h1>
+          <p className="p text-white my-8">
+            We're here to help you get your life back. Are you ready?
+          </p>
+          <a className="relative" href={`tel:+1${callRail.phone}`}>
+            <button className="btn btn-orange">
+              <OrangePhoneIcon
+                style={{ position: 'absolute', bottom: '-12px', left: '25px' }}
+              />
+              <span style={{ marginRight: '-55px' }}>{callRail.phone}</span>
+            </button>
+          </a>
         </div>
-
-        <div className="desktop-form hidden lg:block max-w-sm">
-          <div className="bg-grey-100">
-            <div className="m-auto container text-center py-40 lg:py-10 xl:py-20 px-10 xl:px-20 lg:w-96 ">
-              <a
-                className="hidden md:block m-auto mb-20 px-40 py-10 w-72 no-underline bg-orange hover:bg-orange-500 text-white text-24 font-300 rounded-full"
-                href={`tel:+1${callRail.phone}`}
-              >
-                Call {callRail.phone}
-              </a>
-              <div className="pb-20 text-18 font-700 text-grey-500">
-                Prefer a call or email from us instead?
-              </div>
-              <Form />
-              <div className="mt-5 lg:mt-0 pb-20 text-18 font-700 text-grey-500">
-                Insurance Accepted. Privacy Guaranteed.
-              </div>
-              <div className="text-grey-500 text-14 font-500 leading-normal md:m-auto md:w-1/2 lg:w-auto">
-                We won’t sell your information and will treat your information
-                in accordance with our{' '}
-                <a
-                  href={`${facilityInfo.onlinePolicyLink}`}
-                  target="blank"
-                  alt="Privacy Policy"
-                  className="text-grey-500"
-                >
-                  privacy policy
-                </a>.
-              </div>
-            </div>
+        {/* desktop hero -- content & form */}
+        <div className="hidden content-block lg:flex">
+          <div className="flex flex-col justify-end px-2">
+            <h1 className="h1 text-white">Help can start in just 24 hours.</h1>
+            <p className="p text-white my-8">
+              Long-term recovery from drug and alcohol addiction is not only
+              possible, it’s within your reach. We’ve helped thousands of people
+              stop using for good through proven clinical treatment and positive
+              changes in attitude, behavior, lifestyle and values.
+            </p>
+            <p className="p text-white my-8 text-bold">
+              We're here to help you get your life back. Are you ready?
+            </p>
           </div>
-        </div>
-      </div>
-
-      <div className="lg:hidden py-40">
-        <HeroButton />
-      </div>
-    </div>
-
-    <div className="mobile-form lg:hidden">
-      <div className="bg-grey-100">
-        <div className="m-auto container text-center p-40 lg:w-96">
-          <h4 className="h4 pb-40 text-navy">
-            Prefer a call or email from us instead?
-          </h4>
-          <Form />
-          <h4 className="h4 mt-5 lg:mt-0 pb-20 text-grey-500">
-            Insurance Accepted. Privacy Guaranteed.
-          </h4>
-          <div className="p3 text-grey-500 md:m-auto md:w-1/2 lg:w-auto">
-            We won’t sell your information and will treat your information in
-            accordance with our{' '}
-            <a
-              href={`${facilityInfo.onlinePolicyLink}`}
-              target="blank"
-              alt="Privacy Policy"
-            >
-              privacy policy
-            </a>.
+          <div className="bg-grey-100 text-center mx-2 px-8 py-12">
+            <a className="" href={`tel:+1${callRail.phone}`}>
+              <button className="btn btn-orange">Call {callRail.phone}</button>
+            </a>
+            <h4 className="p text-navy my-4">
+              Prefer a call or email from us instead?
+            </h4>
+            <Form />
+            <h4 className="p my-4">Insurance Accepted. Privacy Guaranteed.</h4>
+            <p className="p3">
+              We won’t sell your information and will treat your information in
+              accordance with our{' '}
+              <a href={`${facilityInfo.onlinePolicyLink}`} target="blank">
+                privacy policy
+              </a>.
+            </p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-);
-
-export default Hero;
+      {/* mobile form */}
+      <div className="bg-grey-100 px-4 py-8 text-center lg:hidden">
+        <h4 className="h4 text-navy mb-4">
+          Prefer a call or email from us instead?
+        </h4>
+        <Form />
+        <h4 className="h4 my-4">Insurance Accepted. Privacy Guaranteed.</h4>
+        <p className="p3">
+          We won’t sell your information and will treat your information in
+          accordance with our{' '}
+          <a
+            href={`${facilityInfo.onlinePolicyLink}`}
+            target="blank"
+            alt="Privacy Policy"
+          >
+            privacy policy
+          </a>.
+        </p>
+      </div>
+    </section>
+  );
+}

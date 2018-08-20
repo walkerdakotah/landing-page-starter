@@ -27,7 +27,7 @@ export default function WhatHappens() {
           <img src={Phone} className="list-svg mb-8 lg:mr-8 lg:m-auto" />
           <div className="lg:text-left lg:w-3/4">
             <h4 className="h4 text-navy pb-2">We'll listen.</h4>
-            <p className="p leading-normal">
+            <p className="p">
               Your admissions coordinator will complete a 15-30 minute
               confidential clinical evaluation of you or your loved one’s
               addiction history and behavioral health issues (anxiety disorders,
@@ -42,7 +42,7 @@ export default function WhatHappens() {
             <h4 className="h4 text-navy pb-2">
               We’ll verify your insurance and help you choose a facility.
             </h4>
-            <p className="p leading-normal">
+            <p className="p">
               We’ll quickly verify your insurance information over the phone and
               discuss co-pays and payment options, then match you with the
               facility that best meets your clinical and financial needs.
@@ -55,7 +55,7 @@ export default function WhatHappens() {
             <h4 className="h4 text-navy pb-2">
               We’ll make sure you get the help you need.
             </h4>
-            <p className="p leading-normal">
+            <p className="p">
               Your Treatment Consultant will stay in contact with you and/or
               your family throughout the entire admissions process for a
               seamless transition into residential treatment, where you’ll begin

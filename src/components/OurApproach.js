@@ -17,7 +17,7 @@ export default function OurApproach() {
         Our Approach to Treatment
       </h2>
       <div className="content-block pt-8">
-        <div className="p leading-normal px-8 lg:px-0 lg:w-3/4 ml-auto">
+        <div className="p px-8 lg:px-0 lg:w-3/4 ml-auto">
           <p className="pb-8">
             American Addiction Centers is a nationwide network of facilities and
             programs providing quality, compassionate, innovative care to adults

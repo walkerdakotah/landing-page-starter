@@ -1,6 +1,6 @@
 /** text-styles */
 body {
-  @apply font-sans text-grey-500;
+  @apply font-sans text-grey-500 leading-normal;
 }
 a {
   color: inherit;
@@ -52,6 +52,9 @@ a {
 .what-list,
 .features-list {
   max-width: 290px;
+}
+.pin-b-center {
+  @apply pin-b pin-x;
 }
 
 @screen lg {

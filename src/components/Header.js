@@ -1,14 +1,22 @@
 import React from 'react';
-import LogoPrimary from './logo/LogoPrimary';
-import HeaderCTA from './cta/HeaderCTA';
+import { callRail } from '../lib/project-config.js';
 
-const Header = () => (
-  <header className="bg-white p-10 flex justify-center lg:py-20 border-grey-100 border-b">
-    <nav className="m-auto container flex justify-center sm:justify-between">
-      <LogoPrimary />
-      <HeaderCTA />
-    </nav>
-  </header>
-);
-
-export default Header;
+export default function Header() {
+  return (
+    <header className="border-grey-100 border-b px-8 py-4 lg:px-16">
+      <nav className="flex justify-center lg:justify-between">
+        <a className="flex" href="/" target="blank">
+          <img src={require(`../assets/logos/aac-horiz.svg`)} />
+        </a>
+        <div className="hidden lg:flex lg:flex-col">
+          <a className="flex no-underline" href={`tel:+1${callRail.phone}`}>
+            <button className="text-24 text-orange">
+              Call {callRail.phone}
+            </button>
+          </a>
+          <p className="p text-grey text-right">Privacy Guaranteed</p>
+        </div>
+      </nav>
+    </header>
+  );
+}

@@ -14,10 +14,9 @@ import Footer from '../components/Footer';
 const IndexPage = () => (
   // <div className="pt-14 md:pt-18 lg:pt-22">
   <div>
-    {/*
     <Hero />
-  */}
-    <FacilityFeatures />
+    {/*
+      <FacilityFeatures />
     <YouAreNotAlone />
     <WhatHappens />
     <OurApproach />
@@ -25,6 +24,7 @@ const IndexPage = () => (
     <BrandPromise />
     <Testimonials />
     <ThreeSteps />
+  */}
     <Footer />
   </div>
 );

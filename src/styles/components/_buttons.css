@@ -10,14 +10,12 @@
   width: 320px;
   @apply rounded-full;
 }
-
 .btn-orange {
   @apply bg-orange text-white;
 }
 .btn-orange:hover {
   @apply bg-orange-500;
 }
-
 .btn-navy {
   @apply bg-navy text-aqua border-aqua border-2;
 }

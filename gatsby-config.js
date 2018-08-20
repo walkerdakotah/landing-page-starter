@@ -11,5 +11,5 @@ module.exports = {
       }
     }
   ],
-  pathPrefix: `/help-for-addiction`
+  pathPrefix: `/alcoholism-help`
 };

@@ -24,8 +24,8 @@
     "build:css": "postcss ./src/styles/index.css -o ./src/index.css",
     "watch:css": "postcss ./src/styles/index.css -o ./src/index.css -w",
     "dev": "npm run watch:css & gatsby develop",
-    "build": "npm run build:css ./src && gatsby build",
-    "build:prod": "npm run build:css ./src && gatsby build --prefix-paths",
+    "build": "npm run build:css && gatsby build",
+    "build:prod": "npm run build:css && gatsby build --prefix-paths",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {

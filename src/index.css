@@ -3839,6 +3839,9 @@ a {
 .btn {
   width: 270px;
   border-radius: 9999px;
+  font-size: 24px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .btn-lg {
@@ -3849,13 +3852,22 @@ a {
 .btn-orange {
   background-color: #d28430;
   color: #fff;
-  font-size: 24px;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 .btn-orange:hover {
   background-color: #b96b17;
+}
+
+.btn-navy {
+  background-color: #344663;
+  color: #cce2e7;
+  border-color: #cce2e7;
+  border-width: 2px;
+}
+
+.btn-navy:hover {
+  background-color: #cce2e7;
+  color: #344663;
 }
 
 /* block max-w-xs m-auto mb-20 px-20 py-5 no-underline bg-orange hover:bg-orange-500 text-white text-24 font-700 rounded-full flex justify-around items-center  */

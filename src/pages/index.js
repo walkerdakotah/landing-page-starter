@@ -17,8 +17,8 @@ const IndexPage = () => (
     {/*
     <Hero />
     <FacilityFeatures />
-    <YouAreNotAlone />
   */}
+    <YouAreNotAlone />
     <WhatHappens />
     <OurApproach />
     <Outcomes />

@@ -1,20 +1,10 @@
 import React from 'react';
 import PromiseSeal from '../assets/logos/90-day-promise.png';
 
-/**
- * Potential global class rules:  element - classes
- *
- * section - section
- * div - {style: logoWidth}
- *
- */
-
-const logoWidth = { maxWidth: '290px' };
-
 export default function BrandPromise() {
   return (
     <section className="section bg-grey-100">
-      <div className="content-block text-center" style={logoWidth}>
+      <div className="content-block text-center w-290">
         <img src={PromiseSeal} alt="aac 90 day promise" />
         <p className="tagline pt-8">
           If you successfully complete our 90-day program, we guarantee you’ll

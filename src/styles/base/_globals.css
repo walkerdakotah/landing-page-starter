@@ -52,9 +52,9 @@ a {
 .progress-circle--points {
   bottom: 75px;
 }
-.what-list,
-.features-list {
-  max-width: 290px;
+.w-290,
+.w-290-full {
+  width: 290px;
 }
 .pin-b-center {
   @apply pin-b pin-x;
@@ -88,7 +88,7 @@ a {
   .list-svg {
     height: 170px;
   }
-  .what-list {
+  .w-290-full {
     max-width: 100%;
   }
 }

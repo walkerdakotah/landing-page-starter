@@ -4,18 +4,6 @@ import HandWrite from '../assets/icons/handwrite-orange.svg';
 import HeartInHands from '../assets/icons/heart-in-hands-orange.svg';
 import { callRail } from '../lib/project-config';
 
-const logoWidth = { maxWidth: '290px' };
-/**
- * Potential global class rules:  element - classes
- *
- * section - section
- * h2 - h2 text-center lg:mb-8
- * ul - content-block list-reset text-center flex flex-col items-center lg:flex-row lg:items-start lg:justify-around
- * li - py-8 {style: logoWidth}
- * h2 - text-center lg:mb-8
- *
- */
-
 export default function WhatHappens() {
   return (
     <section className="section">
@@ -23,7 +11,7 @@ export default function WhatHappens() {
         What Happens When You Call
       </h2>
       <ul className="content-block list-reset text-center flex flex-col items-center">
-        <li className="py-8 lg:flex lg:items-center what-list">
+        <li className="w-290-full py-8 lg:w-full lg:flex lg:items-center">
           <img src={Phone} className="list-svg mb-8 lg:mr-8 lg:m-auto" />
           <div className="lg:text-left lg:w-3/4 lg:pr-8">
             <h4 className="h4 text-navy pb-2">We'll listen.</h4>
@@ -36,7 +24,7 @@ export default function WhatHappens() {
             </p>
           </div>
         </li>
-        <li className="py-8 lg:flex lg:items-center what-list">
+        <li className="w-290-full py-8 lg:w-full lg:flex lg:items-center">
           <img src={HandWrite} className="list-svg mb-8 lg:mr-8 lg:m-auto" />
           <div className="lg:text-left lg:w-3/4 lg:pr-8">
             <h4 className="h4 text-navy pb-2">
@@ -49,7 +37,7 @@ export default function WhatHappens() {
             </p>
           </div>
         </li>
-        <li className="py-8 lg:flex lg:items-center what-list">
+        <li className="w-290-full py-8 lg:w-full lg:flex lg:items-center">
           <img src={HeartInHands} className="list-svg mb-8 lg:mr-8 lg:m-auto" />
           <div className="lg:text-left lg:w-3/4 lg:pr-8">
             <h4 className="h4 text-navy pb-2">

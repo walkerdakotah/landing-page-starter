@@ -1,23 +1,6 @@
 import React from 'react';
 import ArrowDown from '../assets/logos/arrow-down.png';
 import ProgressCircle from '../assets/logos/progress-circle.png';
-import Graph from '../assets/outcomes/outcomes-graph.png';
-import Number44 from '../assets/outcomes/outcomes-44.png';
-import Number56 from '../assets/outcomes/outcomes-56.png';
-import Number94 from '../assets/outcomes/outcomes-94.png';
-
-/**
- * Potential global class rules:  element - classes
- *
- * section - section
- * h2 - h2 text-center lg:mb-8
- * ul - content-block list-reset text-center flex flex-col items-center lg:flex-row lg:items-start lg:justify-around
- * li - py-8 {style: logoWidth}
- * h2 - text-center lg:mb-8
- *
- */
-
-const logoWidth = { maxWidth: '290px' };
 
 export default function Outcomes() {
   return (
@@ -27,7 +10,7 @@ export default function Outcomes() {
           Our Graduates Report
         </h2>
         <ul className="content-block list-reset pb-8 text-center flex flex-col items-center lg:pb-16 lg:flex-row lg:items-start lg:justify-around">
-          <li className="py-8" style={logoWidth}>
+          <li className="w-290 py-8">
             <div className="flex items-end justify-center">
               <img src={ArrowDown} className="h-14 mr-2 lg:h-22 lg:mr-4" />
               <div className="flex flex-col">
@@ -43,7 +26,7 @@ export default function Outcomes() {
               in days experiencing physical health problems
             </p>
           </li>
-          <li className="py-8" style={logoWidth}>
+          <li className="w-290 py-8">
             <div className="flex items-end justify-center">
               <img src={ArrowDown} className="h-14 mr-2 lg:h-22 lg:mr-4" />
               <div className="flex flex-col">
@@ -59,7 +42,7 @@ export default function Outcomes() {
               in days experiencing mental health problems
             </p>
           </li>
-          <li className="py-8" style={logoWidth}>
+          <li className="w-290 py-8">
             <div className="flex items-end justify-center">
               <img src={ArrowDown} className="h-14 mr-2 lg:h-22 lg:mr-4" />
               <div className="flex flex-col">
@@ -92,7 +75,7 @@ export default function Outcomes() {
             </span>
           </div>
         </div>
-        <div className="content-block text-center" style={logoWidth}>
+        <div className="content-block text-center w-290">
           <p className="p my-6 px-8 lg:text-20">
             were abstinent from all substances at 12 months
           </p>

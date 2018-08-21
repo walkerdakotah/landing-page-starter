@@ -1,15 +1,5 @@
 import React from 'react';
 
-/**
- * Potential global class rules:  element - classes
- *
- * section - section
- * h2 - h2 text-center lg:mb-8
- * ul - content-block list-reset text-center flex flex-col items-center lg:flex-row lg:items-start lg:justify-around
- * li - py-8 {style: logoWidth}
- * h2 - text-center lg:mb-8
- *
- */
 export default function OurApproach() {
   return (
     <section className="section bg-img our-approach">
@@ -27,7 +17,6 @@ export default function OurApproach() {
             positive changes in one’s life. We’ve helped thousands of clients
             around the country find a personalized path to lifelong recovery.
           </p>
-
           <ul>
             <li className="pb-2">
               CARF and Joint Commission accredited facilities

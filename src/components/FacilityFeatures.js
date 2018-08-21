@@ -30,15 +30,6 @@ const features = [
       'After detox, we may use medication along with therapy to treat your alcohol use disorder. This does not replace one addiction with another, but rather helps decrease cravings and deter individuals from consuming alcohol.'
   }
 ];
-/**
- * Potential global class rules:  element - classes
- *
- * section - section
- * h2 - h2 text-center lg:mb-8
- * ul - content-block list-reset text-center flex flex-col items-center lg:flex-row lg:items-start lg:justify-around
- * li - py-8 {style: logoWidth}
- *
- */
 
 export default function FacilityFeatures() {
   return (
@@ -47,7 +38,7 @@ export default function FacilityFeatures() {
         Alcohol detox can be dangerous, requiring immediate medical attention.
       </h2>
       <ul className="content-block list-reset text-center flex flex-col items-center lg:flex-row lg:items-start lg:justify-around">
-        <li className="py-8 features-list">
+        <li className="py-8 w-290">
           <div className="mb-8 h-24 w-24 bg-aqua-100 flex items-center justify-center rounded-full m-auto">
             <img src={EarlySense} className="h-12" />
           </div>
@@ -59,7 +50,7 @@ export default function FacilityFeatures() {
           </p>
         </li>
 
-        <li className="py-8 features-list">
+        <li className="py-8 w-290">
           <div className="mb-8 h-24 w-24 bg-aqua-100 flex items-center justify-center rounded-full m-auto">
             <img src={Suitcase} className="h-12" />
           </div>
@@ -73,7 +64,7 @@ export default function FacilityFeatures() {
           </p>
         </li>
 
-        <li className="py-8 features-list">
+        <li className="py-8 w-290">
           <div className="mb-8 h-24 w-24 bg-aqua-100 flex items-center justify-center rounded-full m-auto">
             <img src={Hospital} className="h-12" />
           </div>

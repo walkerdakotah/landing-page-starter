@@ -12,8 +12,6 @@ import BBBLogo from '../assets/logos/bbb.png';
 import CarfLogo from '../assets/logos/carf-white.png';
 import JointCommissionLogo from '../assets/logos/joint-commission-white.png';
 
-const logoWidth = { maxWidth: '290px' };
-
 export default function Footer() {
   const date = new Date();
   const year = date.getFullYear();
@@ -21,7 +19,7 @@ export default function Footer() {
     <footer className="bg-navy flex flex-col">
       <div className="lg:flex">
         <div className="footer-section my-8 text-center lg:mt-16 lg:w-1/3">
-          <img src={AacHorizontalLogo} style={logoWidth} />
+          <img src={AacHorizontalLogo} className="w-290" />
           <p className="p text-white my-8">
             American Addiction Centers <br />
             {phoneNumber} <br />
@@ -49,7 +47,7 @@ export default function Footer() {
         <div className="pt-4 lg:mt-12 lg:w-1/3">
           <h3 className="p text-aqua mb-8 px-4">Privacy</h3>
           <ul className="list-reset mt-8 mb-4 px-8 pb-4">
-            <li className="mb-2 text-aqua" style={logoWidth}>
+            <li className="mb-2 text-aqua w-290">
               <a
                 className="subtext"
                 href={facilityInfo.onlinePolicyLink}
@@ -58,7 +56,7 @@ export default function Footer() {
                 Notice of Privacy Practices
               </a>
             </li>
-            <li className="mb-2 text-aqua" style={logoWidth}>
+            <li className="mb-2 text-aqua w-290">
               <a
                 className="subtext"
                 href={facilityInfo.privatePolicyLink}
@@ -67,7 +65,7 @@ export default function Footer() {
                 Online Privacy Policy
               </a>
             </li>
-            <li className="mb-2 text-aqua" style={logoWidth}>
+            <li className="mb-2 text-aqua w-290">
               <a
                 className="subtext"
                 href={facilityInfo.termsLink}
@@ -89,7 +87,7 @@ export default function Footer() {
         <div className="pt-4 lg:mt-12 lg:w-1/3">
           <h3 className="p text-aqua mb-8 px-4">Resources</h3>
           <ul className="list-reset mt-8 mb-4 px-8 pb-4">
-            <li className="subtext text-aqua mb-2" style={logoWidth}>
+            <li className="subtext text-aqua mb-2 w-290">
               * Source:{' '}
               <a
                 href="https://www.niaaa.nih.gov/alcohol-health/overview-alcohol-consumption/alcohol-use-disorders"
@@ -98,7 +96,7 @@ export default function Footer() {
                 www.niaaa.nih.gov
               </a>
             </li>
-            <li className="subtext text-aqua mb-2" style={logoWidth}>
+            <li className="subtext text-aqua mb-2 w-290">
               ** Terms and conditions apply. To learn more about how you can
               qualify for our guarantee, read our{' '}
               <a

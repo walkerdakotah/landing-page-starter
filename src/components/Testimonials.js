@@ -40,24 +40,12 @@ const testimonialList = [
   }
 ];
 
-/**
- * Potential global class rules:  element - classes
- *
- * section - section
- * h2 - h2 text-center lg:mb-8
- * ul - content-block list-reset text-center flex flex-col items-center lg:flex-row lg:items-start lg:justify-around
- * li - py-8 {style: logoWidth}
- * h2 - text-center lg:mb-8
- *
- */
-const logoWidth = { maxWidth: '290px' };
-
 export default function Testimonials() {
   return (
     <section className="section">
       <h2 className="h2 text-navy text-center lg:mb-8">Testimonials</h2>
       <ul className="content-block list-reset text-center flex flex-col items-center lg:flex-row lg:items-start lg:justify-around">
-        <li className="py-8" style={logoWidth}>
+        <li className="py-8 w-290">
           <img src={LagunaHorizontal} className="mb-2" />
           <img src={FiveStars} />
           <p className="quote my-4">
@@ -71,7 +59,7 @@ export default function Testimonials() {
             April 28th, 2018
           </p>
         </li>
-        <li className="py-8" style={logoWidth}>
+        <li className="py-8 w-290">
           <img src={OxfordHorizontal} className="mb-2" />
           <img src={FourStars} />
           <p className="quote my-4">
@@ -85,7 +73,7 @@ export default function Testimonials() {
             January 11th, 2018
           </p>
         </li>
-        <li className="py-8" style={logoWidth}>
+        <li className="py-8 w-290">
           <img src={GreenhouseHorizontal} className="mb-2" />
           <img src={FiveStars} />
           <p className="quote my-4">

@@ -3754,9 +3754,9 @@ a {
   bottom: 75px;
 }
 
-.what-list,
-.features-list {
-  max-width: 290px;
+.w-290,
+.w-290-full {
+  width: 290px;
 }
 
 .pin-b-center {
@@ -3803,7 +3803,7 @@ a {
     height: 170px;
   }
 
-  .what-list {
+  .w-290-full {
     max-width: 100%;
   }
 }
@@ -3827,25 +3827,12 @@ a {
   }
 }
 
-/* .our-approach {
-  background-image: c url('./assets/background-images/our-approach--mobile.jpg');
-  @screen lg {
-    background-image: url('./assets/background-images/our-approach--desktop.jpg');
-  }
-} */
-
 .our-approach {
-  background-image: url('./assets/background-images/our-approach-1.jpg');
+  background-image: url('./assets/background-images/our-approach.jpg');
 }
 
 .better-chance {
-  background-image: url('./assets/background-images/better-chance--desktop.jpg');
-}
-
-/* $aqua100: '#EEF9FC'; */
-
-.overlay-aqua {
-  background: linear-gradient(rgba(204, 226, 231, 20%), #eef9fc);
+  background-image: url('./assets/background-images/better-chance.jpg');
 }
 
 .hero {

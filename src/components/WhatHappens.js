@@ -25,7 +25,7 @@ export default function WhatHappens() {
       <ul className="content-block list-reset text-center flex flex-col items-center">
         <li className="py-8 lg:flex lg:items-center what-list">
           <img src={Phone} className="list-svg mb-8 lg:mr-8 lg:m-auto" />
-          <div className="lg:text-left lg:w-3/4">
+          <div className="lg:text-left lg:w-3/4 lg:pr-8">
             <h4 className="h4 text-navy pb-2">We'll listen.</h4>
             <p className="p">
               Your admissions coordinator will complete a 15-30 minute
@@ -38,7 +38,7 @@ export default function WhatHappens() {
         </li>
         <li className="py-8 lg:flex lg:items-center what-list">
           <img src={HandWrite} className="list-svg mb-8 lg:mr-8 lg:m-auto" />
-          <div className="lg:text-left lg:w-3/4">
+          <div className="lg:text-left lg:w-3/4 lg:pr-8">
             <h4 className="h4 text-navy pb-2">
               We’ll verify your insurance and help you choose a facility.
             </h4>
@@ -51,7 +51,7 @@ export default function WhatHappens() {
         </li>
         <li className="py-8 lg:flex lg:items-center what-list">
           <img src={HeartInHands} className="list-svg mb-8 lg:mr-8 lg:m-auto" />
-          <div className="lg:text-left lg:w-3/4">
+          <div className="lg:text-left lg:w-3/4 lg:pr-8">
             <h4 className="h4 text-navy pb-2">
               We’ll make sure you get the help you need.
             </h4>

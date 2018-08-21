@@ -46,15 +46,15 @@ a {
 }
 
 /** misc */
+.w-290,
+.w-290-full {
+  width: 290px;
+}
 .progress-circle {
   height: 13.75rem;
 }
 .progress-circle--points {
   bottom: 75px;
-}
-.w-290,
-.w-290-full {
-  width: 290px;
 }
 .pin-b-center {
   @apply pin-b pin-x;
@@ -90,5 +90,8 @@ a {
   }
   .w-290-full {
     max-width: 100%;
+  }
+  .header-logo {
+    width: 350px;
   }
 }

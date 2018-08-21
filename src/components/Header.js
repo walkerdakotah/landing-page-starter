@@ -6,7 +6,10 @@ export default function Header() {
     <header className="border-grey-100 border-b px-8 py-4 lg:px-16">
       <nav className="flex justify-center lg:justify-between">
         <a className="flex" href="/" target="blank">
-          <img src={require(`../assets/logos/aac-horiz.svg`)} />
+          <img
+            src={require(`../assets/logos/aac-horiz.svg`)}
+            className="header-logo"
+          />
         </a>
         <div className="hidden lg:flex lg:flex-col">
           <a className="flex no-underline" href={`tel:+1${callRail.phone}`}>

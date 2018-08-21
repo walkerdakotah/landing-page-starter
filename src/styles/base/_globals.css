@@ -9,7 +9,7 @@ a {
   @apply text-36 font-bold;
 }
 .h2 {
-  @apply text-24 font-bold font-serif;
+  @apply text-24 font-normal font-serif;
 }
 .h3 {
   @apply text-24 font-normal;
@@ -19,6 +19,9 @@ a {
 }
 .subline {
   @apply text-24 font-thin;
+}
+.tagline {
+  @apply text-18;
 }
 .p {
   @apply text-16 font-normal;

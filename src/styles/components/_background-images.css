@@ -17,10 +17,12 @@
 }
 
 .our-approach {
-  background-image: url('./assets/background-images/our-approach--mobile.jpg');
+  /* background-image: url('./assets/background-images/our-approach--desktop.jpg'); */
+  /* background-image:c url('./assets/background-images/our-approach--mobile.jpg');
   @screen lg {
     background-image: url('./assets/background-images/our-approach--desktop.jpg');
-  }
+  } */
+  background-image: url('./assets/background-images/our-approach-1.jpg');
 }
 
 .better-chance {
@@ -29,4 +31,12 @@
     background-image: url('./assets/background-images/better-chance--desktop.jpg');
   } */
   background-image: url('./assets/background-images/better-chance--desktop.jpg');
+}
+
+$aqua: config('colors.aqua');
+$aqua100: config('colors.aqua-100');
+/* $aqua100: '#EEF9FC'; */
+
+.overlay-aqua {
+  background: linear-gradient(rgba(204, 226, 231, 20%), $aqua100);
 }

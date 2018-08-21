@@ -16,7 +16,7 @@ export default function BrandPromise() {
     <section className="section bg-grey-100">
       <div className="content-block text-center" style={logoWidth}>
         <img src={PromiseSeal} alt="aac 90 day promise" />
-        <p className="p pt-8">
+        <p className="tagline pt-8">
           If you successfully complete our 90-day program, we guarantee you’ll
           stay clean and sober, or you can return for a complimentary 30 days of
           treatment. **

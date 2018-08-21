@@ -31,7 +31,9 @@ export default function Outcomes() {
             <div className="flex items-end justify-center">
               <img src={ArrowDown} className="h-14 mr-2 lg:h-22 lg:mr-4" />
               <div className="flex flex-col">
-                <span className="text-50 font-black lg:text-80">44%</span>
+                <span className="text-50 font-black leading-none lg:text-80">
+                  44%
+                </span>
                 <span className="uppercase font-thin lg:text-24">
                   Reduction
                 </span>
@@ -45,7 +47,9 @@ export default function Outcomes() {
             <div className="flex items-end justify-center">
               <img src={ArrowDown} className="h-14 mr-2 lg:h-22 lg:mr-4" />
               <div className="flex flex-col">
-                <span className="text-50 font-black lg:text-80">56%</span>
+                <span className="text-50 font-black leading-none lg:text-80">
+                  56%
+                </span>
                 <span className="uppercase font-thin lg:text-24">
                   Reduction
                 </span>
@@ -59,7 +63,9 @@ export default function Outcomes() {
             <div className="flex items-end justify-center">
               <img src={ArrowDown} className="h-14 mr-2 lg:h-22 lg:mr-4" />
               <div className="flex flex-col">
-                <span className="text-50 font-black lg:text-80">94%</span>
+                <span className="text-50 font-black leading-none lg:text-80">
+                  94%
+                </span>
                 <span className="uppercase font-thin lg:text-24">
                   Reduction
                 </span>
@@ -78,20 +84,27 @@ export default function Outcomes() {
         <div className="flex items-end justify-center relative lg:pt-8">
           <img src={ProgressCircle} className="progress-circle" />
           <div className="flex flex-col absolute progress-circle--points">
-            <span className="text-50 font-black lg:text-120">63%</span>
+            <span className="text-50 font-black leading-none lg:text-120">
+              63%
+            </span>
             <span className="uppercase font-thin text-center lg:text-24">
               of clients
             </span>
           </div>
         </div>
         <div className="content-block text-center" style={logoWidth}>
-          <p className="p my-6 px-8">
+          <p className="p my-6 px-8 lg:text-20">
             were abstinent from all substances at 12 months
           </p>
-          <p className="subtext pb-6">
+          <p className="p pb-6">
             For a more comprehensive look at American Addiction Centers’
-            Outcomes Study, please visit
-            americanaddictioncenters.org/outcomes-study
+            Outcomes Study, please visit{' '}
+            <a
+              href="americanaddictioncenters.org/outcomes-study"
+              target="_blank"
+            >
+              americanaddictioncenters.org/outcomes-study
+            </a>
           </p>
           <p className="subtext">
             *Outcomes data from a 4-year study paid for by AAC and conducted at

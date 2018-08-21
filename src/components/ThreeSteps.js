@@ -13,7 +13,7 @@ const logoWidth = { maxWidth: '290px' };
 
 export default function ThreeSteps() {
   return (
-    <section className="section bg-aqua text-navy">
+    <section className="py-8 bg-aqua text-navy lg:py-16">
       <ul className="content-block list-reset text-center flex flex-col items-center lg:flex-row lg:items-start lg:justify-around">
         <li className="py-8" style={logoWidth}>
           <h2 className="h2 mb-4">Free.</h2>

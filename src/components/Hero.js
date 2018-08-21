@@ -9,8 +9,10 @@ export default function Hero() {
       <div className="hero bg-img alcohol-abuse relative lg:static lg:flex">
         {/* mobile hero -- content only */}
         <div className="text-center px-4 pb-8 absolute pin-b-center lg:hidden">
-          <h1 className="h1 text-white">Help can start in just 24 hours.</h1>
-          <p className="p text-white my-8">
+          <h1 className="h1 text-white mb-8">
+            Help can start in just 24 hours.
+          </h1>
+          <p className="tagline text-white mb-8">
             We're here to help you get your life back. Are you ready?
           </p>
           <a className="relative" href={`tel:+1${callRail.phone}`}>
@@ -25,14 +27,16 @@ export default function Hero() {
         {/* desktop hero -- content & form */}
         <div className="hidden content-block lg:flex">
           <div className="flex flex-col justify-end px-2">
-            <h1 className="h1 text-white">Help can start in just 24 hours.</h1>
-            <p className="p text-white my-8">
+            <h1 className="h1 text-white mb-8">
+              Help can start in just 24 hours.
+            </h1>
+            <p className="tagline text-white mb-8">
               Long-term recovery from drug and alcohol addiction is not only
               possible, it’s within your reach. We’ve helped thousands of people
               stop using for good through proven clinical treatment and positive
               changes in attitude, behavior, lifestyle and values.
             </p>
-            <p className="p text-white my-8 text-bold">
+            <p className="tagline text-white mb-8 text-bold">
               We're here to help you get your life back. Are you ready?
             </p>
           </div>

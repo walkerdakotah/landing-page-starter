@@ -3281,6 +3281,10 @@ button,
   font-size: 16px;
 }
 
+.text-18 {
+  font-size: 18px;
+}
+
 .text-20 {
   font-size: 20px;
 }
@@ -3299,10 +3303,6 @@ button,
 
 .text-50 {
   font-size: 50px;
-}
-
-.text-72 {
-  font-size: 72px;
 }
 
 .text-80 {
@@ -3688,7 +3688,7 @@ a {
 
 .h2 {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 400;
   font-family: Playfair Display, serif;
 }
 
@@ -3705,6 +3705,10 @@ a {
 .subline {
   font-size: 24px;
   font-weight: 200;
+}
+
+.tagline {
+  font-size: 18px;
 }
 
 .p {
@@ -3824,11 +3828,11 @@ a {
 }
 
 .our-approach {
-  background-image: url('./assets/background-images/our-approach--mobile.jpg');
-
-  @media (min-width: 992px) {
+  /* background-image: url('./assets/background-images/our-approach--desktop.jpg'); *//* background-image:c url('./assets/background-images/our-approach--mobile.jpg');
+  @screen lg {
     background-image: url('./assets/background-images/our-approach--desktop.jpg');
-  }
+  } */
+  background-image: url('./assets/background-images/our-approach-1.jpg');
 }
 
 .better-chance {
@@ -3837,6 +3841,12 @@ a {
     background-image: url('./assets/background-images/better-chance--desktop.jpg');
   } */
   background-image: url('./assets/background-images/better-chance--desktop.jpg');
+}
+
+/* $aqua100: '#EEF9FC'; */
+
+.overlay-aqua {
+  background: linear-gradient(rgba(204, 226, 231, 20%), #eef9fc);
 }
 
 .hero {
@@ -6573,6 +6583,10 @@ textarea::placeholder {
     font-size: 16px;
   }
 
+  .sm\:text-18 {
+    font-size: 18px;
+  }
+
   .sm\:text-20 {
     font-size: 20px;
   }
@@ -6591,10 +6605,6 @@ textarea::placeholder {
 
   .sm\:text-50 {
     font-size: 50px;
-  }
-
-  .sm\:text-72 {
-    font-size: 72px;
   }
 
   .sm\:text-80 {
@@ -9579,6 +9589,10 @@ textarea::placeholder {
     font-size: 16px;
   }
 
+  .md\:text-18 {
+    font-size: 18px;
+  }
+
   .md\:text-20 {
     font-size: 20px;
   }
@@ -9597,10 +9611,6 @@ textarea::placeholder {
 
   .md\:text-50 {
     font-size: 50px;
-  }
-
-  .md\:text-72 {
-    font-size: 72px;
   }
 
   .md\:text-80 {
@@ -12585,6 +12595,10 @@ textarea::placeholder {
     font-size: 16px;
   }
 
+  .lg\:text-18 {
+    font-size: 18px;
+  }
+
   .lg\:text-20 {
     font-size: 20px;
   }
@@ -12603,10 +12617,6 @@ textarea::placeholder {
 
   .lg\:text-50 {
     font-size: 50px;
-  }
-
-  .lg\:text-72 {
-    font-size: 72px;
   }
 
   .lg\:text-80 {
@@ -15591,6 +15601,10 @@ textarea::placeholder {
     font-size: 16px;
   }
 
+  .xl\:text-18 {
+    font-size: 18px;
+  }
+
   .xl\:text-20 {
     font-size: 20px;
   }
@@ -15609,10 +15623,6 @@ textarea::placeholder {
 
   .xl\:text-50 {
     font-size: 50px;
-  }
-
-  .xl\:text-72 {
-    font-size: 72px;
   }
 
   .xl\:text-80 {

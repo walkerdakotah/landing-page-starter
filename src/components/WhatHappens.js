@@ -1,8 +1,6 @@
 import React from 'react';
-import Phone from '../assets/icons/phone-orange.svg';
-import HandWrite from '../assets/icons/handwrite-orange.svg';
-import HeartInHands from '../assets/icons/heart-in-hands-orange.svg';
 import { callRail } from '../lib/project-config';
+import { PhoneIcon, InsuranceIcon, CareIcon } from './svgs/Svgs';
 
 export default function WhatHappens() {
   return (
@@ -12,7 +10,7 @@ export default function WhatHappens() {
       </h2>
       <ul className="content-block list-reset text-center flex flex-col items-center">
         <li className="w-290-full py-8 lg:w-full lg:flex lg:items-center">
-          <img src={Phone} className="list-svg mb-8 lg:mr-8 lg:m-auto" />
+          <PhoneIcon className="list-icon mb-8 lg:mr-8 lg:m-auto" />
           <div className="lg:text-left lg:w-3/4 lg:pr-8">
             <h4 className="h4 text-navy pb-2">We'll listen.</h4>
             <p className="p">
@@ -25,7 +23,7 @@ export default function WhatHappens() {
           </div>
         </li>
         <li className="w-290-full py-8 lg:w-full lg:flex lg:items-center">
-          <img src={HandWrite} className="list-svg mb-8 lg:mr-8 lg:m-auto" />
+          <InsuranceIcon className="list-icon mb-8 lg:mr-8 lg:m-auto" />
           <div className="lg:text-left lg:w-3/4 lg:pr-8">
             <h4 className="h4 text-navy pb-2">
               We’ll verify your insurance and help you choose a facility.
@@ -38,7 +36,7 @@ export default function WhatHappens() {
           </div>
         </li>
         <li className="w-290-full py-8 lg:w-full lg:flex lg:items-center">
-          <img src={HeartInHands} className="list-svg mb-8 lg:mr-8 lg:m-auto" />
+          <CareIcon className="list-icon mb-8 lg:mr-8 lg:m-auto" />
           <div className="lg:text-left lg:w-3/4 lg:pr-8">
             <h4 className="h4 text-navy pb-2">
               We’ll make sure you get the help you need.

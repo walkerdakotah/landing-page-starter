@@ -1,7 +1,7 @@
 import React from 'react';
 import Form from './Form';
-import { OrangePhoneIcon } from './svgs/Svgs';
-import { facilityInfo, callRail } from '../lib/project-config';
+import { PhoneIconSolid } from './svgs/Svgs';
+import { facility, callRail } from '../lib/project-config';
 
 export default function Hero() {
   return (
@@ -17,7 +17,7 @@ export default function Hero() {
           </p>
           <a className="relative" href={`tel:+1${callRail.phone}`}>
             <button className="btn btn-orange">
-              <OrangePhoneIcon
+              <PhoneIconSolid
                 style={{ position: 'absolute', bottom: '-12px', left: '25px' }}
               />
               <span style={{ marginRight: '-55px' }}>{callRail.phone}</span>
@@ -52,7 +52,7 @@ export default function Hero() {
             <p className="p3">
               We won’t sell your information and will treat your information in
               accordance with our{' '}
-              <a href={`${facilityInfo.onlinePolicyLink}`} target="blank">
+              <a href={`${facility.onlinePolicyLink}`} target="blank">
                 privacy policy
               </a>.
             </p>
@@ -70,7 +70,7 @@ export default function Hero() {
           We won’t sell your information and will treat your information in
           accordance with our{' '}
           <a
-            href={`${facilityInfo.onlinePolicyLink}`}
+            href={`${facility.onlinePolicyLink}`}
             target="blank"
             alt="Privacy Policy"
           >

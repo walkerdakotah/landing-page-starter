@@ -1,7 +1,6 @@
 {
   "name": "ppc-landing-pages",
-  "description":
-    "A marketing landing page built with Gatsby and styled with Tailwind",
+  "description": "A marketing landing page built with Gatsby and styled with Tailwind",
   "version": "1.0.0",
   "author": "American Addiction Centers",
   "dependencies": {
@@ -17,7 +16,11 @@
     "purgecss-webpack-plugin": "^1.2.1",
     "react-helmet": "^5.2.0"
   },
-  "keywords": ["gatsby", "tailwindcss", "purgecss"],
+  "keywords": [
+    "gatsby",
+    "tailwindcss",
+    "purgecss"
+  ],
   "license": "MIT",
   "main": "n/a",
   "scripts": {

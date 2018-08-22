@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { facilityInfo } from '../lib/project-config.js';
+import { facility } from '../lib/project-config.js';
 
 export default function Form() {
   return (
@@ -53,7 +53,7 @@ export default function Form() {
       <input
         name="retURL"
         type="hidden"
-        value={`https://${facilityInfo.url}/thank-you-2/`}
+        value={`https://${facility.url}/thank-you-2/`}
       />
       <input
         id="lead_source"

@@ -1,7 +1,9 @@
 import React from 'react';
+import { EarlySenseIcon, MedicalCareIcon, HospitalIcon } from './svgs/Svgs';
+
 import EarlySense from '../assets/icons/early-sense-navy.svg';
 import Hospital from '../assets/icons/hospital-navy.svg';
-import Suitcase from '../assets/icons/medical-suitcase-navy.svg';
+import MedicalCare from '../assets/icons/medical-suitcase-navy.svg';
 
 /**
  * Maybe store content elsewhere to import along with logo / rating images?
@@ -52,7 +54,7 @@ export default function FacilityFeatures() {
 
         <li className="py-8 w-290">
           <div className="mb-8 h-24 w-24 bg-aqua-100 flex items-center justify-center rounded-full m-auto">
-            <img src={Suitcase} className="h-12" />
+            <img src={MedicalCare} className="h-12" />
           </div>
 
           <h4 className="h4 text-navy pb-2">Medication-Assisted Treatment</h4>

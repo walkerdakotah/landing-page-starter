@@ -1,17 +1,13 @@
-export const facilityInfo = {
+import facilityColors from './facility-colors.json';
+
+export const facility = {
   url: 'americanaddictioncenters.org',
-  name: 'American Addiction Centers',
-  shortName: 'aac',
-  title: 'American Addiction Centers - Help For Addiction',
-  onlinePolicyLink: 'https://americanaddictioncenters.org/policy',
-  privatePolicyLink:
-    'https://americanaddictioncenters.org/notice-of-privacy-practices',
-  termsLink: 'https://americanaddictioncenters.org/term-of-use',
-  facebookLink: 'https://www.facebook.com/AmericanAddictionCenters',
-  instagramLink: 'https://www.instagram.com/soberusa',
-  linkedinLink: 'https://www.linkedin.com/company/american-addiction-centers',
-  twitterLink: 'https://twitter.com/AAC_Tweet',
-  iconColor: 'navy'
+  title: 'American Addiction Centers',
+  facebook: 'https://www.facebook.com/AmericanAddictionCenters',
+  instagram: 'https://www.instagram.com/soberusa',
+  linkedin: 'https://www.linkedin.com/company/american-addiction-centers',
+  twitter: 'https://twitter.com/AAC_Tweet',
+  theme: `${facilityColors}.american-addiction-centers`
 };
 
 export const attribution = {

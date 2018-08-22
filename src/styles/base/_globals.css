@@ -41,7 +41,7 @@ a {
   max-width: 1170px;
   @apply m-auto;
 }
-.list-svg {
+.list-icon {
   height: 85px;
 }
 
@@ -85,7 +85,7 @@ a {
   .progress-circle--points {
     bottom: 110px;
   }
-  .list-svg {
+  .list-icon {
     height: 170px;
   }
   .w-290-full {

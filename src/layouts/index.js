@@ -1,11 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import {
-  facilityInfo,
-  fingerprint,
-  fonts,
-  jQuery
-} from '../lib/project-config';
+import { facility, fingerprint, fonts } from '../lib/project-config';
 import Header from '../components/Header';
 
 import '../index.css';
@@ -13,26 +8,17 @@ import '../index.css';
 export default ({ children }) => (
   <div className="font-sans">
     <Helmet
-      title={`${facilityInfo.title}`}
+      title={`${facility.title}`}
       meta={[
-        { name: 'description', content: `${facilityInfo.title}` },
-        { name: 'author', content: `${facilityInfo.name}` },
+        { name: 'description', content: `${facility.title}` },
+        { name: 'author', content: `${facility.name}` },
         { name: 'robots', content: 'noindex,nofollow' }
       ]}
-      // script={[
-      //   {
-      //     src: `${fingerprint.src}`
-      //   },
-      //   {
-      //     src: `${jQuery.core}`
-      //   },
-      //   {
-      //     src: `${jQuery.validation}`
-      //   },
-      //   {
-      //     src: `${jQuery.additionalMethods}`
-      //   }
-      // ]}
+      script={[
+        {
+          src: `${fingerprint.src}`
+        }
+      ]}
       link={[
         {
           rel: `${fonts.rel}`,

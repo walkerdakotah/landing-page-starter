@@ -5,6 +5,7 @@ import { addUrlProps, UrlQueryParamTypes } from "react-url-query";
 import HeroWithParams from "../components/HeroWithParams";
 import KeywordContent from "../components/KeywordContent/KeywordContent";
 
+import { facility } from "../lib/project-config"
 import { campaignDefault } from "../lib/content-config";
 import PrimaryKey from "../lib/service-level.json";
 import SecondaryKey from "../lib/substance.json";
@@ -22,6 +23,7 @@ const urlPropsQueryConfig = {
 
 class DetoxPage extends PureComponent {
   state = {
+    theme: `${facility.theme}`,
     title: `${campaignDefault.hero.title}`,
     subline: `${campaignDefault.hero.subline}`,
     titlePrimary: `${campaignDefault.facilityFeatures.title}`,
@@ -60,6 +62,7 @@ class DetoxPage extends PureComponent {
   }
   render() {
     const {
+      theme,
       title,
       subline,
       titlePrimary,
@@ -67,11 +70,12 @@ class DetoxPage extends PureComponent {
       titleSecondary,
       bodySecondary,
     } = this.state;
-    return (
 
+    return (
       <div>
         <HeroWithParams title={title} subline={subline} />
         <KeywordContent
+          theme={theme}
           titlePrimary={titlePrimary}
           bodyPrimary={bodyPrimary}
           titleSecondary={titleSecondary}

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Hero from '../components/Hero/Hero';
-import FacilityFeatures from '../components/FacilityFeatures';
+import FacilityFeatures from '../components/FacilityFeatures1';
 
 import { heroDefault } from "../lib/content-config"
 

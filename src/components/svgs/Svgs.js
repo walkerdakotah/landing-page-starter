@@ -95,6 +95,22 @@ export function InsuranceIcon(props) {
   );
 }
 
+export function LocationIcon(props) {
+  return (
+    <svg viewBox="0 0 97 97" {...props}>
+      <g
+        strokeWidth={3}
+        stroke={props.color ? props.color : '#e4c158'}
+        fill="none"
+        fillRule="evenodd"
+      >
+        <circle cx={46.5} cy={46.5} r={46.5} transform="translate(2 2)" />
+        <path d="M48.736 75.173c-.673 0-19.355-23.394-19.355-34.05 0-10.657 8.665-19.296 19.355-19.296 10.69 0 19.355 8.64 19.355 19.295 0 10.657-18.682 34.05-19.355 34.05zm0-25.965a8.497 8.497 0 1 0 0-16.995 8.497 8.497 0 0 0 0 16.995z" />
+      </g>
+    </svg>
+  );
+}
+
 export function EarlySenseIcon(props) {
   return (
     <svg width={61} height={84} {...props}>
@@ -119,7 +135,6 @@ export function MedicalCareIcon(props) {
 
 export function HospitalIcon(props) {
   return (
-    // <svg width={82} height={84} {...props}>
     <svg width={46} height={48} {...props}>
       <g fillRule="nonzero" fill={props.color ? props.color : '#e4c158'}>
         <path d="M79.353 81.288V36.576H62.162V21.678h-9.266V0H29.104v21.678h-9.266v14.898H2.648v44.712H0V84h82v-2.712h-2.647zM31.735 2.712h18.514v18.966H31.735V2.712zM5.295 81.288v-42h14.543v42H5.294zm29.087 0V62.322h13.236v18.966H34.382zm15.883 0V59.61h-18.53v21.678h-9.266V24.39H59.5v56.898h-9.234zm26.44 0H62.163v-42h14.544v42z" />

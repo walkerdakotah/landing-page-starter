@@ -1,7 +1,6 @@
 import React from 'react';
 import { facility } from '../lib/project-config';
 import { FacilityFeatures as Features } from '../lib/content-config.json';
-import { facilityColors } from '../lib/facility-colors';
 import { CareIcon, LocationIcon, InsuranceIcon } from './svgs/Icons.js';
 
 export default function FacilityFeatures() {
@@ -12,20 +11,20 @@ export default function FacilityFeatures() {
       </h2>
       <ul className="content-block list-reset text-center flex flex-col items-center lg:flex-row lg:items-start lg:justify-around">
         <li className="py-8 w-290">
-          <CareIcon color={facilityColors.townsend} className="h-24 mb-2" />
+          <CareIcon color={facility.theme} className="h-24 mb-2" />
           <h4 className="h4 pb-2">{Features.contentList[0].title}</h4>
           <p className="p">{Features.contentList[0].content}</p>
         </li>
 
         <li className="py-8 w-290">
-          <LocationIcon color={facilityColors.townsend} className="h-24 mb-2" />
+          <LocationIcon color={facility.theme} className="h-24 mb-2" />
           <h4 className="h4 pb-2">{Features.contentList[1].title}</h4>
           <p className="p">{Features.contentList[1].content}</p>
         </li>
 
         <li className="py-8 w-290">
           <InsuranceIcon
-            color={facilityColors.townsend}
+            color={facility.theme}
             className="h-24 mb-2"
           />
           <h4 className="h4 pb-2">{Features.contentList[2].title}</h4>

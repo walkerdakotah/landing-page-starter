@@ -91,17 +91,16 @@ The Marketin Page generator is meant to be flexible and utilizes across all site
 ```
 module.exports = {
   Project: {
-    url: `americanaddictioncenters.org`,
-    name: `American Addiction Centers - Social Paid Campaigns`,
-    short_name: `aac`,
-    title: `American Addiction Centers - Help For Addiction`,
-    online_policy_link: `https://americanaddictioncenters.org/policy`,
-    private_policy_link: `https://americanaddictioncenters.org/notice-of-privacy-practices`,
-    terms_link: `https://americanaddictioncenters.org/term-of-use`,
-    facebook_link: `https://www.facebook.com/AmericanAddictionCenters`,
-    instagram_link: `https://www.instagram.com/soberusa`,
-    linkedin_link: `https://www.linkedin.com/company/american-addiction-centers`,
-    twitter_link: `https://twitter.com/AAC_Tweet`,
+    url: `example.com`,
+    name: `Exammple - Social Paid Campaigns`,
+    title: `Exammple - Social Paid Campaigns`,
+    online_policy_link: `https:/example.com/policy`,
+    private_policy_link: `https://example.com/notice-of-privacy-practices`,
+    terms_link: `https://example.com/term-of-use`,
+    facebook_link: `https://www.facebook.com/example`,
+    instagram_link: `https://www.instagram.com/example`,
+    linkedin_link: `https://www.linkedin.com/company/example`,
+    twitter_link: `https://twitter.com/example`,
   },
  };
 ```
@@ -115,14 +114,14 @@ AAC has authored a custom lead attriubition plugin to integrate with Salesforce.
 ```
 module.exports = {
   Attribution: {
-    leadsource: `lsv = 'WEB-AAC-MAIN';`,
-    attr: `https://americanaddictioncenters.org/wp-content/plugins/aacattribution/dist/attrlib.min.js`,
-    sf: `https://americanaddictioncenters.org/wp-content/plugins/aacattribution/dist/sfvar.min.js`,
+    leadsource: `lsv = '[...options]';`,
+    attr: `https://example.com/wp-content/plugins/aacattribution/dist/attrlib.min.js`,
+    sf: `https://example.com/wp-content/plugins/aacattribution/dist/sfvar.min.js`,
   },
 };
 ```
 
-In most cases, the `attr` and `sf` properties will remain constant, however each site is assigned its own `leadsource`. This is where you will want to set or update that value. To learn more about the custom plugin, please visit its [repo](https://github.com/American-Addiction-Centers/aac-attribution/).
+In most cases, the `attr` and `sf` properties will remain constant, however each site is assigned its own `leadsource`. This is where you will want to set or update that value. To learn more about the custom plugin, please visit its repo (TODO - add link to attribution repo).
 
 #### Salesforce Live Agent
 
@@ -131,12 +130,12 @@ Some marketing pages may call for a live chat feature in which case we use Sales
 ```
 module.exports = {
   Salesforce: {
-	prefetch: `https://c.la1c1.Salesforceliveagent.com`,
-    org_id: `00DG0000000CLl1`,
-    deployment_id: `572G0000000TXdG`,
-    deployment_src: `https://c.la1c1.Salesforceliveagent.com/content/g/js/36.0/deployment.js`,
-    button_id: `573G0000000TXry`,
-    chat_url: `https://d.la1c1.Salesforceliveagent.com/chat`,
+	prefetch: `[...options]`,
+    org_id: `[...options]`,
+    deployment_id: `[...options]`,
+    deployment_src: `[...options]`,
+    button_id: `[...options]`,
+    chat_url: `[...options]`,
   },
 };
 ```
@@ -150,10 +149,10 @@ Our marketing pages utililze CallRail's Dynamic Number Insertion (DNI) to swap t
 ```
 module.exports = {
   CallRail: {
-    src: `//cdn.callrail.com/companies/154422313/c8d5c08142940b7cb1ac/12/swap.js`,
-    phone: `888-966-8152`,
-    snippet_slug_1: `154422313`,
-    snippet_slug_2: `c8d5c08142940b7cb1ac`,
+    src: `//cdn.callrail.com/companies/[...options]/swap.js`,
+    phone: `888-888-8888`,
+    snippet_slug_1: `[...options]`,
+    snippet_slug_2: `[...options]`,
   },
 };
 ```

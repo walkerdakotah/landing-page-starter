@@ -9,7 +9,6 @@ export default function Hero(props) {
   return (
     <section>
       <div className="hero bg-img alcohol-abuse relative lg:static lg:flex">
-        {/*<div className="text-center px-4 pb-8 absolute pin-b-center lg:hidden">*/}
         <HiddenOnDesktop>
           <h1 className="h1 text-white mb-8">{props.title}</h1>
           <p className="tagline text-white mb-8">{props.subline}</p>
@@ -22,9 +21,7 @@ export default function Hero(props) {
             </button>
           </a>
         </HiddenOnDesktop>
-        {/*</div>*/}
-        {/* desktop hero -- content & form */}
-        {/*<div className="hidden content-block lg:flex">*/}
+
         <HiddenOnMobile>
           <div className="flex flex-col justify-end px-2">
             <h1 className="h1 text-white mb-8">{props.title}</h1>

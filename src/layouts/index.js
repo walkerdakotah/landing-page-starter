@@ -2,6 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import { facility, fingerprint, fonts } from '../lib/project-config';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 import '../index.css';
 
@@ -28,5 +29,6 @@ export default ({ children }) => (
     />
     <Header />
     {children()}
+    <Footer />
   </div>
 );

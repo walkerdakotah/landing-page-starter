@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `A National Leader In Addiction Recovery Treatment`
+    title: `Landing Page Starter`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: `gatsby-plugin-google-tagmanager`,
       options: {

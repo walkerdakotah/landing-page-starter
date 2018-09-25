@@ -1,8 +1,8 @@
 import { facility } from './project-config';
 
-export const hero = {
+export const heroDefault = {
   title: 'Help can start in just 24 hours.',
-  content:
+  body:
     'Long-term recovery from drug and alcohol addiction is not only possible, it’s within your reach. We’ve helped thousands of people stop using for good through proven clinical treatment and positive changes in attitude, behavior, lifestyle and values.',
   subline: "We're here to help you get your life back. Are you ready?"
 };
@@ -31,3 +31,14 @@ export const facilityFeatures = {
     }
   ]
 };
+
+export const campaignDefault = {
+  hero: {
+    title: 'Struggling with addiction?',
+    subline: 'Real help can start in just 24 hours.',
+  },
+  facilityFeatures: {
+    title: 'American Addiction Centers is your first step toward recovery.',
+    body: 'With coast-to-coast treatment options and a “whole person” approach to long-term recovery, American Addiction Centers can help you get sober for good. We’ve spent decades helping people recover from drug and alcohol addiction in specialized healing environments across the country, and we’re here to help you start your journey today.',
+  }
+}

@@ -1,20 +1,18 @@
 import React from 'react';
-import Form from './Form';
-import { PhoneIconSolid } from './svgs/Svgs';
-import { facility, callRail } from '../lib/project-config';
+import { HiddenOnDesktop, HiddenOnMobile } from "../HiddenContainers"
+import Form from '../Form';
+import { PhoneIconSolid } from '../svgs/Svgs';
+import { facility, callRail } from '../../lib/project-config';
 
-export default function Hero() {
+export default function Hero(props) {
+
   return (
     <section>
       <div className="hero bg-img alcohol-abuse relative lg:static lg:flex">
-        {/* mobile hero -- content only */}
-        <div className="text-center px-4 pb-8 absolute pin-b-center lg:hidden">
-          <h1 className="h1 text-white mb-8">
-            Help can start in just 24 hours.
-          </h1>
-          <p className="tagline text-white mb-8">
-            We're here to help you get your life back. Are you ready?
-          </p>
+        {/*<div className="text-center px-4 pb-8 absolute pin-b-center lg:hidden">*/}
+        <HiddenOnDesktop>
+          <h1 className="h1 text-white mb-8">{props.title}</h1>
+          <p className="tagline text-white mb-8">{props.subline}</p>
           <a className="relative" href={`tel:+1${callRail.phone}`}>
             <button className="btn btn-orange">
               <PhoneIconSolid
@@ -23,22 +21,15 @@ export default function Hero() {
               <span style={{ marginRight: '-55px' }}>{callRail.phone}</span>
             </button>
           </a>
-        </div>
+        </HiddenOnDesktop>
+        {/*</div>*/}
         {/* desktop hero -- content & form */}
-        <div className="hidden content-block lg:flex">
+        {/*<div className="hidden content-block lg:flex">*/}
+        <HiddenOnMobile>
           <div className="flex flex-col justify-end px-2">
-            <h1 className="h1 text-white mb-8">
-              Help can start in just 24 hours.
-            </h1>
-            <p className="tagline text-white mb-8">
-              Long-term recovery from drug and alcohol addiction is not only
-              possible, it’s within your reach. We’ve helped thousands of people
-              stop using for good through proven clinical treatment and positive
-              changes in attitude, behavior, lifestyle and values.
-            </p>
-            <p className="tagline text-white mb-8 text-bold">
-              We're here to help you get your life back. Are you ready?
-            </p>
+            <h1 className="h1 text-white mb-8">{props.title}</h1>
+            <p className="tagline text-white mb-8">{props.body}</p>
+            <p className="tagline text-white mb-8 text-bold">{props.subline}</p>
           </div>
           <div className="bg-grey-100 text-center mx-2 px-8 py-12">
             <a className="" href={`tel:+1${callRail.phone}`}>
@@ -57,7 +48,8 @@ export default function Hero() {
               </a>.
             </p>
           </div>
-        </div>
+        </HiddenOnMobile>
+        {/*</div>*/}
       </div>
       {/* mobile form */}
       <div className="bg-grey-100 px-4 py-8 text-center lg:hidden">

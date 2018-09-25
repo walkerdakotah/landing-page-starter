@@ -23,7 +23,6 @@
     "purgecss"
   ],
   "license": "MIT",
-  "main": "n/a",
   "scripts": {
     "build:css": "postcss ./src/styles/index.css -o ./src/index.css",
     "watch:css": "postcss ./src/styles/index.css -o ./src/index.css -w",

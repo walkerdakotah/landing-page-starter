@@ -2,12 +2,12 @@ import facilityColors from './facility-colors.json';
 
 export const facility = {
   url: 'americanaddictioncenters.org',
-  title: 'American Addiction Centers',
+  name: 'laguna',
   facebook: 'https://www.facebook.com/AmericanAddictionCenters',
   instagram: 'https://www.instagram.com/soberusa',
   linkedin: 'https://www.linkedin.com/company/american-addiction-centers',
   twitter: 'https://twitter.com/AAC_Tweet',
-  theme: `${facilityColors}.american-addiction-centers`
+  theme: facilityColors.laguna
 };
 
 export const attribution = {

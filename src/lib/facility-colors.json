@@ -1,15 +1,15 @@
 {
-  "american-addiction-centers": "#344663",
-  "laguna-treatment-hospital": "#592077",
-  "desert-hope": "#563525",
-  "river-oaks": "#00879F",
+  "aac": "#344663",
+  "laguna": "#592077",
+  "desertHope": "#563525",
+  "riverOaks": "#00879F",
   "townsend": "#00b686",
-  "recovery-first": "#0b50aa",
-  "solutions-recovery": "#00b0de",
+  "recoveryFirst": "#0b50aa",
+  "solutionsRecovery": "#00b0de",
   "resolutions": "#1b242c",
-  "sunrise-house": "#ffb300",
+  "sunriseHouse": "#ffb300",
   "greenhouse": "#5a8777",
-  "clinical-services-of-rhode-island": "#00659a",
+  "csri": "#00659a",
   "oxford": "#e50023",
-  "san-diego": "#ff4f30"
+  "sanDiego": "#ff4f30"
 }

@@ -1,13 +1,13 @@
 import React from 'react';
-import { callRail } from '../lib/project-config.js';
+import { facility, callRail } from '../lib/project-config.js';
 
-export default function Header() {
+export default function Header(props) {
   return (
     <header className="border-grey-100 border-b px-8 py-4 lg:px-16">
-      <nav className="flex justify-center lg:justify-between">
+      <nav className="flex justify-center content-block lg:justify-between">
         <a className="flex" href="/" target="blank">
           <img
-            src={require(`../assets/logos/aac-horiz.svg`)}
+            src={require(`../assets/logos/logo-${facility.name}.svg`)}
             className="header-logo"
           />
         </a>

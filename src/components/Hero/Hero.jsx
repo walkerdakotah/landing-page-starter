@@ -1,7 +1,7 @@
 import React from 'react';
 import { HiddenOnDesktop, HiddenOnMobile } from "../HiddenContainers"
 import Form from '../Form';
-import { PhoneIconSolid } from '../svgs/Svgs';
+import { PhoneIconSolid } from '../svgs/Icons';
 import { facility, callRail } from '../../lib/project-config';
 
 export default function Hero(props) {
@@ -9,6 +9,7 @@ export default function Hero(props) {
   return (
     <section>
       <div className="hero bg-img alcohol-abuse relative lg:static lg:flex">
+
         <HiddenOnDesktop>
           <h1 className="h1 text-white mb-8">{props.title}</h1>
           <p className="tagline text-white mb-8">{props.subline}</p>

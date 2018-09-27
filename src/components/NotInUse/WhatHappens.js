@@ -1,6 +1,6 @@
 import React from 'react';
 import { callRail } from '../lib/project-config';
-import { PhoneIcon, InsuranceIcon, CareIcon } from './svgs/Svgs';
+import { PhoneIcon, InsuranceIcon, CareIcon } from './svgs/Icons';
 
 export default function WhatHappens() {
   return (

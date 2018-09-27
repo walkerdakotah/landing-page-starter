@@ -14,3 +14,10 @@ export const aacInstagram = 'https://www.instagram.com/soberusa';
 export const aacLinkedin =
   'https://www.linkedin.com/company/american-addiction-centers';
 export const aacTwitter = 'https://twitter.com/AAC_Tweet';
+
+/**
+ * Phone number registered with CallRail
+ * Number should swap on DOM load
+ */
+export const callTrackingNumber = '(888) 966-8152';
+export const callTrackingNumberLink = 'tel:+1-888-966-8152';

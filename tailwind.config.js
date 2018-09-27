@@ -282,6 +282,7 @@ module.exports = {
     default: '1px',
     '0': '0',
     '2': '2px',
+    '2': '3px',
     '4': '4px',
     '8': '8px'
   },
@@ -492,7 +493,8 @@ module.exports = {
     '3xl': '80rem',
     '4xl': '90rem',
     '5xl': '100rem',
-    full: '100%'
+    full: '100%',
+    'breakpoint': '992px'
   },
 
   /*
@@ -544,7 +546,6 @@ module.exports = {
     '4': '1rem',
     '6': '1.5rem',
     '8': '2rem',
-    // '10': '2.5rem',
     '12': '3rem',
     '14': '3.5rem',
     '16': '4rem',

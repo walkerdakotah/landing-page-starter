@@ -1141,7 +1141,7 @@ button,
 }
 
 .border-2 {
-  border-width: 2px;
+  border-width: 3px;
 }
 
 .border-4 {
@@ -1173,19 +1173,19 @@ button,
 }
 
 .border-t-2 {
-  border-top-width: 2px;
+  border-top-width: 3px;
 }
 
 .border-r-2 {
-  border-right-width: 2px;
+  border-right-width: 3px;
 }
 
 .border-b-2 {
-  border-bottom-width: 2px;
+  border-bottom-width: 3px;
 }
 
 .border-l-2 {
-  border-left-width: 2px;
+  border-left-width: 3px;
 }
 
 .border-t-4 {
@@ -2194,6 +2194,10 @@ button,
 
 .max-w-full {
   max-width: 100%;
+}
+
+.max-w-breakpoint {
+  max-width: 992px;
 }
 
 .min-h-0 {
@@ -3671,6 +3675,13 @@ button,
 
 /** text-styles */
 
+* {
+  margin: 0;
+  padding: 0;
+          box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
 body {
   font-family: Lato, Helvetica, Arial, sans-serif;
   color: #4d4d4d;
@@ -3886,7 +3897,7 @@ a {
   background-color: #344663;
   color: #cce2e7;
   border-color: #cce2e7;
-  border-width: 2px;
+  border-width: 3px;
 }
 
 .btn-navy:hover {
@@ -3898,14 +3909,50 @@ a {
   background-color: #e5e5e5;
   color: #344663;
   border-color: #344663;
-  border-width: 2px;
+  border-width: 3px;
 }
 
 .btn-grey-100:hover {
   background-color: #344663;
   color: #e5e5e5;
   border-color: #e5e5e5;
-  border-width: 2px;
+  border-width: 3px;
+}
+
+button:hover,
+button:active {
+  transition: all .25s;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.orange {
+  color: #d28430;
+  background-color: #fff;
+  border-radius: 40px;
+  border: 2px solid rgba(210, 132, 48, .3);
+  width: 220px;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 15px 0;
+  text-transform: none;
+  font-weight: bold;
+}
+
+.orange:hover {
+  background-color: #d28430;
+  color: #fff;
+  border-color: #d28430;
+  border-width: 3px;
+}
+
+.orange:active {
+  background: rgba(210, 132, 48, .3);
+  border: 2px solid rgba(210, 132, 48, .3);
+  color: #fff;
 }
 
 input,
@@ -4441,7 +4488,7 @@ textarea::placeholder {
   }
 
   .sm\:border-2 {
-    border-width: 2px;
+    border-width: 3px;
   }
 
   .sm\:border-4 {
@@ -4473,19 +4520,19 @@ textarea::placeholder {
   }
 
   .sm\:border-t-2 {
-    border-top-width: 2px;
+    border-top-width: 3px;
   }
 
   .sm\:border-r-2 {
-    border-right-width: 2px;
+    border-right-width: 3px;
   }
 
   .sm\:border-b-2 {
-    border-bottom-width: 2px;
+    border-bottom-width: 3px;
   }
 
   .sm\:border-l-2 {
-    border-left-width: 2px;
+    border-left-width: 3px;
   }
 
   .sm\:border-t-4 {
@@ -5494,6 +5541,10 @@ textarea::placeholder {
 
   .sm\:max-w-full {
     max-width: 100%;
+  }
+
+  .sm\:max-w-breakpoint {
+    max-width: 992px;
   }
 
   .sm\:min-h-0 {
@@ -7447,7 +7498,7 @@ textarea::placeholder {
   }
 
   .md\:border-2 {
-    border-width: 2px;
+    border-width: 3px;
   }
 
   .md\:border-4 {
@@ -7479,19 +7530,19 @@ textarea::placeholder {
   }
 
   .md\:border-t-2 {
-    border-top-width: 2px;
+    border-top-width: 3px;
   }
 
   .md\:border-r-2 {
-    border-right-width: 2px;
+    border-right-width: 3px;
   }
 
   .md\:border-b-2 {
-    border-bottom-width: 2px;
+    border-bottom-width: 3px;
   }
 
   .md\:border-l-2 {
-    border-left-width: 2px;
+    border-left-width: 3px;
   }
 
   .md\:border-t-4 {
@@ -8500,6 +8551,10 @@ textarea::placeholder {
 
   .md\:max-w-full {
     max-width: 100%;
+  }
+
+  .md\:max-w-breakpoint {
+    max-width: 992px;
   }
 
   .md\:min-h-0 {
@@ -10453,7 +10508,7 @@ textarea::placeholder {
   }
 
   .lg\:border-2 {
-    border-width: 2px;
+    border-width: 3px;
   }
 
   .lg\:border-4 {
@@ -10485,19 +10540,19 @@ textarea::placeholder {
   }
 
   .lg\:border-t-2 {
-    border-top-width: 2px;
+    border-top-width: 3px;
   }
 
   .lg\:border-r-2 {
-    border-right-width: 2px;
+    border-right-width: 3px;
   }
 
   .lg\:border-b-2 {
-    border-bottom-width: 2px;
+    border-bottom-width: 3px;
   }
 
   .lg\:border-l-2 {
-    border-left-width: 2px;
+    border-left-width: 3px;
   }
 
   .lg\:border-t-4 {
@@ -11506,6 +11561,10 @@ textarea::placeholder {
 
   .lg\:max-w-full {
     max-width: 100%;
+  }
+
+  .lg\:max-w-breakpoint {
+    max-width: 992px;
   }
 
   .lg\:min-h-0 {
@@ -13459,7 +13518,7 @@ textarea::placeholder {
   }
 
   .xl\:border-2 {
-    border-width: 2px;
+    border-width: 3px;
   }
 
   .xl\:border-4 {
@@ -13491,19 +13550,19 @@ textarea::placeholder {
   }
 
   .xl\:border-t-2 {
-    border-top-width: 2px;
+    border-top-width: 3px;
   }
 
   .xl\:border-r-2 {
-    border-right-width: 2px;
+    border-right-width: 3px;
   }
 
   .xl\:border-b-2 {
-    border-bottom-width: 2px;
+    border-bottom-width: 3px;
   }
 
   .xl\:border-l-2 {
-    border-left-width: 2px;
+    border-left-width: 3px;
   }
 
   .xl\:border-t-4 {
@@ -14512,6 +14571,10 @@ textarea::placeholder {
 
   .xl\:max-w-full {
     max-width: 100%;
+  }
+
+  .xl\:max-w-breakpoint {
+    max-width: 992px;
   }
 
   .xl\:min-h-0 {

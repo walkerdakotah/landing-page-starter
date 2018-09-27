@@ -1,6 +1,6 @@
 import React from 'react';
 import Form from '../Form';
-import { PhoneIconSolid } from '../svgs/Svgs';
+import { PhoneIconSolid } from '../svgs/Icons';
 import { facility, callRail } from '../../lib/project-config';
 
 export default function Hero(props) {

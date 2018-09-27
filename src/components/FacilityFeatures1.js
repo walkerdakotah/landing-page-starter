@@ -1,5 +1,5 @@
 import React from 'react';
-import { EarlySenseIcon, MedicalCareIcon, HospitalIcon } from './svgs/Svgs';
+import { EarlySenseIcon, MedicalCareIcon, HospitalIcon } from './svgs/Icons';
 
 import EarlySense from '../assets/icons/early-sense-navy.svg';
 import Hospital from '../assets/icons/hospital-navy.svg';

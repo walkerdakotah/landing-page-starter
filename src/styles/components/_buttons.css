@@ -28,3 +28,31 @@
 .btn-grey-100:hover {
   @apply bg-navy text-grey-100 border-grey-100 border-2;
 }
+
+button:hover,
+button:active {
+    transition: all 0.25s;
+    cursor: pointer;
+}
+button:focus {
+    outline: 0;
+}
+.orange {
+  @apply text-orange bg-white;
+  border-radius: 40px;
+  border: 2px solid rgba(210, 132, 48, 0.3);
+  width: 220px;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 15px 0;
+  text-transform: none;
+  font-weight: bold;
+}
+.orange:hover {
+  @apply bg-orange text-white border-orange border-2
+}
+.orange:active {
+  background: rgba(210, 132, 48, 0.3);
+  border: 2px solid rgba(210, 132, 48, 0.3);
+  @apply text-white;
+}

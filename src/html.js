@@ -1,5 +1,5 @@
 import React from 'react';
-import { attribution, fonts, callRail, jQuery } from './lib/project-config';
+import { attribution, callRail, project } from './lib/project-config';
 
 let stylesStr;
 if (process.env.NODE_ENV === `production`) {
@@ -20,11 +20,6 @@ module.exports = class HTML extends React.Component {
           dangerouslySetInnerHTML={{ __html: stylesStr }}
         />
       );
-      jQuery = (
-        <script src={`${jQuery.core}`} />
-        <script src={`${jQuery.validation}`} />
-        <script src={`${jQuery.additionalMethods}`} />
-      )
     }
     return (
       <html {...this.props.htmlAttributes}>
@@ -54,7 +49,6 @@ module.exports = class HTML extends React.Component {
           <script src={`${attribution.attr}`} />
           <script src={`${attribution.sf}`} />
           <script src={`${callRail.src}`} />
-          {jQuery}
         </body>
       </html>
     );

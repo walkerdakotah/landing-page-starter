@@ -45,15 +45,27 @@ View the full documentation at https://tailwindcss.com.
 let colors = {
   transparent: 'transparent',
   navy: '#344663',
-  'orange-100': '#e4c158',
   orange: '#D28430',
+  'orange-100': '#E4C158',
   'orange-500': `#B96B17`,
   white: '#ffffff',
   'aqua-100': '#EEF9FC',
   aqua: '#CCE2E7',
   'grey-100': '#E5E5E5',
   grey: '#9B9B9B',
-  'grey-500': '#4D4D4D'
+  'grey-500': '#4D4D4D',
+  // Corp site colors
+  blue: '#2F77B2',
+  'blue-400': '#1C283B',
+  'blue-500': '#354763',
+  'blue-600': '#2F77B2',
+  'blue-700': '#1C2838',
+  gray: '#FAFAFA',
+  'gray-300': '#A8A8A8',
+  'gray-400': '#D7E2E3',
+  'gray-450': '#EFF6F7',
+  'gray-500': '#FAFAFA',
+  'gray-700': '#555',
 };
 
 module.exports = {
@@ -538,6 +550,7 @@ module.exports = {
     '10': '10px',
     '15': '15px',
     '20': '20px',
+    '30': '30px',
     '40': '40px',
     '80': '80px',
     '1': '0.25rem',

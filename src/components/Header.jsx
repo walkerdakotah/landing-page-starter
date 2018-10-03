@@ -5,10 +5,11 @@ import { callTrackingNumber } from '../lib/globals.js';
 import CallTrackingNumber from "./CallTrackingNumber"
 import Button from './Button';
 
+
 export default function Header(props) {
   return (
     <header className="py-20">
-      <MaxWidth>
+      <MaxWidth maxWidth='header-max-w'>
         <div className="flex flex-col justify-between items-center lg:flex-row">
           <div className="mb-20 lg:mb-0">
             <a>

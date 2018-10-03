@@ -29,6 +29,9 @@
   @apply bg-navy text-grey-100 border-grey-100 border-2;
 }
 
+/*
+  AAC SPA styles compatible...
+*/
 button:hover,
 button:active {
     transition: all 0.25s;
@@ -49,10 +52,40 @@ button:focus {
   font-weight: bold;
 }
 .orange:hover {
-  @apply bg-orange text-white border-orange border-2
+  @apply bg-orange text-white border-orange
 }
 .orange:active {
   background: rgba(210, 132, 48, 0.3);
   border: 2px solid rgba(210, 132, 48, 0.3);
   @apply text-white;
+}
+.white {
+  @apply text-blue-400;
+  background-color: #fff;
+  /* color: ${blue(400)}; */
+  padding: 15px;
+  text-align: left;
+  border: 1px solid rgba(54, 72, 98, 0.7);
+}
+.white:hover {
+  background: #f4f5f4;
+}
+.white:active {
+  background: #e1e1e1;
+}
+.blue {
+  @apply bg-blue py-15 px-30 text-white text-center font-bold;
+  text-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+.dark-blue {
+  @apply bg-blue-700 py-15 px-30 text-white text-center font-bold;
+  border: 1px solid rgba(54, 72, 98, 0.7);
+}
+.blue:hover,
+.dark-blue:hover {
+    opacity: 0.9;
+}
+.blue:active,
+.dark-blue:active {
+    opacity: 0.7;
 }

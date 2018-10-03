@@ -50,6 +50,11 @@ a {
 .list-icon {
   height: 85px;
 }
+.header-max-w {
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
 
 /** misc */
 .w-290,

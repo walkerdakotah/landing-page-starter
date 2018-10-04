@@ -2,7 +2,8 @@ import React from 'react';
 import { HiddenOnDesktop, HiddenOnMobile } from "../HiddenContainers"
 import Form from '../Form';
 import { PhoneIconSolid } from '../svgs/Icons';
-import { facility, callRail } from '../../lib/project-config';
+import { callRail } from '../../lib/project-config';
+import onlinePolicy from '../../lib/globals'
 
 export default function Hero(props) {
 
@@ -41,7 +42,7 @@ export default function Hero(props) {
             <p className="p3">
               We won’t sell your information and will treat your information in
               accordance with our{' '}
-              <a href={`${facility.onlinePolicyLink}`} target="blank">
+              <a href={`${onlinePolicy}`} target="blank">
                 privacy policy
               </a>.
             </p>
@@ -60,7 +61,7 @@ export default function Hero(props) {
           We won’t sell your information and will treat your information in
           accordance with our{' '}
           <a
-            href={`${facility.onlinePolicyLink}`}
+            href={`${onlinePolicy}`}
             target="blank"
             alt="Privacy Policy"
           >

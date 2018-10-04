@@ -1,0 +1,106 @@
+{
+  "american-addiction-centers": {
+    "color": "#344663",
+    "logo": "/public/logos/aac_logo.png",
+    "icon": "/public/aac_icon.png",
+    "location": {
+      "city": "Brentwood",
+      "state": "Tennessee"
+    },
+    "url": "americanaddictioncenters.org",
+    "social": {
+      "facebook": "https://www.facebook.com/AmericanAddictionCenters",
+      "instagram": " https://www.instagram.com/soberusa",
+      "linkedin": "https://www.linkedin.com/company/american-addiction-centers",
+      "twitter": "https://twitter.com/AAC_Tweet"
+    }
+  },
+  "laguna-treatment-hospital": {
+    "color": "#592077",
+    "icon": "/public/seashell.png",
+    "location": {
+      "city": "Laguna Beach",
+      "state": "California"
+    }
+  },
+  "desert-hope": {
+    "color": "#563525",
+    "icon": "/public/palm.png",
+    "location": {
+      "city": "Las Vegas",
+      "state": "Nevada"
+    }
+  },
+  "river-oaks": {
+    "color": "#00879F",
+    "icon": "/public/leaf.png",
+    "location": {
+      "city": "Tampa",
+      "state": "Florida"
+    }
+  },
+  "townsend": {
+    "color": "#00b686",
+    "icon": "/public/crane.png",
+    "location": {
+      "city": "New Orleans",
+      "state": "Louisiana"
+    }
+  },
+  "recovery-first": {
+    "color": "#0b50aa",
+    "icon": "/public/bird.png",
+    "location": {
+      "city": "Hollywood",
+      "state": "Florida"
+    }
+  },
+  "solutions-recovery": {
+    "color": "#00b0de",
+    "icon": "/public/feather.png",
+    "location": {
+      "city": "Las Vegas",
+      "state": "Nevada"
+    }
+  },
+  "sunrise-house": {
+    "color": "#ffb300",
+    "icon": "/public/sunrise.png",
+    "location": {
+      "city": "Lafayette",
+      "state": "New Jersey"
+    }
+  },
+  "greenhouse": {
+    "color": "#5a8777",
+    "icon": "/public/flower.png",
+    "location": {
+      "city": "Dallas",
+      "state": "Texas"
+    }
+  },
+  "adcare": {
+    "color": "#00659a",
+    "icon": "/public/lighthouse.png",
+    "location": {
+      "city": "North Kingstown",
+      "state": "Rhode Island"
+    }
+  },
+  "oxford": {
+    "color": "#e50023",
+    "icon": "/public/horse.png",
+    "location": {
+      "city": "Oxford",
+      "state": "Mississippi"
+    }
+  },
+  "san-diego": {
+    "color": "#ff4f30",
+    "icon": "/public/placeholder.png",
+    "location": {
+      "city": "San Diego",
+      "state": "California"
+    }
+  }
+}

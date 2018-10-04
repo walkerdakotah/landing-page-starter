@@ -1,18 +1,13 @@
-import facilityColors from './facility-colors.json';
+import facility from './facility-info.json';
 
 export const project = {
   title: 'Help for Addiction',
-  theme: facilityColors['american-addiction-centers']
+  site: ['american-addiction-centers'][0],
+  theme: facility['american-addiction-centers'].color,
+  logo: facility['american-addiction-centers'].logo,
+  icon: facility['american-addiction-centers'].icon,
+  url: facility['american-addiction-centers'].url,
 }
-
-export const facility = {
-  url: 'americanaddictioncenters.org',
-  name: 'aac',
-  facebook: 'https://www.facebook.com/AmericanAddictionCenters',
-  instagram: 'https://www.instagram.com/soberusa',
-  linkedin: 'https://www.linkedin.com/company/american-addiction-centers',
-  twitter: 'https://twitter.com/AAC_Tweet',
-};
 
 export const attribution = {
   leadsource: 'lsv = `WEB-AAC-MAIN`;',

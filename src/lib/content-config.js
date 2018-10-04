@@ -1,5 +1,3 @@
-import { facility } from './project-config';
-
 export const heroDefault = {
   title: 'Help can start in just 24 hours.',
   body:
@@ -13,19 +11,16 @@ export const facilityFeatures = {
   features: [
     {
       title: 'EarlySense® Technology',
-      img: `early-sense-${facility.iconColor}`,
       description:
         'Monitors vital signs and alerts nurses of changes that may signal an impending medical emergency during detox.'
     },
     {
       title: 'Hospital Setting',
-      img: `hospital-${facility.iconColor}`,
       description:
         'More than just a building, we employ doctors and nurses who understand addiction and the needs of a patient in withdrawal.'
     },
     {
       title: 'Medication-Assisted Treatment',
-      img: `medical-suitcase-${facility.iconColor}`,
       description:
         'After detox, we may use medication along with therapy to treat your alcohol use disorder. This does not replace one addiction with another, but rather helps decrease cravings and deter individuals from consuming alcohol.'
     }

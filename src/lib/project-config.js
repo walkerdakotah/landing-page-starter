@@ -1,12 +1,14 @@
 import facility from './facility-info.json';
 
+const name = 'american-addiction-centers'
+
 export const project = {
   title: 'Help for Addiction',
-  site: ['american-addiction-centers'][0],
-  theme: facility['american-addiction-centers'].color,
-  logo: facility['american-addiction-centers'].logo,
-  icon: facility['american-addiction-centers'].icon,
-  url: facility['american-addiction-centers'].url,
+  siteName: name,
+  theme: facility[name].color,
+  logo: facility[name].logo,
+  icon: facility[name].icon,
+  url: facility[name].url,
 }
 
 export const attribution = {

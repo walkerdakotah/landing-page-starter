@@ -1,10 +1,8 @@
 import React from 'react';
 // utils
-import { formatText, formatPhoneDisplay } from "../lib/utils"
+import { formatText, formatPhoneDisplay, formatPhoneLink } from "../lib/utils"
 // globals
 import { onlinePolicy, privacyPractices, termsOfUse, } from '../lib/globals.js';
-// project config
-import { project } from "../lib/project-config"
 // icons/logos
 import FacebookIcon from '../assets/icons/facebook-white.svg';
 import InstagramIcon from '../assets/icons/instagram-white.svg';
@@ -18,34 +16,34 @@ import JointCommissionLogo from '../assets/logos/joint-commission-white.png';
 export default function Footer(props) {
   const date = new Date();
   const year = date.getFullYear();
-  console.log('footer', project);
-  const Logo = require(`../assets/logo-${props.theme}-white.png`)
+  console.log('footer', props);
+  const Logo = require(`../assets/logo-${props.theme.siteName}-white.png`)
   return (
     <footer className="bg-navy">
       <div className="content-block flex flex-col items-center lg:flex-row lg:items-start lg:justify-around">
         <div className="w-290 my-8 text-center lg:mt-16">
-          <img src={Logo} alt={props.theme} />
+          <img src={Logo} alt={props.theme.siteName} />
 
           <p className="p text-white my-8 capitalize">
-            {formatText(project.siteName)} <br />
-            {formatPhoneDisplay(project.phone)} <br />
-            {project.street}<br />
-            {project.cityStateZip}
+            {formatText(props.theme.siteName)} <br />
+            {formatPhoneDisplay(props.theme.phone)} <br />
+            {props.theme.street}<br />
+            {props.theme.cityStateZip}
           </p>
           <div
             className="flex justify-between m-auto"
             style={{ width: '120px' }}
           >
-            <a href={project.linkedin} target="blank">
+            <a href={props.theme.linkedin} target="blank">
               <img src={LinkedinIcon} alt="linkedin icon" />
             </a>
-            <a href={project.twitter} target="blank">
+            <a href={props.theme.twitter} target="blank">
               <img src={TwitterIcon} alt="twitter icon" />
             </a>
-            <a href={project.facebook} target="blank">
+            <a href={props.theme.facebook} target="blank">
               <img src={FacebookIcon} alt="facebook icon" />
             </a>
-            <a href={project.instagram} target="blank">
+            <a href={props.theme.instagram} target="blank">
               <img src={InstagramIcon} alt="instagram icon" />
             </a>
           </div>
@@ -117,10 +115,10 @@ function Address(project) {
     <React.Fragment>
       <img src={AacHorizontalLogo} />
       <p className="p text-white my-8">
-        {formatText(project.siteName)} <br />
-        {formatPhoneDisplay(project.phone)} <br />
-        {project.street}<br />
-        {project.cityStateZip}
+        {formatText(props.theme.siteName)} <br />
+        <a href={formatPhoneLink(num)}>{formatPhoneDisplay(props.theme.phone)}</a> <br />
+        {props.theme.street}<br />
+        {props.theme.cityStateZip}
       </p>
     </React.Fragment>
   )
@@ -129,7 +127,7 @@ function Address(project) {
 // <img src={AacHorizontalLogo} />
 //   <p className="p text-white my-8">
 //     American Addiction Centers <br />
-//     {formatPhoneDisplay(project.phone)} <br />
+//     {formatPhoneDisplay(props.theme.phone)} <br />
 //     200 Powell Pl <br />
 //     Brentwood, TN 37027
 //           </p>

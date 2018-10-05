@@ -8,6 +8,6 @@ export function formatPhoneDisplay(num) {
   const localNum = num.slice(4)
   return `${areaCode} ${localNum}`;
 }
-// export function formatPhoneLink(num){
-
-// }
+export function formatPhoneLink(num) {
+  return `tel:+1-${num}`
+}

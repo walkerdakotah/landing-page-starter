@@ -27,8 +27,8 @@ export default ({ children }) => (
         }
       ]}
     />
-    <Header theme={project.siteName} />
+    <Header theme={project} />
     {children()}
-    <Footer theme={project.siteName} />
+    <Footer theme={project} />
   </div>
 );

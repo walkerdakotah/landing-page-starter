@@ -3,13 +3,13 @@ import { defaultFacebook, defaultInstagram, defaultLinkedin, defaultTwitter } fr
 
 // const name = 'american-addiction-centers'
 // const name = 'laguna-treatment-hospital'
-// const name = 'townsend-treatment-center'
-const name = 'oxford-treatment-center'
+const name = 'townsend-treatment-center'
+// const name = 'oxford-treatment-center'
 
 export const project = {
   title: 'Help for Addiction',
   siteName: name,
-  theme: facility[name].color,
+  color: facility[name].color,
   logo: facility[name].logo,
   icon: facility[name].icon,
   url: facility[name].url,

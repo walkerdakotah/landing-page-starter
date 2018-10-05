@@ -1,12 +1,15 @@
 {
   "american-addiction-centers": {
     "color": "#344663",
-    "logo": "/public/logos/aac_logo.png",
-    "icon": "/public/aac_icon.png",
+    "logo": "/assets/logo-american-addiction-centers.png",
+    "icon": "/assets/icons/aac_icon.png",
     "location": {
       "city": "Brentwood",
-      "state": "Tennessee"
+      "state": "TN",
+      "zip": "37027",
+      "street": "200 Powell Pl"
     },
+    "phone": "888-987-1784",
     "url": "americanaddictioncenters.org",
     "social": {
       "facebook": "https://www.facebook.com/AmericanAddictionCenters",
@@ -15,12 +18,52 @@
       "twitter": "https://twitter.com/AAC_Tweet"
     }
   },
+  "oxford-treatment-center": {
+    "color": "#e50023",
+    "icon": "/public/horse.png",
+    "location": {
+      "city": "Etta",
+      "state": "MS",
+      "zip": "38627",
+      "street": "297 CR 244"
+    },
+    "phone": "662-281-9992",
+    "url": "oxfordtreatment.com",
+    "social": {
+      "facebook": "https://www.facebook.com/theoxfordcentre"
+    }
+  },
+  "townsend-treatment-center": {
+    "color": "#00b686",
+    "logo": "/assets/logo-townsend-treatment-center.png",
+    "icon": "/public/crane.png",
+    "location": {
+      "city": "New Orleans",
+      "state": "Louisiana",
+      "zip": "70127",
+      "street": "5620 Read Blvd."
+    },
+    "phone": "504-513-4200",
+    "url": "townsendla.com",
+    "social": {
+      "facebook": "https://www.facebook.com/townsendaddictionrecovery",
+      "twitter": "https://twitter.com/townsendcanhelp"
+    }
+  },
   "laguna-treatment-hospital": {
     "color": "#592077",
-    "icon": "/public/seashell.png",
+    "logo": "/assets/logo-laguna-treatment-hospital.png",
+    "icon": "/assets/icons/seashell.png",
     "location": {
-      "city": "Laguna Beach",
-      "state": "California"
+      "city": "Aliso Viejo",
+      "state": "CA",
+      "zip": "92656",
+      "street": "24552 Pacific Park Drive"
+    },
+    "phone": "855-809-7932",
+    "url": "lagunatreatment.com",
+    "social": {
+      "facebook": "https://www.facebook.com/lagunatreatmenthospital"
     }
   },
   "desert-hope": {
@@ -37,14 +80,6 @@
     "location": {
       "city": "Tampa",
       "state": "Florida"
-    }
-  },
-  "townsend": {
-    "color": "#00b686",
-    "icon": "/public/crane.png",
-    "location": {
-      "city": "New Orleans",
-      "state": "Louisiana"
     }
   },
   "recovery-first": {
@@ -85,14 +120,6 @@
     "location": {
       "city": "North Kingstown",
       "state": "Rhode Island"
-    }
-  },
-  "oxford": {
-    "color": "#e50023",
-    "icon": "/public/horse.png",
-    "location": {
-      "city": "Oxford",
-      "state": "Mississippi"
     }
   },
   "san-diego": {

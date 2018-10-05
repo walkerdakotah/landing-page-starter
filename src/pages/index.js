@@ -8,7 +8,7 @@ import { heroDefault } from "../lib/content-config"
 export default function IndexPage() {
   return (
     <div>
-      <FacilityFeatures facility={project.siteName} />
+      <FacilityFeatures theme={project.theme} facility={project.siteName} />
     </div>
   );
 }

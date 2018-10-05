@@ -1,15 +1,10 @@
 import React from 'react';
+// utils
+import { formatText, formatPhoneDisplay } from "../lib/utils"
 // globals
-import {
-  phoneNumber,
-  onlinePolicy,
-  privacyPractices,
-  termsOfUse,
-  aacFacebook,
-  aacInstagram,
-  aacLinkedin,
-  aacTwitter
-} from '../lib/globals.js';
+import { onlinePolicy, privacyPractices, termsOfUse, } from '../lib/globals.js';
+// project config
+import { project } from "../lib/project-config"
 // icons/logos
 import FacebookIcon from '../assets/icons/facebook-white.svg';
 import InstagramIcon from '../assets/icons/instagram-white.svg';
@@ -20,34 +15,37 @@ import BBBLogo from '../assets/logos/bbb.png';
 import CarfLogo from '../assets/logos/carf-white.png';
 import JointCommissionLogo from '../assets/logos/joint-commission-white.png';
 
-export default function Footer() {
+export default function Footer(props) {
   const date = new Date();
   const year = date.getFullYear();
+  console.log('footer', project);
+  const Logo = require(`../assets/logo-${props.theme}-white.png`)
   return (
     <footer className="bg-navy">
       <div className="content-block flex flex-col items-center lg:flex-row lg:items-start lg:justify-around">
         <div className="w-290 my-8 text-center lg:mt-16">
-          <img src={AacHorizontalLogo} />
-          <p className="p text-white my-8">
-            American Addiction Centers <br />
-            {phoneNumber} <br />
-            200 Powell Pl <br />
-            Brentwood, TN 37027
+          <img src={Logo} alt={props.theme} />
+
+          <p className="p text-white my-8 capitalize">
+            {formatText(project.siteName)} <br />
+            {formatPhoneDisplay(project.phone)} <br />
+            {project.street}<br />
+            {project.cityStateZip}
           </p>
           <div
             className="flex justify-between m-auto"
             style={{ width: '120px' }}
           >
-            <a href={aacLinkedin} target="blank">
+            <a href={project.linkedin} target="blank">
               <img src={LinkedinIcon} alt="linkedin icon" />
             </a>
-            <a href={aacTwitter} target="blank">
+            <a href={project.twitter} target="blank">
               <img src={TwitterIcon} alt="twitter icon" />
             </a>
-            <a href={aacFacebook} target="blank">
+            <a href={project.facebook} target="blank">
               <img src={FacebookIcon} alt="facebook icon" />
             </a>
-            <a href={aacInstagram} target="blank">
+            <a href={project.instagram} target="blank">
               <img src={InstagramIcon} alt="instagram icon" />
             </a>
           </div>
@@ -113,3 +111,25 @@ export default function Footer() {
     </footer>
   );
 }
+
+function Address(project) {
+  return (
+    <React.Fragment>
+      <img src={AacHorizontalLogo} />
+      <p className="p text-white my-8">
+        {formatText(project.siteName)} <br />
+        {formatPhoneDisplay(project.phone)} <br />
+        {project.street}<br />
+        {project.cityStateZip}
+      </p>
+    </React.Fragment>
+  )
+}
+
+// <img src={AacHorizontalLogo} />
+//   <p className="p text-white my-8">
+//     American Addiction Centers <br />
+//     {formatPhoneDisplay(project.phone)} <br />
+//     200 Powell Pl <br />
+//     Brentwood, TN 37027
+//           </p>

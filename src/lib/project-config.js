@@ -1,12 +1,25 @@
 import facility from './facility-info.json';
+import { defaultFacebook, defaultInstagram, defaultLinkedin, defaultTwitter } from './globals';
+
+// const name = 'american-addiction-centers'
+// const name = 'laguna-treatment-hospital'
+const name = 'townsend-treatment-center'
+// const name = 'oxford-treatment-center'
 
 export const project = {
   title: 'Help for Addiction',
-  site: ['american-addiction-centers'][0],
-  theme: facility['american-addiction-centers'].color,
-  logo: facility['american-addiction-centers'].logo,
-  icon: facility['american-addiction-centers'].icon,
-  url: facility['american-addiction-centers'].url,
+  siteName: name,
+  color: facility[name].color,
+  logo: facility[name].logo,
+  icon: facility[name].icon,
+  url: facility[name].url,
+  phone: facility[name].phone,
+  street: facility[name].location.street,
+  cityStateZip: `${facility[name].location.city}, ${facility[name].location.state} ${facility[name].location.zip}`,
+  facebook: facility[name].social.facebook || defaultFacebook,
+  instagram: facility[name].social.instagram || defaultInstagram,
+  linkedin: facility[name].social.linkedin || defaultLinkedin,
+  twitter: facility[name].social.twitter || defaultTwitter,
 }
 
 export const attribution = {

@@ -1,21 +1,20 @@
 import React from 'react';
-import { project } from '../lib/project-config.js';
 import MaxWidth from "./MaxWidth"
 import { callTrackingNumber } from '../lib/globals.js';
 import CallTrackingNumber from "./CallTrackingNumber"
 import Button from './Button';
 
-const Logo = require(`../assets/logo-${project.site}.png`)
 
 export default function Header(props) {
-  console.log(project)
+
+  const Logo = require(`../assets/logo-${props.theme.siteName}.png`)
   return (
     <header className="py-20">
       <MaxWidth maxWidth='header-max-w'>
         <div className="flex flex-col justify-between items-center lg:flex-row">
           <div className="mb-20 lg:mb-0">
             <a>
-              <img className="px-10 w-full" style={{ maxWidth: '350px' }} src={Logo} alt={project.site} />
+              <img className="px-10 w-full" style={{ maxWidth: '350px' }} src={Logo} alt={props.theme.siteName} />
             </a>
           </div>
           <div className="flex flex-col items-center">
@@ -35,27 +34,3 @@ export default function Header(props) {
     </header>
   )
 }
-
-
-// export default function Header(props) {
-//   return (
-//     <header className="border-grey-100 border-b px-8 py-4 lg:px-16">
-//       <nav className="flex justify-center content-block lg:justify-between">
-//         <a className="flex" href="/" target="blank">
-//           <img
-//             src={require(`../assets/logos/logo-${facility.name}.svg`)}
-//             className="header-logo"
-//           />
-//         </a>
-//         <div className="hidden lg:flex lg:flex-col">
-//           <a className="flex no-underline" href={`tel:+1${callRail.phone}`}>
-//             <button className="text-24 text-orange">
-//               Call {callRail.phone}
-//             </button>
-//           </a>
-//           <p className="p text-grey text-right">Privacy Guaranteed</p>
-//         </div>
-//       </nav>
-//     </header>
-//   );
-// }

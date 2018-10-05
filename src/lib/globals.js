@@ -8,12 +8,12 @@ export const privacyPractices =
   'https://americanaddictioncenters.org/notice-of-privacy-practices';
 export const termsOfUse = 'https://americanaddictioncenters.org/term-of-use';
 
-// Links to AAC Corporate Social Accounts
-export const aacFacebook = 'https://www.facebook.com/AmericanAddictionCenters';
-export const aacInstagram = 'https://www.instagram.com/soberusa';
-export const aacLinkedin =
+// Links to AAC Corporate Social Accounts will Serve as defaults
+export const defaultFacebook = 'https://www.facebook.com/AmericanAddictionCenters';
+export const defaultInstagram = 'https://www.instagram.com/soberusa';
+export const defaultLinkedin =
   'https://www.linkedin.com/company/american-addiction-centers';
-export const aacTwitter = 'https://twitter.com/AAC_Tweet';
+export const defaultTwitter = 'https://twitter.com/AAC_Tweet';
 
 /**
  * Phone number registered with CallRail

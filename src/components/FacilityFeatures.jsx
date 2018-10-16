@@ -2,10 +2,9 @@ import React from 'react';
 
 import { facilityFeatures } from '../lib/content-config';
 import { formatText } from "../lib/utils"
-import { CareIcon, LocationIcon, InsuranceIcon } from './svgs/Icons.js';
+import { CareIcon, LocationIcon, InsuranceIcon } from './svgs/FeatureIcons.js';
 
 export default function FacilityFeatures(props) {
-  console.log('features', props.theme)
   return (
     <section className="section">
       <h1 style={{ color: props.theme.color }} className="h1 text-center mb-4 lg:mb-8 lg:w-3/4 lg:m-auto capitalize">{formatText(props.theme.siteName)}</h1>

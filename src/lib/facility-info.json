@@ -1,8 +1,8 @@
 {
   "american-addiction-centers": {
     "color": "#344663",
-    "logo": "/assets/logo-american-addiction-centers.png",
-    "icon": "/assets/icons/aac_icon.png",
+    "logo": "/assets/logo/logo-american-addiction-centers.png",
+    "icon": "/assets/icon/icon-american-addiction-centers.png",
     "location": {
       "city": "Brentwood",
       "state": "TN",
@@ -20,7 +20,8 @@
   },
   "oxford-treatment-center": {
     "color": "#e50023",
-    "icon": "/public/horse.png",
+    "logo": "/assets/logo/logo-oxford-treatment-center.png",
+    "icon": "/assets/icon/icon-horse.png",
     "location": {
       "city": "Etta",
       "state": "MS",
@@ -35,8 +36,8 @@
   },
   "townsend-treatment-center": {
     "color": "#00b686",
-    "logo": "/assets/logo-townsend-treatment-center.png",
-    "icon": "/public/crane.png",
+    "logo": "/assets/logo/logo-townsend-treatment-center.png",
+    "icon": "/assets/icon/icon-crane.png",
     "location": {
       "city": "New Orleans",
       "state": "Louisiana",
@@ -52,8 +53,8 @@
   },
   "laguna-treatment-hospital": {
     "color": "#592077",
-    "logo": "/assets/logo-laguna-treatment-hospital.png",
-    "icon": "/assets/icons/seashell.png",
+    "logo": "/assets/logo/logo-laguna-treatment-hospital.png",
+    "icon": "/assets/icon/icon-seashell.png",
     "location": {
       "city": "Aliso Viejo",
       "state": "CA",
@@ -68,66 +69,129 @@
   },
   "desert-hope": {
     "color": "#563525",
-    "icon": "/public/palm.png",
+    "logo": "/assets/logo/logo-desert-hope.png",
+    "icon": "/assets/icon/icon-palm.png",
     "location": {
       "city": "Las Vegas",
-      "state": "Nevada"
+      "state": "NV",
+      "zip": "89121",
+      "street": "2465 East Twain Avenue"
+    },
+    "phone": "702-848-6223",
+    "url": "deserthopetreatment.com",
+    "social": {
+      "facebook": "https://facebook.com/DesertHopeTreatment",
+      "twitter": "https://twitter.com/DesertHopeAAC"
     }
   },
   "river-oaks": {
     "color": "#00879F",
-    "icon": "/public/leaf.png",
+    "logo": "/assets/logo/logo-river-oaks.png",
+    "icon": "/assets/icon/icon-leaf.png",
     "location": {
-      "city": "Tampa",
-      "state": "Florida"
+      "city": "Riverview",
+      "state": "FL",
+      "zip": "33569",
+      "street": "12012 Boyette Rd."
+    },
+    "phone": "813-605-3900",
+    "url": "riveroakstreatment.com",
+    "social": {
+      "facebook": "https://www.facebook.com/RiverOaksTreatment",
+      "twitter": "https://twitter.com/RiverOaksAAC"
     }
   },
   "recovery-first": {
     "color": "#0b50aa",
-    "icon": "/public/bird.png",
+    "logo": "/assets/logo/logo-recovery-first.png",
+    "icon": "/assets/icon/icon-bird.png",
     "location": {
       "city": "Hollywood",
-      "state": "Florida"
+      "state": "FL",
+      "zip": "33024",
+      "street": "4110 Davie Road Extension"
+    },
+    "phone": "954-526-5776",
+    "url": "recoveryfirst.org",
+    "social": {
+      "facebook": "https://www.facebook.com/RecoveryFirstHollywood/",
+      "twitter": "https://twitter.com/RecoveryFlorida"
     }
   },
   "solutions-recovery": {
     "color": "#00b0de",
-    "icon": "/public/feather.png",
+    "logo": "/assets/logo/logo-solutions-recovery.png",
+    "icon": "/assets/icon/icon-feather.png",
     "location": {
       "city": "Las Vegas",
-      "state": "Nevada"
+      "state": "NV",
+      "zip": "89146",
+      "street": "2975 S. Rainbow Blvd."
+    },
+    "phone": "702-623-9268",
+    "url": "solutions-recovery.com",
+    "social": {
+      "facebook": "https://www.facebook.com/SolutionsRecovery",
+      "twitter": "https://twitter.com/SolutionsAAC"
     }
   },
   "sunrise-house": {
     "color": "#ffb300",
-    "icon": "/public/sunrise.png",
+    "logo": "/assets/logo/logo-sunrise-house.png",
+    "icon": "/assets/icon/icon-sunrise.png",
     "location": {
-      "city": "Lafayette",
-      "state": "New Jersey"
+      "city": "Lafayette Township",
+      "state": "NJ",
+      "zip": "07848",
+      "street": "37 Sunset Inn Rd."
+    },
+    "phone": "973-862-4820",
+    "url": "sunrisehouse.com",
+    "social": {
+      "facebook": "https://www.facebook.com/sunrise.house.5/",
+      "twitter": "https://twitter.com/sunrisehouse_nj"
     }
   },
   "greenhouse": {
     "color": "#5a8777",
-    "icon": "/public/flower.png",
+    "logo": "/assets/logo/logo-greenhouse.png",
+    "icon": "/assets/icon/icon-flower.png",
     "location": {
-      "city": "Dallas",
-      "state": "Texas"
+      "city": "Grand Prairie",
+      "state": "TX",
+      "zip": "75050",
+      "street": "1171 107th St."
+    },
+    "phone": "972-848-0221",
+    "url": "greenhousetreatment.com",
+    "social": {
+      "facebook": "https://www.facebook.com/sunrise.house.5/",
+      "twitter": "https://twitter.com/sunrisehouse_nj"
     }
   },
   "adcare": {
     "color": "#00659a",
-    "icon": "/public/lighthouse.png",
+    "icon": "/assets/icon/icon-lighthouse.png",
     "location": {
       "city": "North Kingstown",
-      "state": "Rhode Island"
+      "state": "RI"
     }
   },
   "san-diego": {
     "color": "#ff4f30",
-    "icon": "/public/placeholder.png",
+    "logo": "/assets/logo/logo-san-diego.png",
+    "icon": "/assets/icon/icon-placeholder.png",
     "location": {
       "city": "San Diego",
-      "state": "California"
+      "state": "CA",
+      "zip": "92102",
+      "street": "995 Gateway Center Way #108"
+    },
+    "phone": "619-376-6866",
+    "url": "sdtreatmentcenter.com",
+    "social": {
+      "facebook": "https://www.facebook.com/SDTreatment/",
+      "twitter": "https://twitter.com/sdtreatment"
     }
   }
 }

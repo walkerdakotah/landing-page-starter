@@ -7,7 +7,7 @@ import Button from './Button';
 
 export default function Header(props) {
 
-  const Logo = require(`../assets/logo-${props.theme.siteName}.png`)
+  const Logo = require(`../assets/logo/logo-${props.theme.siteName}.png`)
   return (
     <header className="py-20">
       <MaxWidth maxWidth='header-max-w'>

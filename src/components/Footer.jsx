@@ -4,20 +4,18 @@ import { formatText, formatPhoneDisplay, formatPhoneLink } from "../lib/utils"
 // globals
 import { onlinePolicy, privacyPractices, termsOfUse, } from '../lib/globals.js';
 // icons/logos
-import FacebookIcon from '../assets/icons/facebook-white.svg';
-import InstagramIcon from '../assets/icons/instagram-white.svg';
-import LinkedinIcon from '../assets/icons/linkedin-white.svg';
-import TwitterIcon from '../assets/icons/twitter-white.svg';
-import AacHorizontalLogo from '../assets/logos/aac-horiz-white.svg';
-import BBBLogo from '../assets/logos/bbb.png';
-import CarfLogo from '../assets/logos/carf-white.png';
-import JointCommissionLogo from '../assets/logos/joint-commission-white.png';
+import FacebookIcon from '../assets/icon/social-facebook.svg';
+import InstagramIcon from '../assets/icon/social-instagram.svg';
+import LinkedinIcon from '../assets/icon/social-linkedin.svg';
+import TwitterIcon from '../assets/icon/social-twitter.svg';
+import BBBLogo from '../assets/logo/bbb.png';
+import CarfLogo from '../assets/logo/carf.png';
+import JointCommissionLogo from '../assets/logo/joint-commission.png';
 
 export default function Footer(props) {
   const date = new Date();
   const year = date.getFullYear();
-  console.log('footer', props);
-  const Logo = require(`../assets/logo-${props.theme.siteName}-white.png`)
+  const Logo = require(`../assets/logo/logo-${props.theme.siteName}-white.png`)
   return (
     <footer className="bg-navy">
       <div className="content-block flex flex-col items-center lg:flex-row lg:items-start lg:justify-around">
@@ -109,25 +107,3 @@ export default function Footer(props) {
     </footer>
   );
 }
-
-function Address(project) {
-  return (
-    <React.Fragment>
-      <img src={AacHorizontalLogo} />
-      <p className="p text-white my-8">
-        {formatText(props.theme.siteName)} <br />
-        <a href={formatPhoneLink(num)}>{formatPhoneDisplay(props.theme.phone)}</a> <br />
-        {props.theme.street}<br />
-        {props.theme.cityStateZip}
-      </p>
-    </React.Fragment>
-  )
-}
-
-// <img src={AacHorizontalLogo} />
-//   <p className="p text-white my-8">
-//     American Addiction Centers <br />
-//     {formatPhoneDisplay(props.theme.phone)} <br />
-//     200 Powell Pl <br />
-//     Brentwood, TN 37027
-//           </p>

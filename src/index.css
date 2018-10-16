@@ -4129,26 +4129,91 @@ a {
   background-position: unset;
 }
 
-.alcohol-abuse {
+/* .alcohol-abuse {
   background-image: url('./assets/background-images/alcohol-abuse--mobile.jpg');
   background-size: auto;
   background-repeat: no-repeat;
   background-position: 50% -72px;
-
-  @media (min-width: 992px) {
+  @screen lg {
     background-image: url('./assets/background-images/alcohol-abuse--desktop.jpg');
     background-size: cover;
     background-position: 40% 50%;
   }
 }
-
 .our-approach {
   background-image: url('./assets/background-images/our-approach.jpg');
 }
 
 .better-chance {
   background-image: url('./assets/background-images/better-chance.jpg');
+} */
+
+.insurance-logo {
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: top;
+  width: auto;
+  height: auto;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
+
+/* .background-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(${props.src});
+    background-position: '50%';
+    width: ${props.width ? px(props.width) : 'auto'};
+    height: ${props.height ? px(props.height) : 'auto'};
+    @screen lg {
+        background-position: 50%;
+}
+
+} */
+
+/* .logos > div {
+      flex: 1;
+  }
+
+  .logos__top,
+  .logos__bottom {
+      justify-content: space-between;
+      display: flex;
+      margin-bottom: 30px;
+  }
+
+  .logos__top > div,
+  .logos__bottom > div {
+      margin: 0 10px;
+  }
+
+    img {
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: top;
+  width: ${this.props.width ? px(this.props.width) : 'auto'};
+  height: ${this.props.height ? px(this.props.height) : 'auto'};
+  background-size: cover;
+  object-fit: cover;
+}
+div {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(${this.props.defer
+? placeholder
+: this.props.src});
+  background-position: ${this.props.mobilePosition
+? this.props.mobilePosition
+: '50%'};
+  width: ${this.props.width ? px(this.props.width) : 'auto'};
+  height: ${this.props.height ? px(this.props.height) : 'auto'};
+}
+@media screen and (min-width: ${BREAKPOINT}) {
+  div {
+      background-position: 50%;
+  }
+} */
 
 .hero {
   min-height: 530px;

@@ -506,7 +506,7 @@ module.exports = {
     '4xl': '90rem',
     '5xl': '100rem',
     full: '100%',
-    'breakpoint': '992px'
+    'breakpoint': '1170px'
   },
 
   /*
@@ -553,7 +553,9 @@ module.exports = {
     '30': '30px',
     '40': '40px',
     '50': '50px',
+    '60': '60px',
     '80': '80px',
+    '100': '100px',
     '1': '0.25rem',
     '2': '0.5rem',
     '3': '0.75rem',

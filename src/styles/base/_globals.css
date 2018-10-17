@@ -43,10 +43,6 @@ a {
 .section {
   @apply py-16;
 }
-.content-block {
-  max-width: 1170px;
-  @apply m-auto;
-}
 .list-icon {
   height: 85px;
 }
@@ -57,10 +53,7 @@ a {
 }
 
 /** misc */
-.w-290,
-.w-290-full {
-  width: 290px;
-}
+
 .progress-circle {
   height: 13.75rem;
 }
@@ -99,9 +92,7 @@ a {
   .list-icon {
     height: 170px;
   }
-  .w-290-full {
-    max-width: 100%;
-  }
+
   .header-logo {
     width: 350px;
   }

@@ -2417,7 +2417,7 @@ button,
 }
 
 .max-w-breakpoint {
-  max-width: 992px;
+  max-width: 1170px;
 }
 
 .min-h-0 {
@@ -2812,8 +2812,16 @@ button,
   padding: 50px;
 }
 
+.p-60 {
+  padding: 60px;
+}
+
 .p-80 {
   padding: 80px;
+}
+
+.p-100 {
+  padding: 100px;
 }
 
 .p-px {
@@ -3000,6 +3008,16 @@ button,
   padding-right: 50px;
 }
 
+.py-60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.px-60 {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
 .py-80 {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -3008,6 +3026,16 @@ button,
 .px-80 {
   padding-left: 80px;
   padding-right: 80px;
+}
+
+.py-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.px-100 {
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .py-px {
@@ -3308,6 +3336,22 @@ button,
   padding-left: 50px;
 }
 
+.pt-60 {
+  padding-top: 60px;
+}
+
+.pr-60 {
+  padding-right: 60px;
+}
+
+.pb-60 {
+  padding-bottom: 60px;
+}
+
+.pl-60 {
+  padding-left: 60px;
+}
+
 .pt-80 {
   padding-top: 80px;
 }
@@ -3322,6 +3366,22 @@ button,
 
 .pl-80 {
   padding-left: 80px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pr-100 {
+  padding-right: 100px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.pl-100 {
+  padding-left: 100px;
 }
 
 .pt-px {
@@ -4106,11 +4166,6 @@ a {
   padding-bottom: 4rem;
 }
 
-.content-block {
-  max-width: 1170px;
-  margin: auto;
-}
-
 .list-icon {
   height: 85px;
 }
@@ -4122,11 +4177,6 @@ a {
 }
 
 /** misc */
-
-.w-290,
-.w-290-full {
-  width: 290px;
-}
 
 .progress-circle {
   height: 13.75rem;
@@ -4178,10 +4228,6 @@ a {
 
   .list-icon {
     height: 170px;
-  }
-
-  .w-290-full {
-    max-width: 100%;
   }
 
   .header-logo {
@@ -6182,7 +6228,7 @@ textarea::placeholder {
   }
 
   .sm\:max-w-breakpoint {
-    max-width: 992px;
+    max-width: 1170px;
   }
 
   .sm\:min-h-0 {
@@ -6577,8 +6623,16 @@ textarea::placeholder {
     padding: 50px;
   }
 
+  .sm\:p-60 {
+    padding: 60px;
+  }
+
   .sm\:p-80 {
     padding: 80px;
+  }
+
+  .sm\:p-100 {
+    padding: 100px;
   }
 
   .sm\:p-px {
@@ -6765,6 +6819,16 @@ textarea::placeholder {
     padding-right: 50px;
   }
 
+  .sm\:py-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .sm\:px-60 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
   .sm\:py-80 {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -6773,6 +6837,16 @@ textarea::placeholder {
   .sm\:px-80 {
     padding-left: 80px;
     padding-right: 80px;
+  }
+
+  .sm\:py-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .sm\:px-100 {
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
   .sm\:py-px {
@@ -7073,6 +7147,22 @@ textarea::placeholder {
     padding-left: 50px;
   }
 
+  .sm\:pt-60 {
+    padding-top: 60px;
+  }
+
+  .sm\:pr-60 {
+    padding-right: 60px;
+  }
+
+  .sm\:pb-60 {
+    padding-bottom: 60px;
+  }
+
+  .sm\:pl-60 {
+    padding-left: 60px;
+  }
+
   .sm\:pt-80 {
     padding-top: 80px;
   }
@@ -7087,6 +7177,22 @@ textarea::placeholder {
 
   .sm\:pl-80 {
     padding-left: 80px;
+  }
+
+  .sm\:pt-100 {
+    padding-top: 100px;
+  }
+
+  .sm\:pr-100 {
+    padding-right: 100px;
+  }
+
+  .sm\:pb-100 {
+    padding-bottom: 100px;
+  }
+
+  .sm\:pl-100 {
+    padding-left: 100px;
   }
 
   .sm\:pt-px {
@@ -9552,7 +9658,7 @@ textarea::placeholder {
   }
 
   .md\:max-w-breakpoint {
-    max-width: 992px;
+    max-width: 1170px;
   }
 
   .md\:min-h-0 {
@@ -9947,8 +10053,16 @@ textarea::placeholder {
     padding: 50px;
   }
 
+  .md\:p-60 {
+    padding: 60px;
+  }
+
   .md\:p-80 {
     padding: 80px;
+  }
+
+  .md\:p-100 {
+    padding: 100px;
   }
 
   .md\:p-px {
@@ -10135,6 +10249,16 @@ textarea::placeholder {
     padding-right: 50px;
   }
 
+  .md\:py-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .md\:px-60 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
   .md\:py-80 {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -10143,6 +10267,16 @@ textarea::placeholder {
   .md\:px-80 {
     padding-left: 80px;
     padding-right: 80px;
+  }
+
+  .md\:py-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .md\:px-100 {
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
   .md\:py-px {
@@ -10443,6 +10577,22 @@ textarea::placeholder {
     padding-left: 50px;
   }
 
+  .md\:pt-60 {
+    padding-top: 60px;
+  }
+
+  .md\:pr-60 {
+    padding-right: 60px;
+  }
+
+  .md\:pb-60 {
+    padding-bottom: 60px;
+  }
+
+  .md\:pl-60 {
+    padding-left: 60px;
+  }
+
   .md\:pt-80 {
     padding-top: 80px;
   }
@@ -10457,6 +10607,22 @@ textarea::placeholder {
 
   .md\:pl-80 {
     padding-left: 80px;
+  }
+
+  .md\:pt-100 {
+    padding-top: 100px;
+  }
+
+  .md\:pr-100 {
+    padding-right: 100px;
+  }
+
+  .md\:pb-100 {
+    padding-bottom: 100px;
+  }
+
+  .md\:pl-100 {
+    padding-left: 100px;
   }
 
   .md\:pt-px {
@@ -12922,7 +13088,7 @@ textarea::placeholder {
   }
 
   .lg\:max-w-breakpoint {
-    max-width: 992px;
+    max-width: 1170px;
   }
 
   .lg\:min-h-0 {
@@ -13317,8 +13483,16 @@ textarea::placeholder {
     padding: 50px;
   }
 
+  .lg\:p-60 {
+    padding: 60px;
+  }
+
   .lg\:p-80 {
     padding: 80px;
+  }
+
+  .lg\:p-100 {
+    padding: 100px;
   }
 
   .lg\:p-px {
@@ -13505,6 +13679,16 @@ textarea::placeholder {
     padding-right: 50px;
   }
 
+  .lg\:py-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .lg\:px-60 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
   .lg\:py-80 {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -13513,6 +13697,16 @@ textarea::placeholder {
   .lg\:px-80 {
     padding-left: 80px;
     padding-right: 80px;
+  }
+
+  .lg\:py-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .lg\:px-100 {
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
   .lg\:py-px {
@@ -13813,6 +14007,22 @@ textarea::placeholder {
     padding-left: 50px;
   }
 
+  .lg\:pt-60 {
+    padding-top: 60px;
+  }
+
+  .lg\:pr-60 {
+    padding-right: 60px;
+  }
+
+  .lg\:pb-60 {
+    padding-bottom: 60px;
+  }
+
+  .lg\:pl-60 {
+    padding-left: 60px;
+  }
+
   .lg\:pt-80 {
     padding-top: 80px;
   }
@@ -13827,6 +14037,22 @@ textarea::placeholder {
 
   .lg\:pl-80 {
     padding-left: 80px;
+  }
+
+  .lg\:pt-100 {
+    padding-top: 100px;
+  }
+
+  .lg\:pr-100 {
+    padding-right: 100px;
+  }
+
+  .lg\:pb-100 {
+    padding-bottom: 100px;
+  }
+
+  .lg\:pl-100 {
+    padding-left: 100px;
   }
 
   .lg\:pt-px {
@@ -16292,7 +16518,7 @@ textarea::placeholder {
   }
 
   .xl\:max-w-breakpoint {
-    max-width: 992px;
+    max-width: 1170px;
   }
 
   .xl\:min-h-0 {
@@ -16687,8 +16913,16 @@ textarea::placeholder {
     padding: 50px;
   }
 
+  .xl\:p-60 {
+    padding: 60px;
+  }
+
   .xl\:p-80 {
     padding: 80px;
+  }
+
+  .xl\:p-100 {
+    padding: 100px;
   }
 
   .xl\:p-px {
@@ -16875,6 +17109,16 @@ textarea::placeholder {
     padding-right: 50px;
   }
 
+  .xl\:py-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .xl\:px-60 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
   .xl\:py-80 {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -16883,6 +17127,16 @@ textarea::placeholder {
   .xl\:px-80 {
     padding-left: 80px;
     padding-right: 80px;
+  }
+
+  .xl\:py-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .xl\:px-100 {
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
   .xl\:py-px {
@@ -17183,6 +17437,22 @@ textarea::placeholder {
     padding-left: 50px;
   }
 
+  .xl\:pt-60 {
+    padding-top: 60px;
+  }
+
+  .xl\:pr-60 {
+    padding-right: 60px;
+  }
+
+  .xl\:pb-60 {
+    padding-bottom: 60px;
+  }
+
+  .xl\:pl-60 {
+    padding-left: 60px;
+  }
+
   .xl\:pt-80 {
     padding-top: 80px;
   }
@@ -17197,6 +17467,22 @@ textarea::placeholder {
 
   .xl\:pl-80 {
     padding-left: 80px;
+  }
+
+  .xl\:pt-100 {
+    padding-top: 100px;
+  }
+
+  .xl\:pr-100 {
+    padding-right: 100px;
+  }
+
+  .xl\:pb-100 {
+    padding-bottom: 100px;
+  }
+
+  .xl\:pl-100 {
+    padding-left: 100px;
   }
 
   .xl\:pt-px {

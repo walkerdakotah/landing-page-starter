@@ -2,9 +2,10 @@ import facility from './facility-info.json';
 import { defaultFacebook, defaultInstagram, defaultLinkedin, defaultTwitter } from './globals';
 
 // const name = 'american-addiction-centers'
-const name = 'laguna-treatment-hospital'
+// const name = 'laguna-treatment-hospital'
 // const name = 'townsend-treatment-center'
-// const name = 'oxford-treatment-center'
+const name = 'oxford-treatment-center'
+// const name = 'sunrise-house'
 
 export const project = {
   title: 'Help for Addiction',

@@ -6,9 +6,10 @@ import Insurance from "../components/Insurance"
 import { heroDefault } from "../lib/content-config"
 
 export default function IndexPage() {
+  const { title, body, subline } = heroDefault
   return (
     <div>
-
+      <Hero title={title} body={body} subline={subline} />
       <FacilityFeatures theme={project} />
       <Insurance />
     </div>

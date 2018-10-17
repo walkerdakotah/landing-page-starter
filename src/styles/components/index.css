@@ -1,5 +1,4 @@
-@import './background-images';
-@import './image';
+@import './background-image';
 @import './hero';
-@import './buttons';
+@import './button';
 @import './form';

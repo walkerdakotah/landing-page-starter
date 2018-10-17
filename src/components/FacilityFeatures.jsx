@@ -14,19 +14,19 @@ export default function FacilityFeatures(props) {
       </h2>
       <MaxWidth>
         <ul className="description-block list-reset text-center flex flex-col items-center lg:flex-row lg:items-start lg:justify-around">
-          <li className="py-8 w-290">
+          <li className="py-8 flex-1">
             <CareIcon color={props.theme.color} className="h-24 mb-2" />
             <h4 className="h4 pb-2">{facilityFeatures.features[0].title}</h4>
             <p className="p">{facilityFeatures.features[0].description}</p>
           </li>
 
-          <li className="py-8 w-290">
+          <li className="py-8 lg:mx-8 flex-1">
             <LocationIcon color={props.theme.color} className="h-24 mb-2" />
             <h4 className="h4 pb-2">{facilityFeatures.features[1].title}</h4>
             <p className="p">{facilityFeatures.features[1].description}</p>
           </li>
 
-          <li className="py-8 w-290">
+          <li className="py-8 flex-1">
             <InsuranceIcon
               color={props.theme.color}
               className="h-24 mb-2"

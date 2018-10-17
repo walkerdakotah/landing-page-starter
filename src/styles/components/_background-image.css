@@ -1,7 +1,7 @@
-.bg-img {
+.background-image {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: unset;
+  background-position: 50%;
 }
 
 /* .alcohol-abuse {

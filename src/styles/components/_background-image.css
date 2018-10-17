@@ -1,10 +1,10 @@
-.bg-img {
+.background-image {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: unset;
+  background-position: 50%;
 }
 
-.alcohol-abuse {
+/* .alcohol-abuse {
   background-image: url('./assets/background-images/alcohol-abuse--mobile.jpg');
   background-size: auto;
   background-repeat: no-repeat;
@@ -21,4 +21,4 @@
 
 .better-chance {
   background-image: url('./assets/background-images/better-chance.jpg');
-}
+} */

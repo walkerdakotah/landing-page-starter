@@ -4123,32 +4123,30 @@ a {
   }
 }
 
-.bg-img {
+.background-image {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: unset;
+  background-position: 50%;
 }
 
-.alcohol-abuse {
+/* .alcohol-abuse {
   background-image: url('./assets/background-images/alcohol-abuse--mobile.jpg');
   background-size: auto;
   background-repeat: no-repeat;
   background-position: 50% -72px;
-
-  @media (min-width: 992px) {
+  @screen lg {
     background-image: url('./assets/background-images/alcohol-abuse--desktop.jpg');
     background-size: cover;
     background-position: 40% 50%;
   }
 }
-
 .our-approach {
   background-image: url('./assets/background-images/our-approach.jpg');
 }
 
 .better-chance {
   background-image: url('./assets/background-images/better-chance.jpg');
-}
+} */
 
 .hero {
   min-height: 530px;

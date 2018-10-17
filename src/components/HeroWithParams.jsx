@@ -1,5 +1,5 @@
 import React from "react";
-import BackgroundImage from "../assets/background-images/hero-pray-unfiltered.jpg";
+import BackgroundImage from "../assets/need-to-review/background-images/hero-pray-unfiltered.jpg";
 
 const background = {
   backgroundImage: `url(${BackgroundImage})`,

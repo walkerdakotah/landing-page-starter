@@ -10,7 +10,7 @@ export function HiddenOnMobile(props) {
 
 export function HiddenOnDesktop(props) {
   return (
-    <div className="text-center px-4 pb-8 absolute pin-b-center lg:hidden">
+    <div className="lg:hidden">
       {props.children}
     </div>
   )
